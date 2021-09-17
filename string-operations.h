@@ -8,6 +8,7 @@
 #include <string.h>
 #include <algorithm>
 //#include "string-utils/sring-operations.h"
+//!TODO перевести программу на самописные функции из (библиотека string-utils)
 
 const int MAX_STRING_LENGTH = 100;
 const int MAX_NUMBER_STRINGS = 100;

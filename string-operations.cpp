@@ -26,7 +26,6 @@ int input_text( char** index_strings )
 
 int cmp_strings( char* first_string, char* second_string )
 {
-    printf( "==%s~~%s", first_string, second_string );
     return strcmp( first_string, second_string );
 }
 

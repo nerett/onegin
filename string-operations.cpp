@@ -59,17 +59,18 @@ int sort_strings( char** index_strings )
 }
 
 
-/*
-int qsort_string( char** start_element, int length )
+
+int qsort_strings( char** start_element, int length )
 {
     char** base_element = start_element + ( length / 2 );
-    char** left_element = start_element, right_element = start_element + length;
+    char** left_element = start_element;
+    char** right_element = start_element + length;
 
     while( left_element >= right_element )
     {
         for( int i = 0; i < ( length / 2 ); i++ )
         {
-            if( cmp_strings( **left_element, **base_element ) > 0 ) //работа со значениями по адресу
+            if( cmp_strings( *left_element, *base_element ) > 0 ) //работа со значениями по адресу
             {
                 break;
             }
@@ -78,7 +79,7 @@ int qsort_string( char** start_element, int length )
 
         for( int i = 0; i < ( length / 2 ); i++ )
         {
-            if( cmp_strings( **right_element, **base_element ) <= 0 ) //работа со значениями по адресу
+            if( cmp_strings( *right_element, *base_element ) <= 0 ) //работа со значениями по адресу
             {
                 break;
             }
@@ -86,22 +87,22 @@ int qsort_string( char** start_element, int length )
         }
 
 
-        change_strings( left_element, right_element );
+        change_strings( left_element, 0, right_element - left_element );
     }
 
     if( base_element > start_element ) //работа с адресами как с числами
     {
-        qsort_string( start_element, base_element - start_element ); //работа с адресами как с числами
+        qsort_strings( start_element, base_element - start_element ); //работа с адресами как с числами
     }
     if( base_element < start_element + length ) //работа с адресами как с числами
     {
-        qsort_string( base_element, start_element + length - base_element ); //работа с адресами как с числами
+        qsort_strings( base_element, start_element + length - base_element ); //работа с адресами как с числами
     }
 
 
     return 0;
 }
-*/
+
 
 
 int text_console_output( char** index_string )

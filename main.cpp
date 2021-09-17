@@ -9,11 +9,7 @@ int main()
     input_text( index_string ); //передача указателя на массив указателей
     sort_strings( index_string );
 
-
-    for( int i = 0; i < MAX_NUMBER_STRINGS; i++ )
-    {
-        printf("%s", index_string[i] );
-    }
+    text_console_output( index_string );
 
     return 0;
 }

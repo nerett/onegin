@@ -58,3 +58,58 @@ int sort_strings( char** index_strings )
     return 0;
 }
 
+
+/*
+int qsort_string( char** start_element, int length )
+{
+    char** base_element = start_element + ( length / 2 );
+    char** left_element = start_element, right_element = start_element + length;
+
+    while( left_element >= right_element )
+    {
+        for( int i = 0; i < ( length / 2 ); i++ )
+        {
+            if( cmp_strings( **left_element, **base_element ) > 0 ) //работа со значениями по адресу
+            {
+                break;
+            }
+            left_element++; //работа с адресами как с числами
+        }
+
+        for( int i = 0; i < ( length / 2 ); i++ )
+        {
+            if( cmp_strings( **right_element, **base_element ) <= 0 ) //работа со значениями по адресу
+            {
+                break;
+            }
+            right_element--; //работа с адресами как с числами
+        }
+
+
+        change_strings( left_element, right_element );
+    }
+
+    if( base_element > start_element ) //работа с адресами как с числами
+    {
+        qsort_string( start_element, base_element - start_element ); //работа с адресами как с числами
+    }
+    if( base_element < start_element + length ) //работа с адресами как с числами
+    {
+        qsort_string( base_element, start_element + length - base_element ); //работа с адресами как с числами
+    }
+
+
+    return 0;
+}
+*/
+
+
+int text_console_output( char** index_string )
+{
+    for( int i = 0; i < MAX_NUMBER_STRINGS; i++ )
+    {
+        printf("%s", index_string[i] );
+    }
+
+    return 0;
+}

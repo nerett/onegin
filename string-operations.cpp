@@ -7,10 +7,17 @@ int input_text( char** index_strings )
 
     input_file = fopen( "input_text.txt", "r" );
 
-    int i;
+    void* error_indicator = NULL;
+    int i = 0;
     for( i = 0; i < MAX_NUMBER_STRINGS; i++ )
     {
-        fgets( temp_buffer, sizeof( temp_buffer ), input_file );
+        error_indicator = fgets( temp_buffer, sizeof( temp_buffer ), input_file );
+
+        //printf( "----------\n%d--------\n", error_indicator );
+        if( error_indicator == NULL )
+        {
+            break;
+        }
         //int current_string_length = strlen( temp_buffer ); //!TODO определение количества элементов строки, перевести на свои библиотеки
 
         index_strings[i] = strdup( temp_buffer );
@@ -42,11 +49,11 @@ int change_strings( char** index_strings, int first_string, int second_string )
 
 
 
-int sort_strings( char** index_strings )
+int sort_strings( char** index_strings, int N_strings )
 {
-    for( int sort_iterations = 0; sort_iterations < MAX_NUMBER_STRINGS; sort_iterations++ )
+    for( int sort_iterations = 0; sort_iterations < N_strings; sort_iterations++ )
     {
-        for( int i = 0; i < MAX_NUMBER_STRINGS - 1; i++ )
+        for( int i = 0; i < N_strings - 1; i++ )
         {
             if( cmp_strings( index_strings[i], index_strings[i+1] ) > 0 )
             {
@@ -59,7 +66,7 @@ int sort_strings( char** index_strings )
 }
 
 
-
+/*
 int qsort_strings( char** start_element, int length )
 {
     char** base_element = start_element + ( length / 2 );
@@ -102,12 +109,12 @@ int qsort_strings( char** start_element, int length )
 
     return 0;
 }
+*/
 
 
-
-int text_console_output( char** index_string )
+int text_console_output( char** index_string, int N_strings )
 {
-    for( int i = 0; i < MAX_NUMBER_STRINGS; i++ )
+    for( int i = 0; i < N_strings; i++ )
     {
         printf("%s", index_string[i] );
     }

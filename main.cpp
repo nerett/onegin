@@ -10,7 +10,7 @@ int main()
 
     //int N_strings = input_text( index_string ); //передача указателя на массив указателей
     sort_strings( &onegin );
-    //qsort_strings( index_string, MAX_NUMBER_STRINGS );
+    //qsort_strings( &onegin, 0, onegin.N_strings );
 
     text_console_output( &onegin );
 

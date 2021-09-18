@@ -12,8 +12,6 @@ int input_text( struct text* some_text )
     for( i = 0; i < MAX_NUMBER_STRINGS; i++ )
     {
         error_indicator = fgets( temp_buffer, sizeof( temp_buffer ), input_file );
-
-        //printf( "----------\n%d--------\n", error_indicator );
         if( error_indicator == NULL )
         {
             break;
@@ -39,11 +37,11 @@ int cmp_strings( char* first_string, char* second_string )
 
 
 
-int change_strings( char** index_strings, int first_string, int second_string )
+int change_strings( struct text* some_text, int first_string, int second_string )
 {
-    char* temporary = index_strings[first_string];
-    index_strings[first_string] = index_strings[second_string];
-    index_strings[second_string] = temporary;
+    char* temporary = some_text->index_string[first_string];
+    some_text->index_string[first_string] = some_text->index_string[second_string];
+    some_text->index_string[second_string] = temporary;
 
     return 0;
 }
@@ -58,7 +56,7 @@ int sort_strings( struct text* some_text )
         {
             if( cmp_strings( some_text->index_string[i], some_text->index_string[i+1] ) > 0 )
             {
-                change_strings( some_text->index_string, i, i + 1 );
+                change_strings( some_text, i, i + 1 );
             }
         }
     }
@@ -67,27 +65,31 @@ int sort_strings( struct text* some_text )
 }
 
 
-/*
-int qsort_strings( char** start_element, int length )
+
+int qsort_strings( struct text* some_text, const int start, const int finish )
 {
-    char** base_element = start_element + ( length / 2 );
-    char** left_element = start_element;
-    char** right_element = start_element + length;
+    //char** base_element = some_text->index_string + start + ( finish / 2 );
+    //char** left_element = some_text->index_string + start;
+    //char** right_element = some_text->index_string + start + finish;
+
+    int base_element = start + ( finish / 2 );
+    int left_element = start;
+    int right_element = finish;
 
     while( left_element >= right_element )
     {
-        for( int i = 0; i < ( length / 2 ); i++ )
+        for( int i = 0; i < ( ( finish - start ) / 2 ); i++ )
         {
-            if( cmp_strings( *left_element, *base_element ) > 0 ) //работа со значениями по адресу
+            if( cmp_strings( &*some_text->index_string[left_element], &*some_text->index_string[base_element] ) > 0 ) //работа со значениями по адресу
             {
                 break;
             }
             left_element++; //работа с адресами как с числами
         }
 
-        for( int i = 0; i < ( length / 2 ); i++ )
+        for( int i = 0; i < ( ( finish - start ) / 2 ); i++ )
         {
-            if( cmp_strings( *right_element, *base_element ) <= 0 ) //работа со значениями по адресу
+            if( cmp_strings( &*some_text->index_string[right_element], &*some_text->index_string[base_element] ) <= 0 ) //работа со значениями по адресу
             {
                 break;
             }
@@ -95,22 +97,22 @@ int qsort_strings( char** start_element, int length )
         }
 
 
-        change_strings( left_element, 0, right_element - left_element );
+        change_strings( some_text, left_element, right_element );
     }
 
-    if( base_element > start_element ) //работа с адресами как с числами
+    if( base_element > start ) //работа с адресами как с числами
     {
-        qsort_strings( start_element, base_element - start_element ); //работа с адресами как с числами
+        qsort_strings( some_text, start, base_element ); //работа с адресами как с числами
     }
-    if( base_element < start_element + length ) //работа с адресами как с числами
+    if( base_element < finish ) //работа с адресами как с числами
     {
-        qsort_strings( base_element, start_element + length - base_element ); //работа с адресами как с числами
+        qsort_strings( some_text, base_element, finish ); //работа с адресами как с числами
     }
 
 
     return 0;
 }
-*/
+
 
 
 int text_console_output( struct text* some_text )

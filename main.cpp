@@ -3,16 +3,16 @@
 int main()
 {
     struct text onegin;
-    onegin.N_strings = input_text( onegin.index_string );
+    input_text( &onegin );
 
-    char* index_string[MAX_NUMBER_STRINGS] = {}; //массив указателей на строки текста
+    //char* index_string[MAX_NUMBER_STRINGS] = {}; //массив указателей на строки текста
 
 
-    int N_strings = input_text( index_string ); //передача указателя на массив указателей
-    sort_strings( index_string, N_strings );
+    //int N_strings = input_text( index_string ); //передача указателя на массив указателей
+    sort_strings( &onegin );
     //qsort_strings( index_string, MAX_NUMBER_STRINGS );
 
-    text_console_output( index_string, N_strings );
+    text_console_output( &onegin );
 
     //!TODO add free()
     return 0;

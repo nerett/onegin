@@ -19,12 +19,12 @@ struct text
     int N_strings = MAX_NUMBER_STRINGS;
 };
 
-int input_text( char** index_strings );
+int input_text( struct text* some_text );
 int cmp_strings( char* first_string, char* second_string ); //-1 при 1<2, 0 при 1=2, 1 при 1>2
 int change_strings( char** index_strings, int first_string, int second_string );
-int sort_strings( char** index_strings, int N_strings );
-int qsort_strings( char** start_array, int length );
-int text_console_output( char** index_string, int N_strings );
+int sort_strings( struct text* some_text );
+int qsort_strings( struct text* some_text );
+int text_console_output( struct text* some_text );
 
 
 #endif // STRING-OPERATIONS_H_INCLUDED

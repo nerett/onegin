@@ -1,6 +1,6 @@
 #include "string-operations.h"
 
-int input_text( char** index_strings )
+int input_text( struct text* some_text )
 {
     char temp_buffer[MAX_STRING_LENGTH];
     FILE* input_file;
@@ -20,12 +20,13 @@ int input_text( char** index_strings )
         }
         //int current_string_length = strlen( temp_buffer ); //!TODO определение количества элементов строки, перевести на свои библиотеки
 
-        index_strings[i] = strdup( temp_buffer );
+        some_text->index_string[i] = strdup( temp_buffer );
 
         //index_strings[i] = ( char* ) calloc( current_string_length, sizeof( char ) );
         //*( index_strings[i] ) = temp_buffer;
     }
 
+    some_text->N_strings = i;
     return i;
 }
 
@@ -49,15 +50,15 @@ int change_strings( char** index_strings, int first_string, int second_string )
 
 
 
-int sort_strings( char** index_strings, int N_strings )
+int sort_strings( struct text* some_text )
 {
-    for( int sort_iterations = 0; sort_iterations < N_strings; sort_iterations++ )
+    for( int sort_iterations = 0; sort_iterations < some_text->N_strings; sort_iterations++ )
     {
-        for( int i = 0; i < N_strings - 1; i++ )
+        for( int i = 0; i < some_text->N_strings - 1; i++ )
         {
-            if( cmp_strings( index_strings[i], index_strings[i+1] ) > 0 )
+            if( cmp_strings( some_text->index_string[i], some_text->index_string[i+1] ) > 0 )
             {
-                change_strings( index_strings, i, i + 1 );
+                change_strings( some_text->index_string, i, i + 1 );
             }
         }
     }
@@ -112,11 +113,11 @@ int qsort_strings( char** start_element, int length )
 */
 
 
-int text_console_output( char** index_string, int N_strings )
+int text_console_output( struct text* some_text )
 {
-    for( int i = 0; i < N_strings; i++ )
+    for( int i = 0; i < some_text->N_strings; i++ )
     {
-        printf("%s", index_string[i] );
+        printf("%s", some_text->index_string[i] );
     }
 
     return 0;

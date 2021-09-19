@@ -91,10 +91,8 @@ int cmp_strings( char* first_string, char* second_string )
             return 1;
         }
         i++;
-//printf( "=============\n=============\n=============\n=============\n=============\n=============\n=============\n=============\n=============\n=============\n" );
     }
 
-//printf( "returned 0\n" );
 #endif
     return 0;
 }
@@ -103,6 +101,16 @@ int cmp_strings( char* first_string, char* second_string )
 
 int change_strings( struct text* some_text, int first_string, int second_string )
 {
+    assert( some_text != NULL );
+    assert( some_text->text_line != NULL );
+    assert( some_text->index_string != NULL );
+    assert( isfinite( some_text->N_strings ) );
+    assert( isfinite( some_text->N_symbols ) );
+
+    assert( isfinite( first_string ) );
+    assert( isfinite( second_string ) );
+
+
     char* temporary = some_text->index_string[first_string];
     some_text->index_string[first_string] = some_text->index_string[second_string];
     some_text->index_string[second_string] = temporary;
@@ -114,6 +122,13 @@ int change_strings( struct text* some_text, int first_string, int second_string 
 
 int sort_strings( struct text* some_text )
 {
+    assert( some_text != NULL );
+    assert( some_text->text_line != NULL );
+    assert( some_text->index_string != NULL );
+    assert( isfinite( some_text->N_strings ) );
+    assert( isfinite( some_text->N_symbols ) );
+
+
     #ifdef DEFAULT_QSORT
 
 
@@ -193,6 +208,13 @@ int qsort_strings( struct text* some_text, const int start, const int finish )
 
 int text_console_output( struct text* some_text )
 {
+    assert( some_text != NULL );
+    assert( some_text->text_line != NULL );
+    assert( some_text->index_string != NULL );
+    assert( isfinite( some_text->N_strings ) );
+    assert( isfinite( some_text->N_symbols ) );
+
+
     for( int i = 0; i < some_text->N_strings; i++ )
     {
         printf("%s", some_text->index_string[i] );
@@ -205,6 +227,13 @@ int text_console_output( struct text* some_text )
 
 int text_file_output( struct text* some_text )
 {
+    assert( some_text != NULL );
+    assert( some_text->text_line != NULL );
+    assert( some_text->index_string != NULL );
+    assert( isfinite( some_text->N_strings ) );
+    assert( isfinite( some_text->N_symbols ) );
+
+
     FILE* output_file;
     output_file = fopen( "output_text.txt", "w" );
 
@@ -222,6 +251,13 @@ int text_file_output( struct text* some_text )
 
 int free_memory( struct text* some_text )
 {
+    assert( some_text != NULL );
+    assert( some_text->text_line != NULL );
+    assert( some_text->index_string != NULL );
+    assert( isfinite( some_text->N_strings ) );
+    assert( isfinite( some_text->N_symbols ) );
+
+
     for( int i = 0; i < some_text->N_strings; i++ )
     {
         free( some_text->index_string[i] );
@@ -234,6 +270,11 @@ int free_memory( struct text* some_text )
 
 int bubblesort_strings( struct text* some_text )
 {
+    assert( some_text != NULL );
+    assert( some_text->text_line != NULL );
+    assert( some_text->index_string != NULL );
+    assert( isfinite( some_text->N_strings ) );
+    assert( isfinite( some_text->N_symbols ) );
 /*
     int increment = 1;
     int startfrom = 0;
@@ -284,6 +325,9 @@ int find_first_letter( char* some_string )
 
 bool is_letter( char symbol )
 {
+    assert( isfinite( symbol ) );
+
+
     if( symbol == '"' || symbol == '(' || symbol == ')' || symbol == ' ' || symbol == '.' || symbol == ',' || symbol == '-' )
     {
         return 0;
@@ -298,6 +342,13 @@ bool is_letter( char symbol )
 
 int count_strings( struct text* some_text )
 {
+    assert( some_text != NULL );
+    assert( some_text->text_line != NULL );
+    assert( some_text->index_string != NULL );
+    assert( isfinite( some_text->N_symbols ) );
+
+    assert( some_text != NULL );
+
     for( int i = 0; i < some_text->N_symbols; i++ )
     {
         if( some_text->text_line[i] == '\n' )
@@ -313,6 +364,13 @@ int count_strings( struct text* some_text )
 
 int find_string_beginning( struct text* some_text )
 {
+    assert( some_text != NULL );
+    assert( some_text->text_line != NULL );
+    assert( some_text->index_string != NULL );
+    assert( isfinite( some_text->N_strings ) );
+    assert( isfinite( some_text->N_symbols ) );
+
+
     some_text->index_string[0] = &some_text->text_line[0];
     char last_read = '\n';
 

@@ -6,26 +6,55 @@
 
 //#define AAAAA
 
-int input_text( struct text* some_text )
+int input_text( struct text* some_text ) // text *some_text
 {
-    //char temp_buffer[MAX_STRING_LENGTH];
     FILE* input_file;
+    input_file = fopen( "input_text.txt", "r" ); // iniciliziry' peremennye, tvar'
 
-    input_file = fopen( "input_text.txt", "r" );
+    printf("11!\n");
 
-    fseek( input_file, 0L, SEEK_END );
+    // проверка fopen
+
+    fseek( input_file, 0L, SEEK_END ); //определение размера файла
+    //проверка fseek
     some_text->N_symbols = ftell( input_file );
+    //проверка ftell
     fseek( input_file, 0L, SEEK_SET );
+    //проверка fseek
 
-    some_text->text_line = ( char* ) calloc( some_text->N_symbols, sizeof( char ) );
+    printf("12!\n");
 
-    fread( some_text->text_line, sizeof( char ), some_text->N_symbols, input_file );
+    some_text->text_line = ( char* ) calloc( some_text->N_symbols, sizeof( char ) ); //выделение памяти и чтение из файла
+    fread( some_text->text_line, sizeof( char ), some_text->N_symbols, input_file ); //fread!
 
-    count_strings( some_text );
+    printf("13!\n");
 
-    some_text->index_string = ( char** ) calloc( some_text->N_strings, sizeof( char* ) );
+    printf("count_strings: %d\n", count_strings( some_text ));
+
+    printf("14!\n");
+
+    some_text->index_string = ( char** ) calloc( some_text->N_strings, sizeof( char* ) ); //выделение памяти под массив указателей на начало строк и его заполнение
+
+    printf("15!\n");
+
+    if (some_text->index_string == nullptr)
+    {
+        printf("Привет от Деда, сука!\n");
+    }
+
+    //! DEBUG
+
+for( int k = 0; k < some_text->N_symbols; k++ )
+{
+    if( some_text->text_line[k] == '\n' )
+    {
+            some_text->text_line[k] = '\0';
+    }
+}
 
     find_string_beginning( some_text );
+
+    printf("16!\n");
 
 /*
     void* error_indicator = NULL;
@@ -57,6 +86,8 @@ int input_text( struct text* some_text )
 
 int cmp_strings( char* first_string, char* second_string )
 {
+assert(first_string != nullptr);
+assert(second_string != nullptr);
 #ifdef AAAAA
     int result = strcmp( first_string, second_string );
 
@@ -240,6 +271,7 @@ int text_file_output( struct text* some_text )
     for( int i = 0; i < some_text->N_strings; i++ )
     {
         fputs( some_text->index_string[i], output_file );
+        fputs( "\n", output_file );
     }
 
     fclose( output_file );
@@ -275,6 +307,9 @@ int bubblesort_strings( struct text* some_text )
     assert( some_text->index_string != NULL );
     assert( isfinite( some_text->N_strings ) );
     assert( isfinite( some_text->N_symbols ) );
+
+    //isfinite &&&&
+
 /*
     int increment = 1;
     int startfrom = 0;
@@ -349,7 +384,7 @@ int count_strings( struct text* some_text )
 
     for( int i = 0; i < some_text->N_symbols; i++ )
     {
-        if( some_text->text_line[i] == '\n' )
+        if( some_text->text_line[i] == '\n' ) //а если '\0' ну или выделять памяти на одну строку больше
         {
             some_text->N_strings++;
         }
@@ -368,19 +403,40 @@ int find_string_beginning( struct text* some_text )
     assert( isfinite( some_text->N_strings ) );
     assert( isfinite( some_text->N_symbols ) );
 
+    //isfinite убрать
 
-    some_text->index_string[0] = &some_text->text_line[0];
+    // желательно заменить \n на \0 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+    //some_text->index_string[0] = &(some_text->text_line[0]);
     char last_read = '\n';
 
-    for( int i = 1; i < some_text->N_symbols; i++ )
+    printf("151!\n");
+
+    int j = 0;
+
+    for( int i = 0; i < some_text->N_symbols; i++ ) //начинать с нуля
     {
-        if( last_read == '\n' )
+        //printf("! i = %d ", i);printf("1!\n");
+        if( last_read == '\n' || last_read == '\0' )
         {
-            some_text->index_string[i] = &some_text->text_line[i];
+            printf("! %d !\n", i);
+
+            //some_text->text_line[i-1] = '\0'; //замена на слеш-нули!
+
+            some_text->index_string[j] = some_text->text_line + i;
+            j++;
         }
 
+        //printf("%c\n", some_text->text_line[i]);
         last_read = some_text->text_line[i];
     }
+
+    for (j = 0; j < some_text->N_strings; j++)
+    {
+        printf("%d\n", some_text->index_string[j]);
+    }
+
+    printf("Х@Й!\n");
 
     return 0;
 }

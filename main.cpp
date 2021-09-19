@@ -3,10 +3,10 @@
 int main()
 {
     struct text onegin;
-    printf("1!\n");
+    //printf("1!\n");
     input_text( &onegin );
 
-    printf("2!\n");
+    //printf("2!\n");
     sort_strings( &onegin );
     //qsort_strings( &onegin, 0, onegin.N_strings );
 
@@ -16,7 +16,7 @@ int main()
     // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-    //free_memory( &onegin );
+    free_memory( &onegin );
 
     // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

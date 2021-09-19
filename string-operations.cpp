@@ -290,10 +290,8 @@ int free_memory( struct text* some_text )
     assert( isfinite( some_text->N_symbols ) );
 
 
-    for( int i = 0; i < some_text->N_strings; i++ )
-    {
-        free( some_text->index_string[i] );
-    }
+    free( some_text->index_string );
+    free( some_text->text_line );
 
     return 0;
 }

@@ -8,8 +8,7 @@
 
 int input_text( struct text* some_text ) // text *some_text
 {
-    FILE* input_file;
-    input_file = fopen( "input_text.txt", "r" ); // iniciliziry' peremennye, tvar'
+    FILE* input_file = fopen( "input_text.txt", "r" );
 
     printf("11!\n");
 
@@ -37,10 +36,7 @@ int input_text( struct text* some_text ) // text *some_text
 
     printf("15!\n");
 
-    if (some_text->index_string == nullptr)
-    {
-        printf("Привет от Деда, сука!\n");
-    }
+    assert( some_text->index_string != NULL );
 
     //! DEBUG
 
@@ -54,7 +50,7 @@ for( int k = 0; k < some_text->N_symbols; k++ )
 
     find_string_beginning( some_text );
 
-    printf("16!\n");
+    //printf("16!\n");
 
 /*
     void* error_indicator = NULL;
@@ -303,7 +299,6 @@ int bubblesort_strings( struct text* some_text )
     assert( some_text->N_strings > 0 );
     assert( some_text->N_symbols > 0 );
 
-    //isfinite &&&&
 
 /*
     int increment = 1;
@@ -430,8 +425,6 @@ int find_string_beginning( struct text* some_text )
     {
         printf("%d\n", some_text->index_string[j]);
     }
-
-    printf("Х@Й!\n");
 
     return 0;
 }

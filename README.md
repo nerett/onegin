@@ -8,7 +8,7 @@ At first, you need to create *input_text.txt* file and copy the text into it. Th
 This section isn't done yet.
 
 ## Documentation
-This section isn't done yet.
+https://nerett.github.io/onegin/
 
 ## About project
 This programm was written during MIPT **Ded's** cource.

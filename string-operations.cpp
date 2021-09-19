@@ -1,5 +1,11 @@
 #include "string-operations.h"
 
+#define BUBBLESORT
+//#define USER_QSORT
+//#define DEFAULT_QSORT
+
+//#define AAAAA
+
 int input_text( struct text* some_text )
 {
     char temp_buffer[MAX_STRING_LENGTH];
@@ -34,7 +40,46 @@ int input_text( struct text* some_text )
 
 int cmp_strings( char* first_string, char* second_string )
 {
-    return strcmp( first_string, second_string );
+#ifdef AAAAA
+    int result = strcmp( first_string, second_string );
+
+    if( result > 0 )
+    {
+        return 1;
+    }
+    else if( result < 0 )
+    {
+        return -1;
+    }
+#endif
+#ifndef AAAAA
+    //int length_1 = strlen( first_string );
+    //int length_2 = strlen( second_string );
+    //int cmp_iterations = 0;
+    int first_startfrom = 0, second_startfrom = 0;
+    int i;
+
+    first_startfrom = find_first_letter( first_string );
+    second_startfrom = find_first_letter( second_string );
+
+    i = 0;
+    while( first_string[i] != '\n' || second_string[i] != '\n' ) //собственно сравниваем
+    {
+        if( first_string[first_startfrom + i] < second_string[second_startfrom + i] )
+        {
+            return -1;
+        }
+        else if( first_string[first_startfrom + i] > second_string[second_startfrom + i] )
+        {
+            return 1;
+        }
+        i++;
+//printf( "=============\n=============\n=============\n=============\n=============\n=============\n=============\n=============\n=============\n=============\n" );
+    }
+
+//printf( "returned 0\n" );
+#endif
+    return 0;
 }
 
 
@@ -52,16 +97,28 @@ int change_strings( struct text* some_text, int first_string, int second_string 
 
 int sort_strings( struct text* some_text )
 {
-    for( int sort_iterations = 0; sort_iterations < some_text->N_strings; sort_iterations++ )
-    {
-        for( int i = 0; i < some_text->N_strings - 1; i++ )
-        {
-            if( cmp_strings( some_text->index_string[i], some_text->index_string[i+1] ) > 0 )
-            {
-                change_strings( some_text, i, i + 1 );
-            }
-        }
-    }
+    #ifdef DEFAULT_QSORT
+
+
+
+    #endif
+    #ifdef USER_QSORT
+
+
+
+    #endif
+    #ifdef BUBBLESORT
+
+        bubblesort_strings( some_text );
+
+    #endif
+    return 0;
+}
+
+
+
+int back_sort_strings( struct text* some_text )
+{
 
     return 0;
 }
@@ -154,5 +211,55 @@ int free_memory( struct text* some_text )
     }
 
     return 0;
+}
+
+
+
+int bubblesort_strings( struct text* some_text )
+{
+/*
+    int increment = 1;
+    int startfrom = 0;
+
+    if( back_sort )
+    {
+        increment = -1;
+    }
+*/
+
+    for( int sort_iterations = 0; sort_iterations < some_text->N_strings; sort_iterations++ )
+    {
+        for( int i = 0; i < some_text->N_strings - 1; i++ )
+        {
+            if( cmp_strings( some_text->index_string[i], some_text->index_string[i+1] ) > 0 )
+            {
+                change_strings( some_text, i, i + 1 );
+            }
+        }
+printf( "sort_iterations=%d\n", sort_iterations );
+    }
+
+    return 0;
+}
+
+
+
+int find_first_letter( char* some_string )
+{
+    assert( some_string != NULL );
+
+    int first_letter = 0;
+    int i = 0;
+    while( some_string[i] != '\n' ) //ищем первую букву первой строки
+    {
+        if( some_string[i] != '"' && some_string[i] != '(' )
+        {
+            first_letter = i;
+            break;
+        }
+        i++;
+    }
+    i = 0;
+    return first_letter;
 }
 

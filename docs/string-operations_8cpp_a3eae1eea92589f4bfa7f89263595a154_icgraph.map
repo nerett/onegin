@@ -1,0 +1,8 @@
+<map id="is_letter" name="is_letter">
+<area shape="rect" id="node1" title="Returns true if this symbol is letter, false if it isn&#39;t." alt="" coords="763,5,837,32"/>
+<area shape="rect" id="node2" href="$string-operations_8h.html#a4a3b78688fac8c65663b40663a929d20" title="Returns the number of the first letter in the string." alt="" coords="595,5,715,32"/>
+<area shape="rect" id="node3" href="$string-operations_8h.html#acf1b1dfb7353d817e76e385bbb6d077e" title="Returns &#45;1 if the second string is greater than first, 0 if they&#39;re equal and 1 if first string is gr..." alt="" coords="445,5,547,32"/>
+<area shape="rect" id="node4" href="$string-operations_8h.html#a710e01f393790248c648cc1412ddfd04" title="Sorts the strings given with bubblesort algorithm." alt="" coords="255,5,397,32"/>
+<area shape="rect" id="node5" href="$string-operations_8h.html#adc5ab94d8fe51484237057b0b7d49c63" title="Choses string sorting algorithm." alt="" coords="108,5,207,32"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
+</map>

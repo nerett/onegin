@@ -1,0 +1,4 @@
+<map id="find_first_letter" name="find_first_letter">
+<area shape="rect" id="node1" title="Returns the number of the first letter in the string." alt="" coords="5,5,125,32"/>
+<area shape="rect" id="node2" href="$string-operations_8cpp.html#a3eae1eea92589f4bfa7f89263595a154" title="Returns true if this symbol is letter, false if it isn&#39;t." alt="" coords="173,5,248,32"/>
+</map>

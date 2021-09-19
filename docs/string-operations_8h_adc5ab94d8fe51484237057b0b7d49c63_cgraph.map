@@ -1,0 +1,8 @@
+<map id="sort_strings" name="sort_strings">
+<area shape="rect" id="node1" title="Choses string sorting algorithm." alt="" coords="5,31,104,57"/>
+<area shape="rect" id="node2" href="$string-operations_8cpp.html#a710e01f393790248c648cc1412ddfd04" title="Sorts the strings given with bubblesort algorithm." alt="" coords="152,31,295,57"/>
+<area shape="rect" id="node3" href="$string-operations_8cpp.html#a0468d00bf92cbe722ade85e2e04932ad" title="Swaps pointers to two input strings." alt="" coords="343,5,463,32"/>
+<area shape="rect" id="node4" href="$string-operations_8cpp.html#acf1b1dfb7353d817e76e385bbb6d077e" title="Returns &#45;1 if the second string is greater than first, 0 if they&#39;re equal and 1 if first string is gr..." alt="" coords="352,56,453,83"/>
+<area shape="rect" id="node5" href="$string-operations_8cpp.html#a4a3b78688fac8c65663b40663a929d20" title="Returns the number of the first letter in the string." alt="" coords="511,56,631,83"/>
+<area shape="rect" id="node6" href="$string-operations_8cpp.html#a3eae1eea92589f4bfa7f89263595a154" title="Returns true if this symbol is letter, false if it isn&#39;t." alt="" coords="679,56,753,83"/>
+</map>

@@ -1,0 +1,12 @@
+<map id="main" name="main">
+<area shape="rect" id="node1" title=" " alt="" coords="5,81,60,108"/>
+<area shape="rect" id="node2" href="$string-operations_8cpp.html#a17222f63f6f4c53e06c15fdb75f10c34" title="Frees heap memory occupied by strings." alt="" coords="115,5,225,32"/>
+<area shape="rect" id="node3" href="$string-operations_8cpp.html#a66b2f66a1b6e099e92b12fb701b75168" title="Reads text from input_text.txt, divides it into several strings and put them into dynamically allocat..." alt="" coords="126,56,214,83"/>
+<area shape="rect" id="node4" href="$string-operations_8cpp.html#adc5ab94d8fe51484237057b0b7d49c63" title="Choses string sorting algorithm." alt="" coords="121,107,219,133"/>
+<area shape="rect" id="node10" href="$string-operations_8cpp.html#a3ab7a914c60b5a2024a89b96ce5ea845" title="Puts strings given into the output_text.txt." alt="" coords="108,157,232,184"/>
+<area shape="rect" id="node5" href="$string-operations_8cpp.html#a710e01f393790248c648cc1412ddfd04" title="Sorts the strings given with bubblesort algorithm." alt="" coords="280,107,423,133"/>
+<area shape="rect" id="node6" href="$string-operations_8cpp.html#a0468d00bf92cbe722ade85e2e04932ad" title="Swaps pointers to two input strings." alt="" coords="471,81,591,108"/>
+<area shape="rect" id="node7" href="$string-operations_8cpp.html#acf1b1dfb7353d817e76e385bbb6d077e" title="Returns &#45;1 if the second string is greater than first, 0 if they&#39;re equal and 1 if first string is gr..." alt="" coords="480,132,581,159"/>
+<area shape="rect" id="node8" href="$string-operations_8cpp.html#a4a3b78688fac8c65663b40663a929d20" title="Returns the number of the first letter in the string." alt="" coords="639,132,759,159"/>
+<area shape="rect" id="node9" href="$string-operations_8cpp.html#a3eae1eea92589f4bfa7f89263595a154" title="Returns true if this symbol is letter, false if it isn&#39;t." alt="" coords="807,132,881,159"/>
+</map>

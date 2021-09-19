@@ -8,11 +8,26 @@
 
 int input_text( struct text* some_text )
 {
-    char temp_buffer[MAX_STRING_LENGTH];
+    //char temp_buffer[MAX_STRING_LENGTH];
     FILE* input_file;
 
     input_file = fopen( "input_text.txt", "r" );
 
+    fseek( input_file, 0L, SEEK_END );
+    some_text->N_symbols = ftell( input_file );
+    fseek( input_file, 0L, SEEK_SET );
+
+    some_text->text_line = ( char* ) calloc( some_text->N_symbols, sizeof( char ) );
+
+    fread( some_text->text_line, sizeof( char ), some_text->N_symbols, input_file );
+
+    count_strings( some_text );
+
+    some_text->index_string = ( char** ) calloc( some_text->N_strings, sizeof( char ) );
+
+    find_string_beginning( some_text );
+
+/*
     void* error_indicator = NULL;
     int i = 0;
     for( i = 0; i < MAX_NUMBER_STRINGS; i++ )
@@ -33,7 +48,9 @@ int input_text( struct text* some_text )
     fclose( input_file );
 
     some_text->N_strings = i;
-    return i;
+*/
+
+    return 0;
 }
 
 
@@ -276,3 +293,43 @@ bool is_letter( char symbol )
         return 1;
     }
 }
+
+
+
+int count_strings( struct text* some_text )
+{
+    for( int i = 0; i < some_text->N_symbols; i++ )
+    {
+        if( some_text->text_line[i] == '\n' )
+        {
+            some_text->N_strings++;
+        }
+    }
+
+    return some_text->N_strings;
+}
+
+
+
+int find_string_beginning( struct text* some_text )
+{
+    some_text->index_string[0] = &some_text->text_line[0];
+    char last_read = '\n';
+
+    for( int i = 1; i < some_text->N_symbols; i++ )
+    {
+        if( last_read == '\n' )
+        {
+            some_text->index_string[i] = &some_text->text_line[i];
+        }
+
+        last_read = some_text->text_line[i];
+    }
+
+    return 0;
+}
+
+
+
+
+

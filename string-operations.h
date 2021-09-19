@@ -16,8 +16,10 @@ const int MAX_NUMBER_STRINGS = 6000; //! TODO сделать подсчёт пр
 
 struct text
 {
-    char* index_string[MAX_NUMBER_STRINGS] = {}; //массив указателей на строки текста
-    int N_strings = MAX_NUMBER_STRINGS;
+    char** index_string = NULL; //массив указателей на строки текста
+    //int N_strings = MAX_NUMBER_STRINGS;
+    char* text_line = NULL; //строка, содержащая весь текст
+    int N_symbols = 0, N_strings = 0;
 };
 
 int input_text( struct text* some_text ); ///< Reads text from input_text.txt, divides it into several strings and put them into dynamically allocated memory.
@@ -32,6 +34,8 @@ int text_file_output( struct text* some_text ); ///< Puts strings given into the
 int free_memory( struct text* some_text ); ///< Frees heap memory occupied by strings
 int find_first_letter( char* some_string ); ///< Returns the number of the first letter in the string
 bool is_letter( char symbol ); ///< Returns true if this symbol is letter, false if it isn't
+int count_strings( struct text* some_text );
+int find_string_beginning( struct text* some_text );
 
 
 #endif // STRING-OPERATIONS_H_INCLUDED

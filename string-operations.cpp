@@ -23,7 +23,7 @@ int input_text( struct text* some_text )
 
     count_strings( some_text );
 
-    some_text->index_string = ( char** ) calloc( some_text->N_strings, sizeof( char ) );
+    some_text->index_string = ( char** ) calloc( some_text->N_strings, sizeof( char* ) );
 
     find_string_beginning( some_text );
 
@@ -344,10 +344,8 @@ int count_strings( struct text* some_text )
 {
     assert( some_text != NULL );
     assert( some_text->text_line != NULL );
-    assert( some_text->index_string != NULL );
     assert( isfinite( some_text->N_symbols ) );
 
-    assert( some_text != NULL );
 
     for( int i = 0; i < some_text->N_symbols; i++ )
     {

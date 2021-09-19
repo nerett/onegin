@@ -31,6 +31,7 @@ int text_console_output( struct text* some_text );
 int text_file_output( struct text* some_text );
 int free_memory( struct text* some_text );
 int find_first_letter( char* some_string );
+bool is_letter( char symbol );
 
 
 #endif // STRING-OPERATIONS_H_INCLUDED

@@ -252,7 +252,7 @@ int find_first_letter( char* some_string )
     int i = 0;
     while( some_string[i] != '\n' ) //ищем первую букву первой строки
     {
-        if( some_string[i] != '"' && some_string[i] != '(' )
+        if( is_letter( some_string[i] ) )
         {
             first_letter = i;
             break;
@@ -263,3 +263,16 @@ int find_first_letter( char* some_string )
     return first_letter;
 }
 
+
+
+bool is_letter( char symbol )
+{
+    if( symbol == '"' || symbol == '(' || symbol == ')' || symbol == ' ' || symbol == '.' || symbol == ',' || symbol == '-' )
+    {
+        return 0;
+    }
+    else
+    {
+        return 1;
+    }
+}

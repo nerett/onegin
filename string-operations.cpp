@@ -135,8 +135,8 @@ int change_strings( struct text* some_text, int first_string, int second_string 
     assert( some_text != NULL );
     assert( some_text->text_line != NULL );
     assert( some_text->index_string != NULL );
-    assert( isfinite( some_text->N_strings ) );
-    assert( isfinite( some_text->N_symbols ) );
+    assert( some_text->N_strings > 0 );
+    assert( some_text->N_symbols > 0 );
 
     assert( isfinite( first_string ) );
     assert( isfinite( second_string ) );
@@ -156,8 +156,8 @@ int sort_strings( struct text* some_text )
     assert( some_text != NULL );
     assert( some_text->text_line != NULL );
     assert( some_text->index_string != NULL );
-    assert( isfinite( some_text->N_strings ) );
-    assert( isfinite( some_text->N_symbols ) );
+    assert( some_text->N_strings > 0 );
+    assert( some_text->N_symbols > 0 );
 
 
     #ifdef DEFAULT_QSORT
@@ -242,8 +242,8 @@ int text_console_output( struct text* some_text )
     assert( some_text != NULL );
     assert( some_text->text_line != NULL );
     assert( some_text->index_string != NULL );
-    assert( isfinite( some_text->N_strings ) );
-    assert( isfinite( some_text->N_symbols ) );
+    assert( some_text->N_strings > 0 );
+    assert( some_text->N_symbols > 0 );
 
 
     for( int i = 0; i < some_text->N_strings; i++ )
@@ -261,8 +261,8 @@ int text_file_output( struct text* some_text )
     assert( some_text != NULL );
     assert( some_text->text_line != NULL );
     assert( some_text->index_string != NULL );
-    assert( isfinite( some_text->N_strings ) );
-    assert( isfinite( some_text->N_symbols ) );
+    assert( some_text->N_strings > 0 );
+    assert( some_text->N_symbols > 0 );
 
 
     FILE* output_file;
@@ -286,9 +286,6 @@ int free_memory( struct text* some_text )
     assert( some_text != NULL );
     assert( some_text->text_line != NULL );
     assert( some_text->index_string != NULL );
-    assert( isfinite( some_text->N_strings ) );
-    assert( isfinite( some_text->N_symbols ) );
-
 
     free( some_text->index_string );
     free( some_text->text_line );
@@ -303,8 +300,8 @@ int bubblesort_strings( struct text* some_text )
     assert( some_text != NULL );
     assert( some_text->text_line != NULL );
     assert( some_text->index_string != NULL );
-    assert( isfinite( some_text->N_strings ) );
-    assert( isfinite( some_text->N_symbols ) );
+    assert( some_text->N_strings > 0 );
+    assert( some_text->N_symbols > 0 );
 
     //isfinite &&&&
 
@@ -377,7 +374,7 @@ int count_strings( struct text* some_text )
 {
     assert( some_text != NULL );
     assert( some_text->text_line != NULL );
-    assert( isfinite( some_text->N_symbols ) );
+    assert( some_text->N_symbols > 0 );
 
 
     for( int i = 0; i < some_text->N_symbols; i++ )
@@ -398,8 +395,8 @@ int find_string_beginning( struct text* some_text )
     assert( some_text != NULL );
     assert( some_text->text_line != NULL );
     assert( some_text->index_string != NULL );
-    assert( isfinite( some_text->N_strings ) );
-    assert( isfinite( some_text->N_symbols ) );
+    assert( some_text->N_strings > 0 );
+    assert( some_text->N_symbols > 0 );
 
     //isfinite убрать
 

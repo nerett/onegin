@@ -25,6 +25,8 @@ int change_strings( struct text* some_text, int first_string, int second_string 
 int sort_strings( struct text* some_text );
 int qsort_strings( struct text* some_text, int start, int finish );
 int text_console_output( struct text* some_text );
+int text_file_output( struct text* some_text );
+int free_memory( struct text* some_text );
 
 
 #endif // STRING-OPERATIONS_H_INCLUDED

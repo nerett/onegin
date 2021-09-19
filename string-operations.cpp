@@ -24,6 +24,8 @@ int input_text( struct text* some_text )
         //*( index_strings[i] ) = temp_buffer;
     }
 
+    fclose( input_file );
+
     some_text->N_strings = i;
     return i;
 }
@@ -65,7 +67,7 @@ int sort_strings( struct text* some_text )
 }
 
 
-
+/*
 int qsort_strings( struct text* some_text, const int start, const int finish )
 {
     //char** base_element = some_text->index_string + start + ( finish / 2 );
@@ -112,7 +114,7 @@ int qsort_strings( struct text* some_text, const int start, const int finish )
 
     return 0;
 }
-
+*/
 
 
 int text_console_output( struct text* some_text )
@@ -124,3 +126,33 @@ int text_console_output( struct text* some_text )
 
     return 0;
 }
+
+
+
+int text_file_output( struct text* some_text )
+{
+    FILE* output_file;
+    output_file = fopen( "output_text.txt", "w" );
+
+    for( int i = 0; i < some_text->N_strings; i++ )
+    {
+        fputs( some_text->index_string[i], output_file );
+    }
+
+    fclose( output_file );
+
+    return 0;
+}
+
+
+
+int free_memory( struct text* some_text )
+{
+    for( int i = 0; i < some_text->N_strings; i++ )
+    {
+        free( some_text->index_string[i] );
+    }
+
+    return 0;
+}
+

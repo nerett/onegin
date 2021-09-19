@@ -12,8 +12,10 @@ int main()
     sort_strings( &onegin );
     //qsort_strings( &onegin, 0, onegin.N_strings );
 
-    text_console_output( &onegin );
+    //text_console_output( &onegin );
+    text_file_output( &onegin );
 
-    //!TODO add free()
+    free_memory( &onegin );
+
     return 0;
 }

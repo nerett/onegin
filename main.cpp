@@ -21,7 +21,7 @@ int main()
 
     sort_strings( &onegin, false );
 
-    text_file_output( &onegin, false );
+    text_file_output( &onegin, false ); ///*
     text_file_add_delimiter();
 
     sort_strings( &onegin, true );
@@ -29,7 +29,7 @@ int main()
     text_file_output( &onegin, true );
     text_file_add_delimiter();
 
-    text_file_file_plain_output( &onegin, true );
+    text_file_file_plain_output( &onegin, true ); //*/
 
     free_memory( &onegin );
     return 0;

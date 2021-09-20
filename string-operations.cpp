@@ -115,7 +115,7 @@ printf( "second====%d\n", second_startfrom );
     {
         if( first_string[first_startfrom + i] < second_string[second_startfrom + i] )
         {
-///printf( "=============%c\n", first_string[first_startfrom + i] );
+//printf( "=============%c\n", first_string[first_startfrom + i] );
             return -1;
         }
         else if( first_string[first_startfrom + i] > second_string[second_startfrom + i] )
@@ -159,29 +159,40 @@ int sort_strings( struct text* some_text, bool enable_reverse )
     assert( some_text->N_strings > 0 );
     assert( some_text->N_symbols > 0 );
 
-    if( enable_reverse )
-    {
-        bubblesort_strings_back( some_text );
-    }
-    else
-    {
-        bubblesort_strings( some_text );
-    }
-
-
     #ifdef DEFAULT_QSORT
 
-
+        if( enable_reverse )
+        {
+            qsort( some_text->index_string, some_text->N_strings, sizeof( some_text->text_line ), ( __compar_fn_t )cmp_strings_back );
+        }
+        else
+        {
+            qsort( some_text->index_string, some_text->N_strings, sizeof( some_text->text_line ), ( __compar_fn_t )cmp_strings );
+        }
 
     #endif
     #ifdef USER_QSORT
 
+        if( enable_reverse )
+        {
 
+        }
+        else
+        {
+
+        }
 
     #endif
     #ifdef BUBBLESORT
 
-        //bubblesort_strings( some_text );
+        if( enable_reverse )
+        {
+            bubblesort_strings_back( some_text );
+        }
+        else
+        {
+            bubblesort_strings( some_text );
+        }
 
     #endif
     return 0;
@@ -315,15 +326,6 @@ int bubblesort_strings( struct text* some_text )
     assert( some_text->N_symbols > 0 );
 
 
-/*
-    int increment = 1;
-    int startfrom = 0;
-
-    if( back_sort )
-    {
-        increment = -1;
-    }
-*/
     int sort_step = 1; //изначально единица отнималась от длины сама, это просто оптимизация, так надо
     for( int sort_iterations = 0; sort_iterations <= some_text->N_strings; sort_iterations++ ) //повторить некое число раз
     {

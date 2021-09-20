@@ -11,7 +11,7 @@
 //#include "string-utils/sring-operations.h"
 //!TODO перевести программу на самописные функции (библиотека string-utils)
 
-//const int MAX_STRING_LENGTH = 100;
+const int MAX_STRING_LENGTH = 100;
 //const int MAX_NUMBER_STRINGS = 6000; //! TODO сделать подсчёт примерной оценки исходя из длины строки
 
 struct text ///< Structture which is text you can easilly work with

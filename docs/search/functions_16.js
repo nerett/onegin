@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['мест_2817',['мест',['../input__text_8txt.html#adbca94a0dd2d41698ff953d8047fc3ed',1,'input_text.txt']]],
-  ['многих_2818',['многих',['../input__text_8txt.html#a07612abd16fffe5c4f74a820e11b53f9',1,'input_text.txt']]],
-  ['может_2819',['может',['../input__text_8txt.html#ad8dc85f436399af2b401fb52ad9a2260',1,'может(лестная надежда!):&#160;input_text.txt'],['../output__text_8txt.html#ad8dc85f436399af2b401fb52ad9a2260',1,'может(лестная надежда!):&#160;output_text.txt']]],
-  ['молодой_2820',['молодой',['../input__text_8txt.html#a4d0d5303f80ddae57d141b4a8236d466',1,'input_text.txt']]]
+  ['люблю_2855',['люблю',['../input__text_8txt.html#a89199a8e53d0a523fdfa8a64777166c0',1,'input_text.txt']]],
+  ['люди_2856',['люди',['../input__text_8txt.html#a719b6ece06f171778370b239dda89ebc',1,'input_text.txt']]]
 ];

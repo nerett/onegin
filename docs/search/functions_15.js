@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['люблю_2815',['люблю',['../input__text_8txt.html#a89199a8e53d0a523fdfa8a64777166c0',1,'input_text.txt']]],
-  ['люди_2816',['люди',['../input__text_8txt.html#a719b6ece06f171778370b239dda89ebc',1,'input_text.txt']]]
+  ['козырьком_2854',['козырьком',['../input__text_8txt.html#a51dced4a3b3c6eb03ec9bea7a8370373',1,'input_text.txt']]]
 ];

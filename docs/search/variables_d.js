@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['tablettes_2870',['tablettes',['../input__text_8txt.html#a11336857b48ef54636a463525f3e3fdb',1,'input_text.txt']]],
-  ['text_5fline_2871',['text_line',['../structtext.html#a8d893e61901affadb0fad88c534d5611',1,'text']]]
+  ['vale_2913',['vale',['../input__text_8txt.html#aa0b7f4898409e9932e68ccf9bcf3760e',1,'vale():&#160;input_text.txt'],['../output__text_8txt.html#afe41a911cdc786406cacb56f8d9a08ae',1,'vale():&#160;output_text.txt']]]
 ];

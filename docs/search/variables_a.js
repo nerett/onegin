@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['n_5fstrings_2866',['N_strings',['../structtext.html#a67c3657326b768ad3a8f653532bf9e49',1,'text']]],
-  ['n_5fsymbols_2867',['N_symbols',['../structtext.html#a174ab31ed3fe6daadd04cc1631e9d5f7',1,'text']]]
+  ['priest_2908',['Priest',['../input__text_8txt.html#a7dbbb313b06eecaf529cf2c2e2c67d92',1,'input_text.txt']]]
 ];

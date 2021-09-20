@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['Федру_3258',['Федру',['../input__text_8txt.html#a34e6751460be2f7dcc2ecdad1d2f6b6b',1,'input_text.txt']]],
-  ['Феокрита_3259',['Феокрита',['../input__text_8txt.html#a0ade68332d8059df9586d0c09deb6404',1,'Феокрита():&#160;input_text.txt'],['../output__text_8txt.html#a6609a37e850108392e8c4871cfba43fd',1,'Феокрита():&#160;output_text.txt']]],
-  ['Финмуш_3260',['Финмуш',['../input__text_8txt.html#a37b0a32a0ba0481fcb627ef9da6c7714',1,'Финмуш():&#160;input_text.txt'],['../output__text_8txt.html#a07231c4619c325a48e8a4f1b8eaff1b3',1,'Финмуш():&#160;output_text.txt']]],
-  ['Флянов_3261',['Флянов',['../input__text_8txt.html#a668e86a58a039b73ba729ef58656bfdd',1,'input_text.txt']]],
-  ['Фонвизин_3262',['Фонвизин',['../input__text_8txt.html#a0c8052d562383a10f1752643ef045f64',1,'Фонвизин():&#160;input_text.txt'],['../output__text_8txt.html#a75e0fed4c9a17554ce4611d12d706a9f',1,'Фонвизин():&#160;output_text.txt']]],
-  ['Фонтенеля_3263',['Фонтенеля',['../input__text_8txt.html#ac0c2704f146312e81b4da3aac9ba344f',1,'input_text.txt']]]
+  ['Харликову_3310',['Харликову',['../input__text_8txt.html#a2e887d2e0e543008e646917babf592f3',1,'input_text.txt']]],
+  ['Хладнокровно_3311',['Хладнокровно',['../input__text_8txt.html#aac51609533dfb0576b735f3b5600ef29',1,'input_text.txt']]],
+  ['Хлопочем_3312',['Хлопочем',['../input__text_8txt.html#a7c310b0a0c247d6f7ef50afda9aab0fb',1,'input_text.txt']]],
+  ['Холодный_3313',['Холодный',['../input__text_8txt.html#a258fc231f8efb1205b5fd4bc2950a350',1,'input_text.txt']]],
+  ['Холодных_3314',['Холодных',['../input__text_8txt.html#a598effbe444c7ab8e96e9861f63dd564',1,'input_text.txt']]],
+  ['Хоть_3315',['Хоть',['../input__text_8txt.html#a9dfcd801d20c2faf479f0446038c0326',1,'input_text.txt']]]
 ];

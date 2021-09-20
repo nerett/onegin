@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['козырьком_2814',['козырьком',['../input__text_8txt.html#a51dced4a3b3c6eb03ec9bea7a8370373',1,'input_text.txt']]]
+  ['зная_2853',['зная',['../input__text_8txt.html#aae376304fe1da7e78edd316507758cc4',1,'input_text.txt']]]
 ];

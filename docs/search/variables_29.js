@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['Ювенале_3292',['Ювенале',['../input__text_8txt.html#aee79dd193d95c81e321560fc175913cb',1,'input_text.txt']]],
-  ['Юлией_3293',['Юлией',['../input__text_8txt.html#a74f3903d43e59e6db52c7a04497965b4',1,'input_text.txt']]]
+  ['Я_3340',['Я',['../input__text_8txt.html#ac75354037ce85d55b1fd57196d5e59e2',1,'Я():&#160;input_text.txt'],['../output__text_8txt.html#ab9eeaa027e69edaa6a98c1347446cbc5',1,'Я():&#160;output_text.txt']]],
+  ['Явились_3341',['Явились',['../input__text_8txt.html#a3a188d67085a26cd26e4c88bc79608b5',1,'input_text.txt']]]
 ];

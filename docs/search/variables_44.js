@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['эконом_5544',['эконом',['../input__text_8txt.html#a478d1e7354f427d4c8919db13c6bde2e',1,'input_text.txt']]],
-  ['эта_5545',['эта',['../input__text_8txt.html#a4aec837db4593bf43ba547329af091bc',1,'эта():&#160;input_text.txt'],['../output__text_8txt.html#a957ca054deae84d1ee3a5566676010df',1,'эта():&#160;output_text.txt']]],
-  ['этом_5546',['этом',['../input__text_8txt.html#a55bb7764ee71fe2b77f11a97dc23c3bd',1,'этом():&#160;input_text.txt'],['../output__text_8txt.html#a4b5b3feda508863efe3cf59d75e6c988',1,'этом():&#160;output_text.txt']]],
-  ['эту_5547',['эту',['../input__text_8txt.html#af8a33da06cc65445a31150a2a8a23aa0',1,'input_text.txt']]]
+  ['югу_5621',['югу',['../input__text_8txt.html#a346083230515fb667c5da5c518889a15',1,'input_text.txt']]],
+  ['юным_5622',['юным',['../input__text_8txt.html#a24116680609009baa885c5d2d98858a5',1,'юным():&#160;input_text.txt'],['../output__text_8txt.html#a86930f36e7f24b6e35472673ae402efe',1,'юным():&#160;output_text.txt']]]
 ];

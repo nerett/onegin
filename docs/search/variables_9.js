@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['max_5fnumber_5fstrings_2864',['MAX_NUMBER_STRINGS',['../string-operations_8h.html#a1a86577255c11aff9d1ca4b31922a5e6',1,'string-operations.h']]],
-  ['max_5fstring_5flength_2865',['MAX_STRING_LENGTH',['../string-operations_8h.html#a7a7f8bf056fb3a38157181e127260ee6',1,'string-operations.h']]]
+  ['n_5fstrings_2906',['N_strings',['../structtext.html#a67c3657326b768ad3a8f653532bf9e49',1,'text']]],
+  ['n_5fsymbols_2907',['N_symbols',['../structtext.html#a174ab31ed3fe6daadd04cc1631e9d5f7',1,'text']]]
 ];

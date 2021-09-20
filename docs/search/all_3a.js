@@ -1,145 +1,350 @@
 var searchData=
 [
-  ['навестил_1500',['навестил',['../input__text_8txt.html#adeb013229c3917cb2a3eedc8080bd386',1,'навестил():&#160;input_text.txt'],['../output__text_8txt.html#ac250ae34f6df3005afc8139686ea1a19',1,'навестил():&#160;output_text.txt']]],
-  ['навещать_1501',['навещать',['../input__text_8txt.html#a4762e1ff20f02976522e9b850cf6e772',1,'input_text.txt']]],
-  ['наводит_1502',['наводит',['../input__text_8txt.html#aeff755136ccd6dbdff1f15201214fc0f',1,'input_text.txt']]],
-  ['наводят_1503',['наводят',['../input__text_8txt.html#a0b70296694d2e1de257e1785087e02bb',1,'input_text.txt']]],
-  ['нагоняя_1504',['нагоняя',['../input__text_8txt.html#abe0bfa1f8842a95353164da96e1d3215',1,'нагоняя():&#160;input_text.txt'],['../output__text_8txt.html#a1814de246d3964a2be943b9014ea0c04',1,'нагоняя():&#160;output_text.txt']]],
-  ['награду_1505',['награду',['../input__text_8txt.html#a637b9880bfd600ef7bd74f022276bd42',1,'input_text.txt']]],
-  ['нагревая_1506',['нагревая',['../input__text_8txt.html#ab80d78b00adc9321c37cda67b30effe5',1,'input_text.txt']]],
-  ['нагружают_1507',['нагружают',['../input__text_8txt.html#a4246dd6275a94061ccfb47e5e774e9db',1,'нагружают():&#160;input_text.txt'],['../output__text_8txt.html#ab4115340c19ffb129353d19ad8fcf62e',1,'нагружают():&#160;output_text.txt']]],
-  ['нагруженных_1508',['нагруженных',['../input__text_8txt.html#a19682c15f1e968959514e7ff89a1d4a5',1,'нагруженных():&#160;input_text.txt'],['../output__text_8txt.html#a59a6b87414d915b23ba086fed0f7dfdd',1,'нагруженных():&#160;output_text.txt']]],
-  ['надеется_1509',['надеется',['../input__text_8txt.html#a62e435215fce4c826ec4565e202b6226',1,'input_text.txt']]],
-  ['надежд_1510',['надежд',['../output__text_8txt.html#a39ea296cef37bbabd427143a0005cf94',1,'output_text.txt']]],
-  ['надежда_1511',['надежда',['../input__text_8txt.html#a9603ac9874abf9164ac22adbc7cd6974',1,'надежда():&#160;input_text.txt'],['../output__text_8txt.html#a543249f79866a8f60a616fdcc2f85b7b',1,'надежда():&#160;output_text.txt']]],
-  ['надежде_1512',['надежде',['../input__text_8txt.html#a7259e48e8ab53bee339dfeb9daa193c6',1,'надежде():&#160;input_text.txt'],['../output__text_8txt.html#ae7dfe072cc28a3a49122c4e53c91a5cf',1,'надежде():&#160;output_text.txt']]],
-  ['надежду_1513',['надежду',['../input__text_8txt.html#a02a81d7538f81478f0e37246a372c4b7',1,'input_text.txt']]],
-  ['надоели_1514',['надоели',['../input__text_8txt.html#a6baf1cbdc1991074e522999e3d902e20',1,'надоели():&#160;input_text.txt'],['../output__text_8txt.html#a7da375b3c3c9800d5097cb9b13c96c67',1,'надоели():&#160;output_text.txt']]],
-  ['надулся_1515',['надулся',['../input__text_8txt.html#abcf60a53d0f763e7c4dbcce1b3ef5d29',1,'надулся():&#160;input_text.txt'],['../output__text_8txt.html#a69e5aa46d12ea6e4d263263a64b38e64',1,'надулся():&#160;output_text.txt']]],
-  ['наедине_1516',['наедине',['../input__text_8txt.html#a3af8f596d39234da750a15bbb9ccab1c',1,'input_text.txt']]],
-  ['найдете_1517',['найдете',['../input__text_8txt.html#aff7eec53ee9ba41566e01fb0a7ae0769',1,'найдете():&#160;input_text.txt'],['../output__text_8txt.html#ac58e67a40fe60bf477d44ba426787b4b',1,'найдете():&#160;output_text.txt']]],
-  ['наклонясь_1518',['наклонясь',['../input__text_8txt.html#a3521b91220c1865f2f410bc66e1f8599',1,'input_text.txt']]],
-  ['наконец_1519',['наконец',['../input__text_8txt.html#a454a2352a60e71db93673642ec3c8899',1,'наконец():&#160;input_text.txt'],['../output__text_8txt.html#abd8082b4b669c896565edf3f4d26b492',1,'наконец():&#160;output_text.txt']]],
-  ['накрыт_1520',['накрыт',['../input__text_8txt.html#a61c7a1834815583661928960c1cf7e39',1,'накрыт():&#160;input_text.txt'],['../output__text_8txt.html#a75e3e4b202c622aa52ea7ecd9bbfd362',1,'накрыт():&#160;output_text.txt']]],
-  ['накрыть_1521',['накрыть',['../input__text_8txt.html#adc3d3474ce3ebaa8dce71e4cdc5c02de',1,'input_text.txt']]],
-  ['нам_1522',['нам',['../input__text_8txt.html#aaef79f740b01b8da82e2cb71abf967fb',1,'input_text.txt']]],
-  ['напев_1523',['напев',['../input__text_8txt.html#a7d045457c3f4b4ac78e504442f7628ea',1,'input_text.txt']]],
-  ['напева_1524',['напева',['../input__text_8txt.html#af1e7f51e2bb14569d3079ce58e0cebb2',1,'input_text.txt']]],
-  ['направим_1525',['направим',['../input__text_8txt.html#aa37e2f25000654480f3e4a9069107bbc',1,'input_text.txt']]],
-  ['напрасно_1526',['напрасно',['../input__text_8txt.html#a0bd4c2ee298e30a84f3c4b139b768c74',1,'напрасно():&#160;input_text.txt'],['../output__text_8txt.html#a608381edd2eee207269b82fcce023481',1,'напрасно():&#160;output_text.txt']]],
-  ['нараспев_1527',['нараспев',['../input__text_8txt.html#a22202344c5069a3043e1a0a55d6852ef',1,'input_text.txt']]],
-  ['народа_1528',['народа',['../input__text_8txt.html#a1a2eeda65ce7772297d430f8a099bfe8',1,'input_text.txt']]],
-  ['наруже_1529',['наруже',['../input__text_8txt.html#ac19d7542369842f2d757cdceb1207164',1,'наруже():&#160;input_text.txt'],['../output__text_8txt.html#a50982ce4a07fc365268de456c63603c0',1,'наруже():&#160;output_text.txt']]],
-  ['наряд_1530',['наряд',['../input__text_8txt.html#a5983d409950b764356b5dc6f3e160159',1,'наряд():&#160;input_text.txt'],['../output__text_8txt.html#aae67e04f81ef4d1b833baa52045adca8',1,'наряд():&#160;output_text.txt']]],
-  ['наряды_1531',['наряды',['../input__text_8txt.html#ae199442e207b2fd3bcfb92f70f679883',1,'input_text.txt']]],
-  ['нас_1532',['нас',['../input__text_8txt.html#aee6985472dff71fbaa58d7d3e3e9c606',1,'нас():&#160;input_text.txt'],['../output__text_8txt.html#aee6985472dff71fbaa58d7d3e3e9c606',1,'нас():&#160;output_text.txt']]],
-  ['наслаждений_1533',['наслаждений',['../input__text_8txt.html#a7c7c96b33f44b6c91acd91fdadd50bf3',1,'наслаждений():&#160;input_text.txt'],['../output__text_8txt.html#a68a9a56943866d5f5bc8e1cf9962a976',1,'наслаждений():&#160;output_text.txt']]],
-  ['наслажденье_1534',['наслажденье',['../input__text_8txt.html#ae6360b1c596b973004da052f39d51cff',1,'input_text.txt']]],
-  ['наслажденьем_1535',['наслажденьем',['../input__text_8txt.html#a6ff2d30bb0e62d482dab454d0dc5ba5e',1,'наслажденьем():&#160;input_text.txt'],['../output__text_8txt.html#ae90ce3bde6db8456d4e5f925d18e357c',1,'наслажденьем():&#160;output_text.txt']]],
-  ['наслажденья_1536',['наслажденья',['../input__text_8txt.html#a4690cf2c63a3dfdadf4b780aef95406d',1,'наслажденья():&#160;input_text.txt'],['../output__text_8txt.html#accf34abc98280c362847cd620d131aa0',1,'наслажденья():&#160;output_text.txt']]],
-  ['наставленья_1537',['наставленья',['../input__text_8txt.html#a4310aac9a22952cf2f91128bb83d6ad1',1,'input_text.txt']]],
-  ['настал_1538',['настал',['../input__text_8txt.html#a1ce3d6c090842dd213a72165c9b7e2e0',1,'настал():&#160;input_text.txt'],['../output__text_8txt.html#af9c8f3180f8ed9b1eabf60308239d573',1,'настал():&#160;output_text.txt']]],
-  ['настроя_1539',['настроя',['../input__text_8txt.html#af08b86ccb65d801ff905cc3824083603',1,'input_text.txt']]],
-  ['наступать_1540',['наступать',['../input__text_8txt.html#aa406dc558bffb0bb6f3225eadef25ab6',1,'наступать():&#160;input_text.txt'],['../output__text_8txt.html#ab6717544dbad8326f4ab6fc4787a671f',1,'наступать():&#160;output_text.txt']]],
-  ['натянув_1541',['натянув',['../input__text_8txt.html#af3d93c260307ebc1895955b402bb0a1b',1,'input_text.txt']]],
-  ['наук_1542',['наук',['../input__text_8txt.html#a9c4ab76dad7f891bff5a65ba5e40690b',1,'наук():&#160;input_text.txt'],['../output__text_8txt.html#af0e08948482284cf39ac05c43111ed3d',1,'наук():&#160;output_text.txt']]],
-  ['наука_1543',['наука',['../input__text_8txt.html#ae208f98c3fc5008c3500c807b0d135be',1,'наука():&#160;input_text.txt'],['../output__text_8txt.html#a9da5b89f4f53fc1dbad68f993987643c',1,'наука():&#160;output_text.txt']]],
-  ['науки_1544',['науки',['../input__text_8txt.html#ad70213c47a9d2cc809861e347c70218f',1,'науки():&#160;input_text.txt'],['../output__text_8txt.html#abb9026a07e85a6056079f269a6690347',1,'науки():&#160;output_text.txt']]],
-  ['нахал_1545',['нахал',['../input__text_8txt.html#ac9aa55503d5ec0464c23f72738610f7c',1,'нахал():&#160;input_text.txt'],['../output__text_8txt.html#a58c17730bcf362472f8b5db1d8985614',1,'нахал():&#160;output_text.txt']]],
-  ['нахальство_1546',['нахальство',['../input__text_8txt.html#ae9eb887492baca788f0f94b819c5d40a',1,'input_text.txt']]],
-  ['нахмурен_1547',['нахмурен',['../input__text_8txt.html#a20d16dfc6cc49eb421926e9352ba93f2',1,'нахмурен():&#160;input_text.txt'],['../output__text_8txt.html#a748d2cf58c7756917d37f5acbea17a1f',1,'нахмурен():&#160;output_text.txt']]],
-  ['находит_1548',['находит',['../input__text_8txt.html#a89f2e87a44daee09b35261deb4789e0b',1,'input_text.txt']]],
-  ['начинает_1549',['начинает',['../input__text_8txt.html#aefb6814ef8cd45d1cd7921fbbb0816b3',1,'начинает():&#160;input_text.txt'],['../output__text_8txt.html#a4404a898fdc6b9048b5546ee9f2556f0',1,'начинает():&#160;output_text.txt']]],
-  ['неба_1550',['неба',['../input__text_8txt.html#a2d2d94833be993e39a4aafd60d01b139',1,'input_text.txt']]],
-  ['небес_1551',['небес',['../input__text_8txt.html#a809d93e2fca199cbc5a854a8684425ab',1,'небес():&#160;input_text.txt'],['../output__text_8txt.html#a809d93e2fca199cbc5a854a8684425ab',1,'небес():&#160;output_text.txt']]],
-  ['небосклоном_1552',['небосклоном',['../input__text_8txt.html#a3eb76d7928670eb45c802cb4ddcd5aa5',1,'небосклоном():&#160;input_text.txt'],['../output__text_8txt.html#a3856e3fc2b65880287a5af9c904715ef',1,'небосклоном():&#160;output_text.txt']]],
-  ['небрежно_1553',['небрежно',['../input__text_8txt.html#ad93c2ad3b5c4172d6f3f848917470ca9',1,'небрежно():&#160;input_text.txt'],['../output__text_8txt.html#a1cc8ffdff50ef0e3fefe26d91e8235db',1,'небрежно():&#160;output_text.txt']]],
-  ['небрежных_1554',['небрежных',['../input__text_8txt.html#a4dd6f1a5984ccd7c918e50f5cfc33c2d',1,'небрежных():&#160;input_text.txt'],['../output__text_8txt.html#a8c2f576bf26fbba09fe2c77825c38c68',1,'небрежных():&#160;output_text.txt']]],
-  ['невежда_1555',['невежда',['../input__text_8txt.html#aa1b37739213bb2882efb32c71eaec8f6',1,'невежда():&#160;input_text.txt'],['../output__text_8txt.html#a2054275512825e354bc7912cab5a12ac',1,'невежда():&#160;output_text.txt']]],
-  ['невзначай_1556',['невзначай',['../input__text_8txt.html#a8533d75c324dba6741981076f549878b',1,'input_text.txt']]],
-  ['невинным_1557',['невинным',['../input__text_8txt.html#a8bc8889a72e1dd8a4ee7bbead82f1f25',1,'невинным():&#160;input_text.txt'],['../output__text_8txt.html#aaf65804ff1958b5aac4eab92d69c89e6',1,'невинным():&#160;output_text.txt']]],
-  ['невинных_1558',['невинных',['../input__text_8txt.html#a364f81f2bd13a6353dec11161515c98e',1,'input_text.txt']]],
-  ['невозвратимо_1559',['невозвратимо',['../output__text_8txt.html#a1d13e7a3df57e6f9eb3eeacf4feaa1bb',1,'output_text.txt']]],
-  ['неволе_1560',['неволе',['../input__text_8txt.html#abbef3d5628960f3d00e9d11eeaea2229',1,'неволе():&#160;input_text.txt'],['../output__text_8txt.html#a43336fb32499a28d5569922de50910ad',1,'неволе():&#160;output_text.txt']]],
-  ['неге_1561',['неге',['../input__text_8txt.html#a733407a3632a7c55c70c7de80f96b446',1,'неге():&#160;input_text.txt'],['../output__text_8txt.html#a04df83717f4c29638df9b83a701ad2c9',1,'неге():&#160;output_text.txt']]],
-  ['него_1562',['него',['../input__text_8txt.html#a54984ca1769cd2bd4068ca9db5a15f79',1,'него():&#160;input_text.txt'],['../output__text_8txt.html#a2e091128e0baab1b43a4bc3d9d8b94ae',1,'него():&#160;output_text.txt']]],
-  ['негодуя_1563',['негодуя',['../input__text_8txt.html#a5965b5b0c3b2877479deb8d1649501ec',1,'input_text.txt']]],
-  ['недвижим_1564',['недвижим',['../input__text_8txt.html#a6937ba06a4affb94d1da6a388ba2699a',1,'недвижим():&#160;input_text.txt'],['../output__text_8txt.html#a92132466e747c7c70c53a0144ad8adde',1,'недвижим():&#160;output_text.txt']]],
-  ['недоступных_1565',['недоступных',['../input__text_8txt.html#a6f329f09c7e7d62a1b7b13f2dd322da3',1,'input_text.txt']]],
-  ['недосуг_1566',['недосуг',['../input__text_8txt.html#a4f2350a20b32b8eab7a4cd810d8f52a0',1,'недосуг():&#160;input_text.txt'],['../output__text_8txt.html#aeb8568b1d12c24d59fceaf8a7ffd8324',1,'недосуг():&#160;output_text.txt']]],
-  ['недруг_1567',['недруг',['../input__text_8txt.html#ad161782a8c04676b9ebca3ec19dad5f0',1,'недруг():&#160;input_text.txt'],['../output__text_8txt.html#a2c02e046cd2b1e5de1ba89d9a3af253c',1,'недруг():&#160;output_text.txt']]],
-  ['недурной_1568',['недурной',['../input__text_8txt.html#ad95776b435c2645d98906e4be0f92589',1,'недурной():&#160;input_text.txt'],['../output__text_8txt.html#aa0e82bdcc9f72d2340f2bd44253aea03',1,'недурной():&#160;output_text.txt']]],
-  ['нее_1569',['нее',['../input__text_8txt.html#a10bdf24b1143022693dca89a68de44c1',1,'нее():&#160;input_text.txt'],['../output__text_8txt.html#ab52a16dfca60da9545e296e50bd17f0a',1,'нее():&#160;output_text.txt']]],
-  ['нежен_1570',['нежен',['../input__text_8txt.html#a9cdbf2662a11de02c98d422adc644469',1,'input_text.txt']]],
-  ['нежней_1571',['нежней',['../input__text_8txt.html#aea637ab5fb0af59b414fc5d21a5d02de',1,'input_text.txt']]],
-  ['нежной_1572',['нежной',['../input__text_8txt.html#a511fffa6c58c8f7be2f46493e3c72952',1,'нежной():&#160;input_text.txt'],['../output__text_8txt.html#a47dc6f876cbc77019028b23ece8f047c',1,'нежной():&#160;output_text.txt']]],
-  ['нежность_1573',['нежность',['../input__text_8txt.html#a127a992f52ba00134edf0c18b2c4dd87',1,'input_text.txt']]],
-  ['нежных_1574',['нежных',['../input__text_8txt.html#ae07a735f3490650d4173c995d30a8e73',1,'нежных():&#160;input_text.txt'],['../output__text_8txt.html#a62ab26f98abd725deecb290757b34363',1,'нежных():&#160;output_text.txt']]],
-  ['нездорова_1575',['нездорова',['../input__text_8txt.html#a354e29f6a2802e1b51743de49e4cd901',1,'нездорова():&#160;input_text.txt'],['../output__text_8txt.html#af02f31d5925528aa605a3d697b50675c',1,'нездорова():&#160;output_text.txt']]],
-  ['неземной_1576',['неземной',['../input__text_8txt.html#a97ba5480b5626f26b3fa3708fb181648',1,'неземной():&#160;input_text.txt'],['../output__text_8txt.html#aa4bbeb62792acd02d76e881b966eb3f8',1,'неземной():&#160;output_text.txt']]],
-  ['неизвестный_1577',['неизвестный',['../input__text_8txt.html#afb9455f204b91a287ad4c71e9ae42b54',1,'input_text.txt']]],
-  ['ней_1578',['ней',['../input__text_8txt.html#a7a7e26ad02b39072e014b4b0491afcf2',1,'ней():&#160;input_text.txt'],['../output__text_8txt.html#a7a7e26ad02b39072e014b4b0491afcf2',1,'ней():&#160;output_text.txt']]],
-  ['некогда_1579',['некогда',['../input__text_8txt.html#abdf3a308d5ad3aecaefdb85089a13e94',1,'input_text.txt']]],
-  ['нелюдим_1580',['нелюдим',['../input__text_8txt.html#a29c32f368a265cb42ae1858b5706e7ea',1,'нелюдим():&#160;input_text.txt'],['../output__text_8txt.html#a2bff5dbe9a3cacb716b695e4d4e9cef4',1,'нелюдим():&#160;output_text.txt']]],
-  ['нем_1581',['нем',['../input__text_8txt.html#a10e334dc0191a0b2b3c230b5cf9bfe83',1,'нем():&#160;input_text.txt'],['../output__text_8txt.html#a10e334dc0191a0b2b3c230b5cf9bfe83',1,'нем():&#160;output_text.txt']]],
-  ['немой_1582',['немой',['../input__text_8txt.html#af6afb8a4dee57ad68f3e29464334b988',1,'input_text.txt']]],
-  ['нему_1583',['нему',['../input__text_8txt.html#af8472cfc8f28bc2a9ecc16394fa4ae9c',1,'input_text.txt']]],
-  ['ненавидеть_1584',['ненавидеть',['../input__text_8txt.html#a9b7edb29181a58316824349bfe745762',1,'input_text.txt']]],
-  ['ненавидит_1585',['ненавидит',['../input__text_8txt.html#a6e89b5aec91102d728693b1f98b903e3',1,'ненавидит():&#160;input_text.txt'],['../output__text_8txt.html#a36f809bb943eba3f7b98d8a6ed52da26',1,'ненавидит():&#160;output_text.txt']]],
-  ['ненавидя_1586',['ненавидя',['../input__text_8txt.html#aeda9d7afaf17d50116f6310632e04659',1,'ненавидя():&#160;input_text.txt'],['../output__text_8txt.html#a2b0f0446a634f057839375f22fb6e036',1,'ненавидя():&#160;output_text.txt']]],
-  ['ненавижу_1587',['ненавижу',['../input__text_8txt.html#a4fe9ea344989e1cc77e17d01effdea8c',1,'input_text.txt']]],
-  ['неподкупных_1588',['неподкупных',['../input__text_8txt.html#ad1e6b9273efaa90dbc573097b926fd69',1,'input_text.txt']]],
-  ['непорочны_1589',['непорочны',['../input__text_8txt.html#a7ac2661475f85729c61cf4cf963cc998',1,'input_text.txt']]],
-  ['неправ_1590',['неправ',['../input__text_8txt.html#adf2b06452d878b3d904d6c6b038ae4a8',1,'неправ():&#160;input_text.txt'],['../output__text_8txt.html#aa79fef7c08f1a30cdb4791eeb5e305b4',1,'неправ():&#160;output_text.txt']]],
-  ['непринужденно_1591',['непринужденно',['../input__text_8txt.html#a704648db12efd576ec2fd091787aa268',1,'input_text.txt']]],
-  ['несет_1592',['несет',['../input__text_8txt.html#a9dc5b5c556224951a2740a4ed1fd4c6f',1,'input_text.txt']]],
-  ['нескромный_1593',['нескромный',['../input__text_8txt.html#a34b284afa34b2d228446632c04629192',1,'нескромный():&#160;input_text.txt'],['../output__text_8txt.html#acb7d3ae0a5790c90a946bb6bef25bfe2',1,'нескромный():&#160;output_text.txt']]],
-  ['несмелой_1594',['несмелой',['../input__text_8txt.html#a8722dd78ddd61cc46b2a73b6be30bebd',1,'несмелой():&#160;input_text.txt'],['../output__text_8txt.html#af5f2981c2d43775037fc568956ffeca7',1,'несмелой():&#160;output_text.txt']]],
-  ['несносный_1595',['несносный',['../input__text_8txt.html#a758ee774510c78bed9ea156a574cbcb7',1,'input_text.txt']]],
-  ['несть_1596',['несть',['../output__text_8txt.html#a20b55e3545c3053d4e71f339ee3cd1ce',1,'output_text.txt']]],
-  ['несут_1597',['несут',['../input__text_8txt.html#a0daf0d7cc0c74f60a8b4e2b200bcead5',1,'несут():&#160;input_text.txt'],['../output__text_8txt.html#a2b7ac2d72f0309f7203d825cefd36887',1,'несут():&#160;output_text.txt']]],
-  ['несчастью_1598',['несчастью',['../input__text_8txt.html#aef1c2aea86c067343e991ce607d9f3fd',1,'input_text.txt']]],
-  ['нет_1599',['нет',['../input__text_8txt.html#a41649793f2cabef1e9404b9614d6a2f1',1,'нет():&#160;input_text.txt'],['../output__text_8txt.html#a41649793f2cabef1e9404b9614d6a2f1',1,'нет():&#160;output_text.txt'],['../input__text_8txt.html#a7534d04b7add2adfb3905343d05b57be',1,'нет(их пол таков):&#160;input_text.txt']]],
-  ['нетерпеливой_1600',['нетерпеливой',['../input__text_8txt.html#a1890bc21c959fcb75f22d233b2a9bc4d',1,'input_text.txt']]],
-  ['нетерпеньем_1601',['нетерпеньем',['../input__text_8txt.html#ad12c1b47f8d65820e56b3ac6b3db1bd0',1,'input_text.txt']]],
-  ['нетороплива_1602',['нетороплива',['../input__text_8txt.html#a8b24d199ab6da1716025fb7b7652ee0c',1,'нетороплива():&#160;input_text.txt'],['../output__text_8txt.html#a0e3b54eb68b98c67f00abffb8c41c918',1,'нетороплива():&#160;output_text.txt']]],
-  ['неугомонный_1603',['неугомонный',['../input__text_8txt.html#abd85f025ac77611c3d50c5baa766de30',1,'неугомонный():&#160;input_text.txt'],['../output__text_8txt.html#a03528146da9b5589d24a46a54c63e6d4',1,'неугомонный():&#160;output_text.txt']]],
-  ['неуч_1604',['неуч',['../input__text_8txt.html#a8b24143a9e30bc4da8a85350c1b7163d',1,'input_text.txt']]],
-  ['нечто_1605',['нечто',['../input__text_8txt.html#aa48c318ce5a44db593138f88cabce97e',1,'input_text.txt']]],
-  ['нею_1606',['нею',['../input__text_8txt.html#a425e66ce00a6c28f8d34f135cd1a8361',1,'input_text.txt']]],
-  ['нибудь_1607',['нибудь',['../input__text_8txt.html#ad845be7c5b516576444874f38c46f92a',1,'нибудь():&#160;input_text.txt'],['../output__text_8txt.html#ad845be7c5b516576444874f38c46f92a',1,'нибудь():&#160;output_text.txt']]],
-  ['ниже_1608',['ниже',['../input__text_8txt.html#abb97427e0823dcc307e26c55cb846759',1,'input_text.txt']]],
-  ['никак_1609',['никак',['../input__text_8txt.html#a1af0f18c08ba414d84fe110fd0aef920',1,'никак():&#160;input_text.txt'],['../output__text_8txt.html#a616145bd6b7545e86657a4a6bf3653c2',1,'никак():&#160;output_text.txt']]],
-  ['никем_1610',['никем',['../input__text_8txt.html#a0fe2f89f9404a65c858629f264a9cb0a',1,'никем():&#160;input_text.txt'],['../output__text_8txt.html#a4eabaddb8ea128b4f07bd29d2289b454',1,'никем():&#160;output_text.txt']]],
-  ['никогда_1611',['никогда',['../input__text_8txt.html#ade067cccced227c008c3f401b6a38833',1,'никогда():&#160;input_text.txt'],['../output__text_8txt.html#aba543c21aa2a0bda00b7551b3022d573',1,'никогда():&#160;output_text.txt']]],
-  ['никого_1612',['никого',['../input__text_8txt.html#a270cbacba8aa15dbad265900a9e70866',1,'input_text.txt']]],
-  ['ним_1613',['ним',['../input__text_8txt.html#aad12204a832f411726846387ef9f147f',1,'ним():&#160;input_text.txt'],['../output__text_8txt.html#aad12204a832f411726846387ef9f147f',1,'ним():&#160;output_text.txt'],['../input__text_8txt.html#a8f869c8d5683b283892590a60f978206',1,'ним(как начинает капать Весенний дождь на злак полей) Пастух:&#160;input_text.txt']]],
-  ['них_1614',['них',['../input__text_8txt.html#aa14e33daa253fd1fad25a94928c324f7',1,'input_text.txt']]],
-  ['ничего_1615',['ничего',['../input__text_8txt.html#a5f7e5b3018b6907d1f74921d14049249',1,'ничего():&#160;input_text.txt'],['../output__text_8txt.html#a47091cb85a229091a0d4b22ebce6f7e3',1,'ничего():&#160;output_text.txt']]],
-  ['ничем_1616',['ничем',['../input__text_8txt.html#aafb87ac25fa59279db6662715a9ce821',1,'ничем():&#160;input_text.txt'],['../output__text_8txt.html#a307b68b94ffdacf7789b2ebbf6856261',1,'ничем():&#160;output_text.txt']]],
-  ['ничтожно_1617',['ничтожно',['../input__text_8txt.html#a8f6a88ccbb216ce19e3f2e439bb231b9',1,'ничтожно():&#160;input_text.txt'],['../output__text_8txt.html#afa2c4f459bc913e3fd2ab3fa7e50ef1e',1,'ничтожно():&#160;output_text.txt']]],
-  ['ново_1618',['ново',['../input__text_8txt.html#a66761942ebf9b75ab8329ce3e6ba67b1',1,'ново():&#160;input_text.txt'],['../output__text_8txt.html#a66761942ebf9b75ab8329ce3e6ba67b1',1,'ново():&#160;output_text.txt']]],
-  ['новой_1619',['новой',['../input__text_8txt.html#a16fe3cb3814dd85143a24f2bf4ea28e1',1,'новой():&#160;input_text.txt'],['../output__text_8txt.html#a63c86e54f9578b3b880833d3c83d7167',1,'новой():&#160;output_text.txt']]],
-  ['новоселье_1620',['новоселье',['../input__text_8txt.html#af5f81a10a62bb7608a043964a5a5a314',1,'новоселье():&#160;input_text.txt'],['../output__text_8txt.html#a201ade7bc4a595c11c7c20babbd31e36',1,'новоселье():&#160;output_text.txt']]],
-  ['новость_1621',['новость',['../input__text_8txt.html#a0c7766ac0c09a0534cd5342aa0e83fdd',1,'новость():&#160;input_text.txt'],['../output__text_8txt.html#a9f3a4df583a92e0d9916af4338e6c443',1,'новость():&#160;output_text.txt']]],
-  ['новым_1622',['новым',['../input__text_8txt.html#a58f131de98188064197eac64b06e4bae',1,'input_text.txt']]],
-  ['ногам_1623',['ногам',['../input__text_8txt.html#a25bca16383f77d6dfcc321c2aa646ef7',1,'input_text.txt']]],
-  ['ногтей_1624',['ногтей',['../input__text_8txt.html#a660b41338e16570f24fd3791f0193aa7',1,'ногтей():&#160;input_text.txt'],['../output__text_8txt.html#a36cfcae0e439dd5595f9516889e5277d',1,'ногтей():&#160;output_text.txt']]],
-  ['нож_1625',['нож',['../input__text_8txt.html#a3b5129fd608e24dd4aba304119f2d3fc',1,'input_text.txt']]],
-  ['ножек_1626',['ножек',['../input__text_8txt.html#a81dd00bf6782f1b7b0f7c44f83882742',1,'ножек():&#160;input_text.txt'],['../output__text_8txt.html#ac35182cb9c8820099d1ef19f8b729b9f',1,'ножек():&#160;output_text.txt']]],
-  ['ножки_1627',['ножки',['../input__text_8txt.html#aa9629d4f6c79a956fdb759cec5782d3c',1,'ножки():&#160;input_text.txt'],['../output__text_8txt.html#aa9629d4f6c79a956fdb759cec5782d3c',1,'ножки():&#160;output_text.txt']]],
-  ['ножницы_1628',['ножницы',['../input__text_8txt.html#a0e1ba8b1b6cd7ccdc4760421588f9a7f',1,'input_text.txt']]],
-  ['нос_1629',['нос',['../input__text_8txt.html#a6f9c6f6ece4ef7e29f4b2c644b830298',1,'input_text.txt']]],
-  ['ночей_1630',['ночей',['../input__text_8txt.html#aba9a8c5959656db7f1847b9c41a371a4',1,'input_text.txt']]],
-  ['ночи_1631',['ночи',['../input__text_8txt.html#aca54d26c0ac160b5c5b59eafb4053060',1,'ночи():&#160;input_text.txt'],['../output__text_8txt.html#aca54d26c0ac160b5c5b59eafb4053060',1,'ночи():&#160;output_text.txt']]],
-  ['ночлеге_1632',['ночлеге',['../input__text_8txt.html#a7e91c10495c5282a9e489892bd4a4781',1,'input_text.txt']]],
-  ['ночных_1633',['ночных',['../input__text_8txt.html#a489152a955b509757a1f0c53b388e41a',1,'ночных():&#160;input_text.txt'],['../output__text_8txt.html#a312aa618433e446c75fa289845404620',1,'ночных():&#160;output_text.txt']]],
-  ['ночь_1634',['ночь',['../input__text_8txt.html#aaca3ef612fabb976c02e731825302c65',1,'input_text.txt']]],
-  ['нравы_1635',['нравы',['../input__text_8txt.html#a074c3d2732b951b46f130444a729057e',1,'input_text.txt']]],
-  ['нужды_1636',['нужды',['../input__text_8txt.html#a14acb00f0382c9145b9b60991ca4af98',1,'input_text.txt']]],
-  ['нулями_1637',['нулями',['../input__text_8txt.html#aedb50a253714bb302ee04e7614e9565c',1,'input_text.txt']]],
-  ['ныла_1638',['ныла',['../input__text_8txt.html#a422cdea8f019f5e82eb81797921fc891',1,'input_text.txt']]],
-  ['ныне_1639',['ныне',['../input__text_8txt.html#af85878038b2521c4b5ca7d5168d886e6',1,'input_text.txt']]],
-  ['няне_1640',['няне',['../input__text_8txt.html#a4198a609500695743e88dabbb96af459',1,'input_text.txt']]],
-  ['няня_1641',['няня',['../input__text_8txt.html#abcbf74ffdd423e5058034ebc58df838c',1,'няня():&#160;input_text.txt'],['../output__text_8txt.html#abcbf74ffdd423e5058034ebc58df838c',1,'няня():&#160;output_text.txt']]]
+  ['навестил_1519',['навестил',['../input__text_8txt.html#adeb013229c3917cb2a3eedc8080bd386',1,'input_text.txt']]],
+  ['навещать_1520',['навещать',['../input__text_8txt.html#a4762e1ff20f02976522e9b850cf6e772',1,'input_text.txt']]],
+  ['наводит_1521',['наводит',['../input__text_8txt.html#aeff755136ccd6dbdff1f15201214fc0f',1,'input_text.txt']]],
+  ['наводят_1522',['наводят',['../input__text_8txt.html#a0b70296694d2e1de257e1785087e02bb',1,'input_text.txt']]],
+  ['нагоняя_1523',['нагоняя',['../input__text_8txt.html#a69f3899d9a9a84dafcdf5271b3ba8baf',1,'нагоняя():&#160;input_text.txt'],['../output__text_8txt.html#a1814de246d3964a2be943b9014ea0c04',1,'нагоняя():&#160;output_text.txt']]],
+  ['награду_1524',['награду',['../input__text_8txt.html#a637b9880bfd600ef7bd74f022276bd42',1,'награду():&#160;input_text.txt'],['../output__text_8txt.html#a072960b21718d1867911ef75134fc515',1,'награду():&#160;output_text.txt']]],
+  ['нагревая_1525',['нагревая',['../input__text_8txt.html#ab80d78b00adc9321c37cda67b30effe5',1,'input_text.txt']]],
+  ['нагружают_1526',['нагружают',['../input__text_8txt.html#a4246dd6275a94061ccfb47e5e774e9db',1,'нагружают():&#160;input_text.txt'],['../output__text_8txt.html#ab4115340c19ffb129353d19ad8fcf62e',1,'нагружают():&#160;output_text.txt']]],
+  ['нагруженных_1527',['нагруженных',['../input__text_8txt.html#a19682c15f1e968959514e7ff89a1d4a5',1,'нагруженных():&#160;input_text.txt'],['../output__text_8txt.html#a59a6b87414d915b23ba086fed0f7dfdd',1,'нагруженных():&#160;output_text.txt']]],
+  ['надеется_1528',['надеется',['../input__text_8txt.html#a62e435215fce4c826ec4565e202b6226',1,'input_text.txt']]],
+  ['надежд_1529',['надежд',['../output__text_8txt.html#a2a0b7f0ebab43ce309df8c10464e44d9',1,'output_text.txt']]],
+  ['надежда_1530',['надежда',['../input__text_8txt.html#a9603ac9874abf9164ac22adbc7cd6974',1,'надежда():&#160;input_text.txt'],['../output__text_8txt.html#a543249f79866a8f60a616fdcc2f85b7b',1,'надежда():&#160;output_text.txt']]],
+  ['надежде_1531',['надежде',['../input__text_8txt.html#a7259e48e8ab53bee339dfeb9daa193c6',1,'надежде():&#160;input_text.txt'],['../output__text_8txt.html#ae7dfe072cc28a3a49122c4e53c91a5cf',1,'надежде():&#160;output_text.txt']]],
+  ['надежду_1532',['надежду',['../input__text_8txt.html#a02a81d7538f81478f0e37246a372c4b7',1,'input_text.txt']]],
+  ['надоели_1533',['надоели',['../input__text_8txt.html#a6baf1cbdc1991074e522999e3d902e20',1,'надоели():&#160;input_text.txt'],['../output__text_8txt.html#a7da375b3c3c9800d5097cb9b13c96c67',1,'надоели():&#160;output_text.txt']]],
+  ['надулся_1534',['надулся',['../input__text_8txt.html#abcf60a53d0f763e7c4dbcce1b3ef5d29',1,'надулся():&#160;input_text.txt'],['../output__text_8txt.html#a69e5aa46d12ea6e4d263263a64b38e64',1,'надулся():&#160;output_text.txt']]],
+  ['наедине_1535',['наедине',['../input__text_8txt.html#a3af8f596d39234da750a15bbb9ccab1c',1,'input_text.txt']]],
+  ['найдете_1536',['найдете',['../input__text_8txt.html#aff7eec53ee9ba41566e01fb0a7ae0769',1,'найдете():&#160;input_text.txt'],['../output__text_8txt.html#ac58e67a40fe60bf477d44ba426787b4b',1,'найдете():&#160;output_text.txt']]],
+  ['наклонясь_1537',['наклонясь',['../input__text_8txt.html#a3521b91220c1865f2f410bc66e1f8599',1,'input_text.txt']]],
+  ['наконец_1538',['наконец',['../input__text_8txt.html#a454a2352a60e71db93673642ec3c8899',1,'наконец():&#160;input_text.txt'],['../output__text_8txt.html#abd8082b4b669c896565edf3f4d26b492',1,'наконец():&#160;output_text.txt']]],
+  ['накрыт_1539',['накрыт',['../input__text_8txt.html#a61c7a1834815583661928960c1cf7e39',1,'накрыт():&#160;input_text.txt'],['../output__text_8txt.html#a75e3e4b202c622aa52ea7ecd9bbfd362',1,'накрыт():&#160;output_text.txt']]],
+  ['накрыть_1540',['накрыть',['../input__text_8txt.html#adc3d3474ce3ebaa8dce71e4cdc5c02de',1,'input_text.txt']]],
+  ['нам_1541',['нам',['../input__text_8txt.html#ac4b4c7ca44542daf54c7c54fb2b709e0',1,'input_text.txt']]],
+  ['напев_1542',['напев',['../input__text_8txt.html#a267e4bece1139635ff2fab0d8108d1c9',1,'напев():&#160;input_text.txt'],['../output__text_8txt.html#ab4b9ff3602aa92485c3b11b6729f633f',1,'напев():&#160;output_text.txt']]],
+  ['напева_1543',['напева',['../input__text_8txt.html#af1e7f51e2bb14569d3079ce58e0cebb2',1,'input_text.txt']]],
+  ['направим_1544',['направим',['../input__text_8txt.html#adb31acca4d1873e2f306fd8d1092b3ed',1,'input_text.txt']]],
+  ['напрасно_1545',['напрасно',['../input__text_8txt.html#a0093e34449228f6b16f54029869e642f',1,'напрасно():&#160;input_text.txt'],['../output__text_8txt.html#a608381edd2eee207269b82fcce023481',1,'напрасно():&#160;output_text.txt']]],
+  ['нараспев_1546',['нараспев',['../input__text_8txt.html#a22202344c5069a3043e1a0a55d6852ef',1,'input_text.txt']]],
+  ['народа_1547',['народа',['../input__text_8txt.html#a1a2eeda65ce7772297d430f8a099bfe8',1,'input_text.txt']]],
+  ['наруже_1548',['наруже',['../input__text_8txt.html#ac19d7542369842f2d757cdceb1207164',1,'наруже():&#160;input_text.txt'],['../output__text_8txt.html#a50982ce4a07fc365268de456c63603c0',1,'наруже():&#160;output_text.txt']]],
+  ['наряд_1549',['наряд',['../input__text_8txt.html#a5983d409950b764356b5dc6f3e160159',1,'наряд():&#160;input_text.txt'],['../output__text_8txt.html#aae67e04f81ef4d1b833baa52045adca8',1,'наряд():&#160;output_text.txt']]],
+  ['наряды_1550',['наряды',['../input__text_8txt.html#ae199442e207b2fd3bcfb92f70f679883',1,'input_text.txt']]],
+  ['нас_1551',['нас',['../input__text_8txt.html#aee6985472dff71fbaa58d7d3e3e9c606',1,'нас():&#160;input_text.txt'],['../output__text_8txt.html#aee6985472dff71fbaa58d7d3e3e9c606',1,'нас():&#160;output_text.txt']]],
+  ['наслаждений_1552',['наслаждений',['../input__text_8txt.html#a7c7c96b33f44b6c91acd91fdadd50bf3',1,'наслаждений():&#160;input_text.txt'],['../output__text_8txt.html#a68a9a56943866d5f5bc8e1cf9962a976',1,'наслаждений():&#160;output_text.txt']]],
+  ['наслажденье_1553',['наслажденье',['../input__text_8txt.html#ae6360b1c596b973004da052f39d51cff',1,'input_text.txt']]],
+  ['наслажденьем_1554',['наслажденьем',['../input__text_8txt.html#a6ff2d30bb0e62d482dab454d0dc5ba5e',1,'наслажденьем():&#160;input_text.txt'],['../output__text_8txt.html#ae90ce3bde6db8456d4e5f925d18e357c',1,'наслажденьем():&#160;output_text.txt']]],
+  ['наслажденья_1555',['наслажденья',['../input__text_8txt.html#a4690cf2c63a3dfdadf4b780aef95406d',1,'наслажденья():&#160;input_text.txt'],['../output__text_8txt.html#accf34abc98280c362847cd620d131aa0',1,'наслажденья():&#160;output_text.txt']]],
+  ['наставленья_1556',['наставленья',['../input__text_8txt.html#a4310aac9a22952cf2f91128bb83d6ad1',1,'input_text.txt']]],
+  ['настал_1557',['настал',['../input__text_8txt.html#a1ce3d6c090842dd213a72165c9b7e2e0',1,'настал():&#160;input_text.txt'],['../output__text_8txt.html#af9c8f3180f8ed9b1eabf60308239d573',1,'настал():&#160;output_text.txt']]],
+  ['настроя_1558',['настроя',['../input__text_8txt.html#af08b86ccb65d801ff905cc3824083603',1,'настроя():&#160;input_text.txt'],['../output__text_8txt.html#a44c8c34cb8cbb8ae59adaf44686d2a6f',1,'настроя():&#160;output_text.txt']]],
+  ['наступать_1559',['наступать',['../input__text_8txt.html#a6c14eb88cd6e8aaeaf40d62393a46c1f',1,'наступать():&#160;input_text.txt'],['../output__text_8txt.html#ab6717544dbad8326f4ab6fc4787a671f',1,'наступать():&#160;output_text.txt']]],
+  ['натянув_1560',['натянув',['../input__text_8txt.html#af3d93c260307ebc1895955b402bb0a1b',1,'input_text.txt']]],
+  ['наук_1561',['наук',['../input__text_8txt.html#a9c4ab76dad7f891bff5a65ba5e40690b',1,'наук():&#160;input_text.txt'],['../output__text_8txt.html#af0e08948482284cf39ac05c43111ed3d',1,'наук():&#160;output_text.txt']]],
+  ['наука_1562',['наука',['../input__text_8txt.html#ae208f98c3fc5008c3500c807b0d135be',1,'наука():&#160;input_text.txt'],['../output__text_8txt.html#a9da5b89f4f53fc1dbad68f993987643c',1,'наука():&#160;output_text.txt']]],
+  ['науки_1563',['науки',['../input__text_8txt.html#ad70213c47a9d2cc809861e347c70218f',1,'науки():&#160;input_text.txt'],['../output__text_8txt.html#abb9026a07e85a6056079f269a6690347',1,'науки():&#160;output_text.txt']]],
+  ['нахал_1564',['нахал',['../input__text_8txt.html#ac9aa55503d5ec0464c23f72738610f7c',1,'нахал():&#160;input_text.txt'],['../output__text_8txt.html#a58c17730bcf362472f8b5db1d8985614',1,'нахал():&#160;output_text.txt']]],
+  ['нахальство_1565',['нахальство',['../input__text_8txt.html#ae9eb887492baca788f0f94b819c5d40a',1,'нахальство():&#160;input_text.txt'],['../output__text_8txt.html#a0111a2229b0c0ad4df45424e32652a41',1,'нахальство():&#160;output_text.txt']]],
+  ['нахмурен_1566',['нахмурен',['../input__text_8txt.html#a20d16dfc6cc49eb421926e9352ba93f2',1,'нахмурен():&#160;input_text.txt'],['../output__text_8txt.html#a748d2cf58c7756917d37f5acbea17a1f',1,'нахмурен():&#160;output_text.txt']]],
+  ['находит_1567',['находит',['../input__text_8txt.html#a89f2e87a44daee09b35261deb4789e0b',1,'input_text.txt']]],
+  ['начинает_1568',['начинает',['../input__text_8txt.html#aefb6814ef8cd45d1cd7921fbbb0816b3',1,'начинает():&#160;input_text.txt'],['../output__text_8txt.html#a4404a898fdc6b9048b5546ee9f2556f0',1,'начинает():&#160;output_text.txt']]],
+  ['неба_1569',['неба',['../input__text_8txt.html#a2d2d94833be993e39a4aafd60d01b139',1,'input_text.txt']]],
+  ['небес_1570',['небес',['../input__text_8txt.html#ae176230bfdaf7d1e8d13ca64eae22071',1,'небес():&#160;input_text.txt'],['../output__text_8txt.html#ae176230bfdaf7d1e8d13ca64eae22071',1,'небес():&#160;output_text.txt']]],
+  ['небосклоном_1571',['небосклоном',['../input__text_8txt.html#a3eb76d7928670eb45c802cb4ddcd5aa5',1,'небосклоном():&#160;input_text.txt'],['../output__text_8txt.html#a3856e3fc2b65880287a5af9c904715ef',1,'небосклоном():&#160;output_text.txt']]],
+  ['небрежно_1572',['небрежно',['../input__text_8txt.html#ad93c2ad3b5c4172d6f3f848917470ca9',1,'небрежно():&#160;input_text.txt'],['../output__text_8txt.html#a1cc8ffdff50ef0e3fefe26d91e8235db',1,'небрежно():&#160;output_text.txt']]],
+  ['небрежных_1573',['небрежных',['../input__text_8txt.html#a5a02d49416968971e3383a6fc305b4d2',1,'небрежных():&#160;input_text.txt'],['../output__text_8txt.html#a8c2f576bf26fbba09fe2c77825c38c68',1,'небрежных():&#160;output_text.txt']]],
+  ['невежда_1574',['невежда',['../input__text_8txt.html#aa1b37739213bb2882efb32c71eaec8f6',1,'невежда():&#160;input_text.txt'],['../output__text_8txt.html#a2054275512825e354bc7912cab5a12ac',1,'невежда():&#160;output_text.txt']]],
+  ['невзначай_1575',['невзначай',['../input__text_8txt.html#a8533d75c324dba6741981076f549878b',1,'input_text.txt']]],
+  ['невинным_1576',['невинным',['../input__text_8txt.html#a8bc8889a72e1dd8a4ee7bbead82f1f25',1,'невинным():&#160;input_text.txt'],['../output__text_8txt.html#aaf65804ff1958b5aac4eab92d69c89e6',1,'невинным():&#160;output_text.txt']]],
+  ['невинных_1577',['невинных',['../input__text_8txt.html#a364f81f2bd13a6353dec11161515c98e',1,'input_text.txt']]],
+  ['невозвратимо_1578',['невозвратимо',['../input__text_8txt.html#a72fd46181132a234eeec03af0f79326e',1,'невозвратимо():&#160;input_text.txt'],['../output__text_8txt.html#a1d13e7a3df57e6f9eb3eeacf4feaa1bb',1,'невозвратимо():&#160;output_text.txt']]],
+  ['неволе_1579',['неволе',['../input__text_8txt.html#abbef3d5628960f3d00e9d11eeaea2229',1,'неволе():&#160;input_text.txt'],['../output__text_8txt.html#a43336fb32499a28d5569922de50910ad',1,'неволе():&#160;output_text.txt']]],
+  ['нег_1580',['нег',['../input__text_8txt.html#ae88f705e08f60975ca9f9c9ebe5a06a2',1,'input_text.txt']]],
+  ['неге_1581',['неге',['../input__text_8txt.html#aa5ba2ec4681edcb7da57fc7876a5e17d',1,'неге():&#160;input_text.txt'],['../output__text_8txt.html#a3b08cdf6fcf30d9abc23b0e59f97757c',1,'неге():&#160;output_text.txt']]],
+  ['него_1582',['него',['../input__text_8txt.html#ac417870e04519b3d2feb52c94945eec5',1,'него():&#160;input_text.txt'],['../output__text_8txt.html#a2e091128e0baab1b43a4bc3d9d8b94ae',1,'него():&#160;output_text.txt']]],
+  ['негодуя_1583',['негодуя',['../input__text_8txt.html#a5965b5b0c3b2877479deb8d1649501ec',1,'input_text.txt']]],
+  ['недвижим_1584',['недвижим',['../input__text_8txt.html#a6937ba06a4affb94d1da6a388ba2699a',1,'недвижим():&#160;input_text.txt'],['../output__text_8txt.html#a92132466e747c7c70c53a0144ad8adde',1,'недвижим():&#160;output_text.txt']]],
+  ['недоступных_1585',['недоступных',['../input__text_8txt.html#a07802b7bcf1dc272a461f2434e2fb9a1',1,'input_text.txt']]],
+  ['недосуг_1586',['недосуг',['../input__text_8txt.html#a4f2350a20b32b8eab7a4cd810d8f52a0',1,'недосуг():&#160;input_text.txt'],['../output__text_8txt.html#aeb8568b1d12c24d59fceaf8a7ffd8324',1,'недосуг():&#160;output_text.txt']]],
+  ['недруг_1587',['недруг',['../input__text_8txt.html#a0bd34702be20da78a742e341b9c5b4fa',1,'недруг():&#160;input_text.txt'],['../output__text_8txt.html#a2c02e046cd2b1e5de1ba89d9a3af253c',1,'недруг():&#160;output_text.txt']]],
+  ['недурной_1588',['недурной',['../input__text_8txt.html#ad95776b435c2645d98906e4be0f92589',1,'недурной():&#160;input_text.txt'],['../output__text_8txt.html#aa0e82bdcc9f72d2340f2bd44253aea03',1,'недурной():&#160;output_text.txt']]],
+  ['нее_1589',['нее',['../input__text_8txt.html#a10bdf24b1143022693dca89a68de44c1',1,'нее():&#160;input_text.txt'],['../output__text_8txt.html#ab52a16dfca60da9545e296e50bd17f0a',1,'нее():&#160;output_text.txt']]],
+  ['нежен_1590',['нежен',['../input__text_8txt.html#a9cdbf2662a11de02c98d422adc644469',1,'input_text.txt']]],
+  ['нежней_1591',['нежней',['../input__text_8txt.html#a771d50ab95cd376710147ab9988a14d1',1,'input_text.txt']]],
+  ['нежной_1592',['нежной',['../input__text_8txt.html#a511fffa6c58c8f7be2f46493e3c72952',1,'нежной():&#160;input_text.txt'],['../output__text_8txt.html#ab6d1c93416168713dc87c06f4c6ac479',1,'нежной():&#160;output_text.txt']]],
+  ['нежность_1593',['нежность',['../input__text_8txt.html#a127a992f52ba00134edf0c18b2c4dd87',1,'input_text.txt']]],
+  ['нежных_1594',['нежных',['../input__text_8txt.html#ae07a735f3490650d4173c995d30a8e73',1,'нежных():&#160;input_text.txt'],['../output__text_8txt.html#a62ab26f98abd725deecb290757b34363',1,'нежных():&#160;output_text.txt']]],
+  ['нездорова_1595',['нездорова',['../input__text_8txt.html#a358ec5d5de6702beaef5c62f9d1778df',1,'нездорова():&#160;input_text.txt'],['../output__text_8txt.html#aa5970cdfb5377b1cf764b115c44eb313',1,'нездорова():&#160;output_text.txt']]],
+  ['неземной_1596',['неземной',['../input__text_8txt.html#a97ba5480b5626f26b3fa3708fb181648',1,'неземной():&#160;input_text.txt'],['../output__text_8txt.html#aa4bbeb62792acd02d76e881b966eb3f8',1,'неземной():&#160;output_text.txt']]],
+  ['неизвестный_1597',['неизвестный',['../input__text_8txt.html#afb9455f204b91a287ad4c71e9ae42b54',1,'input_text.txt']]],
+  ['ней_1598',['ней',['../input__text_8txt.html#a7a7e26ad02b39072e014b4b0491afcf2',1,'ней():&#160;input_text.txt'],['../output__text_8txt.html#a7a7e26ad02b39072e014b4b0491afcf2',1,'ней():&#160;output_text.txt']]],
+  ['некогда_1599',['некогда',['../input__text_8txt.html#abdf3a308d5ad3aecaefdb85089a13e94',1,'input_text.txt']]],
+  ['нелюдим_1600',['нелюдим',['../input__text_8txt.html#a29c32f368a265cb42ae1858b5706e7ea',1,'нелюдим():&#160;input_text.txt'],['../output__text_8txt.html#a2bff5dbe9a3cacb716b695e4d4e9cef4',1,'нелюдим():&#160;output_text.txt']]],
+  ['нем_1601',['нем',['../input__text_8txt.html#a066ed8bc2ce6e9a8c48b564d7c253748',1,'нем():&#160;input_text.txt'],['../output__text_8txt.html#a066ed8bc2ce6e9a8c48b564d7c253748',1,'нем():&#160;output_text.txt']]],
+  ['немой_1602',['немой',['../input__text_8txt.html#af6afb8a4dee57ad68f3e29464334b988',1,'input_text.txt']]],
+  ['нему_1603',['нему',['../input__text_8txt.html#a19f5f7809d751ea3b956a6eb11bec0f5',1,'input_text.txt']]],
+  ['ненавидеть_1604',['ненавидеть',['../input__text_8txt.html#a9b7edb29181a58316824349bfe745762',1,'input_text.txt']]],
+  ['ненавидит_1605',['ненавидит',['../input__text_8txt.html#a6e89b5aec91102d728693b1f98b903e3',1,'ненавидит():&#160;input_text.txt'],['../output__text_8txt.html#a36f809bb943eba3f7b98d8a6ed52da26',1,'ненавидит():&#160;output_text.txt']]],
+  ['ненавидя_1606',['ненавидя',['../input__text_8txt.html#aeda9d7afaf17d50116f6310632e04659',1,'ненавидя():&#160;input_text.txt'],['../output__text_8txt.html#a2b0f0446a634f057839375f22fb6e036',1,'ненавидя():&#160;output_text.txt']]],
+  ['ненавижу_1607',['ненавижу',['../input__text_8txt.html#ada6f1d1d4f8a861ff019fb9a4a515039',1,'input_text.txt']]],
+  ['необозрима_1608',['необозрима',['../input__text_8txt.html#a9e1897807250af32c8b22efcce8a202b',1,'input_text.txt']]],
+  ['неподкупных_1609',['неподкупных',['../input__text_8txt.html#a947a629dfbef765fe84a8ab4cf6a9cf5',1,'неподкупных():&#160;input_text.txt'],['../output__text_8txt.html#a13e9797df2636dbdc0e29ae893bf2a69',1,'неподкупных():&#160;output_text.txt']]],
+  ['непорочны_1610',['непорочны',['../input__text_8txt.html#a7ac2661475f85729c61cf4cf963cc998',1,'input_text.txt']]],
+  ['неправ_1611',['неправ',['../input__text_8txt.html#adf2b06452d878b3d904d6c6b038ae4a8',1,'неправ():&#160;input_text.txt'],['../output__text_8txt.html#a203f23beb2c8af45f16a56f739a8a1dd',1,'неправ():&#160;output_text.txt']]],
+  ['непринужденно_1612',['непринужденно',['../input__text_8txt.html#a704648db12efd576ec2fd091787aa268',1,'input_text.txt']]],
+  ['несет_1613',['несет',['../input__text_8txt.html#a9dc5b5c556224951a2740a4ed1fd4c6f',1,'input_text.txt']]],
+  ['нескромный_1614',['нескромный',['../input__text_8txt.html#a34b284afa34b2d228446632c04629192',1,'нескромный():&#160;input_text.txt'],['../output__text_8txt.html#acb7d3ae0a5790c90a946bb6bef25bfe2',1,'нескромный():&#160;output_text.txt']]],
+  ['несмелой_1615',['несмелой',['../input__text_8txt.html#a8722dd78ddd61cc46b2a73b6be30bebd',1,'несмелой():&#160;input_text.txt'],['../output__text_8txt.html#af5f2981c2d43775037fc568956ffeca7',1,'несмелой():&#160;output_text.txt']]],
+  ['несносный_1616',['несносный',['../input__text_8txt.html#a758ee774510c78bed9ea156a574cbcb7',1,'input_text.txt']]],
+  ['несть_1617',['несть',['../output__text_8txt.html#a20b55e3545c3053d4e71f339ee3cd1ce',1,'output_text.txt']]],
+  ['несут_1618',['несут',['../input__text_8txt.html#a0daf0d7cc0c74f60a8b4e2b200bcead5',1,'несут():&#160;input_text.txt'],['../output__text_8txt.html#ad908ae534d0b3392a09e1cfa742656bb',1,'несут():&#160;output_text.txt']]],
+  ['несчастью_1619',['несчастью',['../input__text_8txt.html#aef1c2aea86c067343e991ce607d9f3fd',1,'input_text.txt']]],
+  ['нет_1620',['нет',['../input__text_8txt.html#a8131f37b641928e066ceabaaa0b12002',1,'нет():&#160;input_text.txt'],['../output__text_8txt.html#a8131f37b641928e066ceabaaa0b12002',1,'нет():&#160;output_text.txt'],['../input__text_8txt.html#a7534d04b7add2adfb3905343d05b57be',1,'нет(их пол таков):&#160;input_text.txt']]],
+  ['нетерпеливой_1621',['нетерпеливой',['../input__text_8txt.html#ade96ccd849569e0a88c5e4b0d2deeca0',1,'input_text.txt']]],
+  ['нетерпеньем_1622',['нетерпеньем',['../input__text_8txt.html#ad12c1b47f8d65820e56b3ac6b3db1bd0',1,'input_text.txt']]],
+  ['нетороплива_1623',['нетороплива',['../input__text_8txt.html#a8b24d199ab6da1716025fb7b7652ee0c',1,'нетороплива():&#160;input_text.txt'],['../output__text_8txt.html#a0e3b54eb68b98c67f00abffb8c41c918',1,'нетороплива():&#160;output_text.txt']]],
+  ['неугомонный_1624',['неугомонный',['../input__text_8txt.html#abd85f025ac77611c3d50c5baa766de30',1,'неугомонный():&#160;input_text.txt'],['../output__text_8txt.html#a339c62cb55fed28a127c9f720a44e9b0',1,'неугомонный():&#160;output_text.txt']]],
+  ['неуч_1625',['неуч',['../input__text_8txt.html#a8b24143a9e30bc4da8a85350c1b7163d',1,'input_text.txt']]],
+  ['нечто_1626',['нечто',['../input__text_8txt.html#aa48c318ce5a44db593138f88cabce97e',1,'input_text.txt']]],
+  ['нею_1627',['нею',['../input__text_8txt.html#a425e66ce00a6c28f8d34f135cd1a8361',1,'input_text.txt']]],
+  ['нибудь_1628',['нибудь',['../input__text_8txt.html#ad845be7c5b516576444874f38c46f92a',1,'нибудь():&#160;input_text.txt'],['../output__text_8txt.html#ad845be7c5b516576444874f38c46f92a',1,'нибудь():&#160;output_text.txt']]],
+  ['ниже_1629',['ниже',['../input__text_8txt.html#abb97427e0823dcc307e26c55cb846759',1,'input_text.txt']]],
+  ['никак_1630',['никак',['../input__text_8txt.html#a1af0f18c08ba414d84fe110fd0aef920',1,'никак():&#160;input_text.txt'],['../output__text_8txt.html#a34135533dc215dc25427ec459a6dfd0d',1,'никак():&#160;output_text.txt']]],
+  ['никем_1631',['никем',['../input__text_8txt.html#a0fe2f89f9404a65c858629f264a9cb0a',1,'никем():&#160;input_text.txt'],['../output__text_8txt.html#a4eabaddb8ea128b4f07bd29d2289b454',1,'никем():&#160;output_text.txt']]],
+  ['никогда_1632',['никогда',['../input__text_8txt.html#ade067cccced227c008c3f401b6a38833',1,'никогда():&#160;input_text.txt'],['../output__text_8txt.html#a414ba5e3e33183a1b46e5ffb8b1ec0eb',1,'никогда():&#160;output_text.txt']]],
+  ['никого_1633',['никого',['../input__text_8txt.html#a270cbacba8aa15dbad265900a9e70866',1,'input_text.txt']]],
+  ['ним_1634',['ним',['../input__text_8txt.html#af6db882af1478ef0492b98f9adbb64d5',1,'ним():&#160;input_text.txt'],['../output__text_8txt.html#af6db882af1478ef0492b98f9adbb64d5',1,'ним():&#160;output_text.txt'],['../input__text_8txt.html#a8f869c8d5683b283892590a60f978206',1,'ним(как начинает капать Весенний дождь на злак полей) Пастух:&#160;input_text.txt'],['../output__text_8txt.html#a1a942be270f0737b58e77170bc3de2c1',1,'ним(как начинает капать Под песенку старинных дней:Под ризой бурь, с волнами споря, Под сень черемух и акаций Под старость жизнь такая гадость&quot;
+Под шляпой с пасмурным челом,
+Поедем, сделай одолженье!
+Поедем. —
+Поедет ли домой: и дома
+Поет про волжских рыбарей;
+Поешь бог ведает кого,
+Позвольте мне, читатель мой,
+Позвольте познакомить вас:
+Позвольте: может быть, угодно
+Познал я глас иных желаний,
+Познал я новую печаль;
+Пойдемте вместе отдохнуть
+Пойдемте слушать шум дубравный
+Пойдем туда, где ручеек,
+&quot;Пойду ль вперед, пойду ль назад?.. Поймав нежданно за полу, Поймала, за ворот взяла Поймал и славу между тем;Покамест в утреннем уборе, Покамест моего романа Покамест упивайтесь ею, Пока Морфей не прилетит, Пока звезда еще катилась, Пока недремлющий брегет Поклонник Канта и поэт. Поклонник мирных аонид, Поклонник славы и свободы, Поклоны, шарканье гостей, Поклялся Ленского взбесить Покоится в сердечной неге, Покойника похоронили. Покойно жизнь его катилась;Покойный Ленский, наш сосед. Покойный сон. Онегин мой Покойся, юноша-поэт!&quot;
+Полезный промысел избрав,
+Полковник сам ее послал.
+Полмиром доле обладает,
+Полны любовной чепухи,
+Положены через поток:
+Полуживого забавлять,
+Полумучительной отрадой:
+Полусмешных, полупечальных,
+Полу-журавль и полу-кот.
+Полюбите вы снова: но
+Поля! я предан вам душой.
+Помещик новый прискакал
+Помилуй! и тебе не трудно
+Пониже подписи других,
+Попробовать не захотел,
+Попы и гости ели, пили
+&quot;Пора вставать:седьмой уж час. Пора гуляний вдохновенных Пора меж волка и собаки, Пора мне сделаться умней, Пора надежд и грусти нежной, Пора покинуть скучный брег Пора пришла, она влюбилась. Пора тепла, цветов, работ, Пора, давно пора домой. &quot;Пора, дитя мое, вставай:
+Пора, пора бы замуж ей!..
+Пора, пора! – взываю к ней;
+Пора; а что мне делать с ней?
+Порой белянки черноокой
+Порой одним поклоном встретит,
+Порой расчетливо повздорить,
+Порой расчетливо смолчать,
+Порой тяжелые услуги
+Порок любезен и в романе,
+Порою вовсе не заметит;
+Порою той, что названа
+Порывы девственной мечты
+Порядка враг и расточитель,
+Порядок новый учредить.
+Поскакали други,
+Последний бедный лепт, бывало,
+Последним счастьем упоенный,
+Послушайте ж меня без гнева:
+Послушная влеченью чувства,
+Поспешный ускоряет шаг;
+Поспорить нам, но я молчу:
+Поссорю вновь, и наконец
+Поставил belle Tatiana.
+Поставлен памятник простой.
+Постели стелют; для гостей
+Постой, тебя представлю я&quot;. — Поступком оскорбясь таким, Постылой жизни мишура, Поток, не скованный зимой;Потолковать об Ювенале, Потом за книги принялася. Потом к супругу обратила Потом на стул ее сажает, Потом понравились;потом Потом приносят и гитару;Потом разговорился вновь Потом свой кофе выпивал, Потом увидел ясно он, Потом уж наводили сон;Потом хозяйством занялась, Потом Monsieur ее сменил;Потом, в отплату лепетанья, Потом, покорствуя природе, Потреплет лавры старика! Потух огонь на алтаре!.. Поутру не был удивлен, Поутру побелевший двор, Походкой твердой, тихо, ровно Почетный гражданин кулис, Почтенный замок был построен, Почтил он прах патриархальный Почуя мертвого, храпят Пошел! Уже столпы заставы Пошла догадка за догадкой. Пошла – и что ж? медведь за ней! Пошла, но только повернула Пошли домой вкруг огорода;Пошли же внука своего&quot;. —
+Пошли приветы, поздравленья:
+Поэзии живой и ясной,
+Поэзии священный бред,
+Поэму песен в двадцать пять.
+Поэта память пронеслась,
+Поэта пылкий разговор,
+Поэт высказывал себя;
+Поэт в жару своих суждений
+Поэт же скромный, хоть великий,
+Поэт конца мазурки ждет
+Поэт погиб но уж его
+Поэт, бесчувствием блаженный,
+Поэт, задумчивый мечтатель,
+Пою приятеля младого
+По вашим узеньким следам,
+По вольному распутью моря
+По всем преданьям старины
+По гордой лире Альбиона
+По зале шепот пробежал
+По имени Владимир Ленской,
+По их пленительным следам
+По крайней мере звук речей
+По крайней мере мой совет:
+По крайней мере сожаленьем,
+По небу темному летела
+По петербургской мостовой,
+По сердцу я нашла бы друга,
+По старине торжествовали
+По тайной воле провиденья,
+По цветникам летя к ручью,
+По цельным окнам тени ходят,
+По чашкам темною струею
+По-прежнему сердечный трепет
+Превозмогли. Она два слова
+Предался полною душой.
+Предался, красных летних дней
+Преданья русского семейства,
+Предвижу всё: вас оскорбит
+Предметом став суждений шумных,
+Предмету песен и любви,
+Предмет достойный: ничего
+Предмет его привычных дум;
+Предмет и мыслей, и пера,
+Предмет стихов моих невинных,
+Представить бабушкам и дедам
+Представить ясные черты
+Представит некогда тебе
+Представь меня&quot;. – &quot;Ты шутишь&quot;. – &quot;Нету&quot;. Предтеча утренних трудов, Предупреждать зари восход, Предчувствий горестных полна, Предчувствия теснили грудь. Пред вами в муках замирать, Пред вами с смертью на челе, Пред героиней молодой, Пред зеркалами проводил Пред милой Ольгою своей, Пред ней по зале;и всех выше Пред нею незнакомый двор, Пред нею пестрый полк ливрей, Пред ними лес;недвижны сосны Пред ним пестрели и цвели Пред ним roast-beef окровавленный Пред поединком Ольгу видеть, Пред этой нежной простотой, Пред этой резвою душой!.. Пред этой ясностию взгляда, Прелестней чем-то для меня. Прелестным пальчиком писала Прелестны, милые друзья! Пренебрегал в смиренной доле, Прервав начатый разговор, Преследовать любовь и вдруг Приборы, стулья поскорей;Привез торжественно ответ. Привез учености плоды:Приветом друга, лаской дев;Привлечь насмешливые взгляды!.. Привыкла и довольна стала. Привыкнув, разлюблю тотчас;Привыкшей к горнице своей. Привычка свыше нам дана:Привычка усладила горе, &quot;Привычка, Ленский&quot;. – Но скучаешь Привычке милой не дал ходу;Привычки милой старины;Привычкой жизни избалован, Приготовляется шутя Приготовляясь, денег ради, Придет ли час моей свободы? Придет, придет и наше время, Придешь ли, дева красоты, Приди в чертог ко мне златой!.. Приди, приди:я твой супруг!..&quot;
+Приемы скоро приняла!
+Приехал Ольгин обожатель.
+Приехал и мосье Трике,
+Приехал ротный командир;
+Приехал толстый Пустяков;
+Приехать завтра до рассвета,
+Признаньем также без искусства;
+Признаться, рад писать и я,
+Признаться: вкусу очень мало
+Признаться: то-то б одолжил!
+Призрака суетный искатель,
+Призрак невозвратимых дней:
+Прикажут Ольге чай готовить,
+Приказчика доклады слушал
+Прилежно украшает ей:
+Прилежно юноше внимал.
+Примите исповедь мою:
+Прими ж мои благодаренья,
+Прими собранье пестрых глав,
+Примчались. Он слуге велит
+Примчался к ней, к своей Татьяне,
+Приникнул тихо к изголовью?
+Приносит на подносе чай.
+Принять мы рады за дела,
+Приподнялася грудь, ланиты
+Припомни, что сказал сатирик!
+Припрыжки, каблуки, усы
+Природа трепетна, бледна,
+Природу, чем Шатобриан,
+Пристроить девушку, ей-ей,
+Приходит муж. Он прерывает
+Приходит час определенный;
+Приходят звонкие кувшины;
+Причудницы большого света!
+Пришельцу надпись говорит:
+Пришла Евгению пора,
+Пришла худая череда!
+Пришла, рассыпалась; клоками
+Приюты счастливых свиданий;
+Приют задумчивых дриад.
+Приятней, если он, друзья,
+Приятной лестью забавлять,
+Приятно дерзкой эпиграммой
+Приятно зреть, как он, упрямо
+Приятный жребий повелел;
+При вдохновительной луне.
+При отуманенной луне,
+При свечке, Шиллера открыл;
+При сих словах он осушил
+Провел в бездействии, в тени
+Провинциальной и жеманной,
+Провинциальной простоты,
+Провозглашали что-нибудь,
+Прогулки средь вечерней тьмы,
+Прогулки тайные в санях;
+Прогулки, чтенье, сон глубокой,
+Произведут в груди моей;
+Произносить умела в нос;
+Проказам матушки зимы.
+Проказы женские кляня,
+Проказы, слабости случайной
+Проказы, шутки прежних лет.
+Промчалось много, много дней
+Пропало всё, что звук пустой,
+Пророем дерзостные своды,
+Прослыть притворным чудаком,
+Проснется зá полдень, и снова
+Проснулся он; ему приносят
+Проснулся утра шум приятный.
+Простая, русская семья,
+Простим горячке юных лет
+Простите мне: я так люблю
+Простите, игры золотые!
+&quot;Простите, мирные долины, &quot;Простите, мирные места!
+Прости ж и ты, мой спутник странный,
+Прости ж и ты, моя свобода!
+Прости&quot;. И вот она одна. Прости, веселая природа;Прости, небесная краса, Прости, приют уединенный! Прости. Чего бы ты за мной Простонародной старины, Простонародных, идеальных, Простую надпись – и слеза Противиться не в силах боле;Противоречий очень много, Протяжный раздается вой, Прохлада сумрачной дубровы, Проходит время;между тем Проходит долгое молчанье, Проходит и последний срок. Проходит с юностью живой. Проходит час-другой, и вот Прочел из наших кой-кого, Прочел он Гиббона, Руссо, Прочел скептического Беля, Прочел творенья Фонтенеля, Прочтя печальное посланье, Прошла любовь, явилась муза, Прошли бы юношества лета:Прошу мою заметить речь:Прощай, свидетель падшей славы, Прощаться с барами. И вот Прощаясь с девой молодой, Про Ольгу:такова любовь! Про барышень своих гадали Про ваши старые года:Про вести города, про моды Про дождь, про лён, про скотный двор&quot;
+Про злых духов и про девиц;
+Пружина чести, наш кумир!
+Прыгнула Оленька с крыльца,
+Прядет, и, зимних друг ночей,
+Прямые ножницы, кривые,
+Прямым Онегин Чильд Гарольдом
+Пугать людей для них отрада.
+Пугать отчаяньем готовым,
+Пугаю стадо диких уток:
+Пугая робкую любовь,
+Пускается в обратный путь.
+Пускай покамест он живет
+Пускай сожжет вас божий гром!
+Пускаюсь ныне в новый путь
+Пустая цель ее жалка;
+(Пустые бредни, небылицы,
+Пустые, черные мечты;
+Пустынный замок навещать,
+Пустынным снегом занесен,
+Пусть пишет далее меня&quot;. Пчела за данью полевой Пылать – и разумом всечасно Пьет обольстительный обман! Разбежимтесь, милые, Разбить сосуд клеветника;Развеселить воображенье Развитым локоном играть Разводит уток и гусей Развозят Таню каждый день Разврат, бывало, хладнокровный Разгуляйтесь, милые! Раздался дико;очи всех, Раздался хижина шатнулась Раздвинем горы, под водой Разлитый Ольгиной рукою, Различно повторять одно, Разлуку, слезы примиренья, Разочарованный другим, Разочарованный лорнет, Разуверять, заставить верить, Разумный муж уехал вскоре Разумный толк без пошлых тем, Разыграйтесь, девицы, Раз в настоящем упоенье Раскаяться во мне нет силы, Раскланялся, потом на сцену Расправил волоса рукой, Рассвет печальный жизни бурной!.. Рассказам юных усачей, Расспросов, сплетен и вестей Расстался б с музами, женился, Расстаться нынче как приятель. Рассудок мой изнемогает, Растет, волнуется, кипит Рвалась и плакала сначала, Ребенок был резов, но мил. Ребят дворовая семья Ревнивой не тревожась мукой, Ревнивый шепот модных жен. Ревнивым оживим огнем;Редеет сумрак;но она Резва, беспечна, весела, Ремянный повод натянув, Решась кокетку ненавидеть, Рисуя в пламенных стихах Рога и пальцы костяные, Родился на брегах Невы, Родне, прибывшей издалеча, Родной земли спасая честь, Родные люди вот какие:Родню и друга своего. Рождала глупостей не мало, Рожок и песня удалая Роман во вкусе Лафонтена Роняет молча пистолет. Роптанье вечное души, Роскошное прикосновенье. Роскошной, царственной Невы. Российским лечат молотком Рукою стиснув пистолет, Румянец ярче. Ленский мой Румян, как вербный херувим, Руссо(замечу мимоходом) Ручья соседственной долины. Ряд утомительных картин, Садился он за клавикорды Садись – как это мудрено! Садится Таня у окна. Садится;кончилась игра:Садов, чертогов полукруг Сажают прямо против Тани, Сама не зная почему) Самодержавно управлять:&#160;output_text.txt']]],
+  ['них_1635',['них',['../input__text_8txt.html#aa14e33daa253fd1fad25a94928c324f7',1,'input_text.txt']]],
+  ['ничего_1636',['ничего',['../input__text_8txt.html#a46581f34b10ddc48e4d7345a5bc62c7a',1,'ничего():&#160;input_text.txt'],['../output__text_8txt.html#a46581f34b10ddc48e4d7345a5bc62c7a',1,'ничего():&#160;output_text.txt']]],
+  ['ничем_1637',['ничем',['../input__text_8txt.html#aafb87ac25fa59279db6662715a9ce821',1,'ничем():&#160;input_text.txt'],['../output__text_8txt.html#a307b68b94ffdacf7789b2ebbf6856261',1,'ничем():&#160;output_text.txt']]],
+  ['ничтожно_1638',['ничтожно',['../input__text_8txt.html#a990e1b762d15c971930f20707cddeab8',1,'ничтожно():&#160;input_text.txt'],['../output__text_8txt.html#afa2c4f459bc913e3fd2ab3fa7e50ef1e',1,'ничтожно():&#160;output_text.txt']]],
+  ['ново_1639',['ново',['../input__text_8txt.html#a66761942ebf9b75ab8329ce3e6ba67b1',1,'ново():&#160;input_text.txt'],['../output__text_8txt.html#a66761942ebf9b75ab8329ce3e6ba67b1',1,'ново():&#160;output_text.txt']]],
+  ['новой_1640',['новой',['../input__text_8txt.html#a16fe3cb3814dd85143a24f2bf4ea28e1',1,'новой():&#160;input_text.txt'],['../output__text_8txt.html#a63c86e54f9578b3b880833d3c83d7167',1,'новой():&#160;output_text.txt']]],
+  ['новоселье_1641',['новоселье',['../input__text_8txt.html#af5f81a10a62bb7608a043964a5a5a314',1,'новоселье():&#160;input_text.txt'],['../output__text_8txt.html#a201ade7bc4a595c11c7c20babbd31e36',1,'новоселье():&#160;output_text.txt']]],
+  ['новость_1642',['новость',['../input__text_8txt.html#a0c7766ac0c09a0534cd5342aa0e83fdd',1,'новость():&#160;input_text.txt'],['../output__text_8txt.html#a9f3a4df583a92e0d9916af4338e6c443',1,'новость():&#160;output_text.txt']]],
+  ['новым_1643',['новым',['../input__text_8txt.html#a58f131de98188064197eac64b06e4bae',1,'input_text.txt']]],
+  ['ногам_1644',['ногам',['../input__text_8txt.html#a25bca16383f77d6dfcc321c2aa646ef7',1,'input_text.txt']]],
+  ['ногтей_1645',['ногтей',['../input__text_8txt.html#a660b41338e16570f24fd3791f0193aa7',1,'ногтей():&#160;input_text.txt'],['../output__text_8txt.html#a36cfcae0e439dd5595f9516889e5277d',1,'ногтей():&#160;output_text.txt']]],
+  ['нож_1646',['нож',['../input__text_8txt.html#a3b5129fd608e24dd4aba304119f2d3fc',1,'input_text.txt']]],
+  ['ножек_1647',['ножек',['../input__text_8txt.html#a81dd00bf6782f1b7b0f7c44f83882742',1,'ножек():&#160;input_text.txt'],['../output__text_8txt.html#ac35182cb9c8820099d1ef19f8b729b9f',1,'ножек():&#160;output_text.txt']]],
+  ['ножки_1648',['ножки',['../input__text_8txt.html#aa9629d4f6c79a956fdb759cec5782d3c',1,'ножки():&#160;input_text.txt'],['../output__text_8txt.html#aa9629d4f6c79a956fdb759cec5782d3c',1,'ножки():&#160;output_text.txt']]],
+  ['ножницы_1649',['ножницы',['../input__text_8txt.html#a0e1ba8b1b6cd7ccdc4760421588f9a7f',1,'input_text.txt']]],
+  ['нос_1650',['нос',['../input__text_8txt.html#a6f9c6f6ece4ef7e29f4b2c644b830298',1,'input_text.txt']]],
+  ['ночей_1651',['ночей',['../input__text_8txt.html#aba9a8c5959656db7f1847b9c41a371a4',1,'input_text.txt']]],
+  ['ночи_1652',['ночи',['../input__text_8txt.html#aca54d26c0ac160b5c5b59eafb4053060',1,'ночи():&#160;input_text.txt'],['../output__text_8txt.html#aca54d26c0ac160b5c5b59eafb4053060',1,'ночи():&#160;output_text.txt']]],
+  ['ночлеге_1653',['ночлеге',['../input__text_8txt.html#a7e91c10495c5282a9e489892bd4a4781',1,'input_text.txt']]],
+  ['ночных_1654',['ночных',['../input__text_8txt.html#ad0a9aba0160090fc66b769bde9427215',1,'ночных():&#160;input_text.txt'],['../output__text_8txt.html#ad0a9aba0160090fc66b769bde9427215',1,'ночных():&#160;output_text.txt']]],
+  ['ночь_1655',['ночь',['../input__text_8txt.html#aaca3ef612fabb976c02e731825302c65',1,'input_text.txt']]],
+  ['нравы_1656',['нравы',['../input__text_8txt.html#a074c3d2732b951b46f130444a729057e',1,'input_text.txt']]],
+  ['нужды_1657',['нужды',['../input__text_8txt.html#a14acb00f0382c9145b9b60991ca4af98',1,'нужды():&#160;input_text.txt'],['../output__text_8txt.html#a3e122b8f0a17874f35dfc2e5cd5bd351',1,'нужды():&#160;output_text.txt']]],
+  ['нулями_1658',['нулями',['../input__text_8txt.html#aedb50a253714bb302ee04e7614e9565c',1,'input_text.txt']]],
+  ['ныла_1659',['ныла',['../input__text_8txt.html#a422cdea8f019f5e82eb81797921fc891',1,'input_text.txt']]],
+  ['ныне_1660',['ныне',['../input__text_8txt.html#af85878038b2521c4b5ca7d5168d886e6',1,'input_text.txt']]],
+  ['няне_1661',['няне',['../input__text_8txt.html#abc09dfa322593f30cb3b09256f6dc1e3',1,'input_text.txt']]],
+  ['няня_1662',['няня',['../input__text_8txt.html#abcbf74ffdd423e5058034ebc58df838c',1,'няня():&#160;input_text.txt'],['../output__text_8txt.html#abcbf74ffdd423e5058034ebc58df838c',1,'няня():&#160;output_text.txt']]]
 ];

@@ -1,0 +1,6 @@
+<map id="cmp_strings_back" name="cmp_strings_back">
+<area shape="rect" id="node1" title="This function is like cmp_strings, but compares strings from their end (soon it&#39;ll be overwritten and..." alt="" coords="483,5,621,32"/>
+<area shape="rect" id="node2" href="$string-operations_8h.html#ac4e30612d516254609e1b4795edb278a" title="This function is like bubblesort_strings, but it uses cmp_strings_back (soon it&#39;ll be overwritten and..." alt="" coords="255,5,435,32"/>
+<area shape="rect" id="node3" href="$string-operations_8h.html#a9094dbf48480c9276f28b2610a878be9" title="Choses string sorting algorithm and sorting mode (reverse or not)" alt="" coords="108,5,207,32"/>
+<area shape="rect" id="node4" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
+</map>

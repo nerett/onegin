@@ -1,0 +1,10 @@
+<map id="sort_strings" name="sort_strings">
+<area shape="rect" id="node1" title="Choses string sorting algorithm and sorting mode (reverse or not)" alt="" coords="5,56,104,83"/>
+<area shape="rect" id="node2" href="$string-operations_8cpp.html#a710e01f393790248c648cc1412ddfd04" title="Sorts the strings given with bubblesort algorithm." alt="" coords="171,31,313,57"/>
+<area shape="rect" id="node7" href="$string-operations_8cpp.html#ac4e30612d516254609e1b4795edb278a" title="This function is like bubblesort_strings, but it uses cmp_strings_back (soon it&#39;ll be overwritten and..." alt="" coords="152,81,332,108"/>
+<area shape="rect" id="node3" href="$string-operations_8cpp.html#a0468d00bf92cbe722ade85e2e04932ad" title="Swaps pointers to two input strings." alt="" coords="389,56,509,83"/>
+<area shape="rect" id="node4" href="$string-operations_8cpp.html#acf1b1dfb7353d817e76e385bbb6d077e" title="Returns &#45;1 if the second string is greater than first, 0 if they&#39;re equal and 1 if first string is gr..." alt="" coords="399,5,500,32"/>
+<area shape="rect" id="node5" href="$string-operations_8cpp.html#a4a3b78688fac8c65663b40663a929d20" title="Returns the number of the first letter in the string." alt="" coords="567,5,687,32"/>
+<area shape="rect" id="node6" href="$string-operations_8cpp.html#a3eae1eea92589f4bfa7f89263595a154" title="Returns true if this symbol is letter, false if it isn&#39;t." alt="" coords="735,5,809,32"/>
+<area shape="rect" id="node8" href="$string-operations_8cpp.html#ac44ad5dac4cb3b034eee4d19288e87b5" title="This function is like cmp_strings, but compares strings from their end (soon it&#39;ll be overwritten and..." alt="" coords="380,107,519,133"/>
+</map>

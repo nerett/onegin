@@ -1,20 +1,12 @@
 var searchData=
 [
-  ['Заводов_2982',['Заводов',['../input__text_8txt.html#a6dcc2577954f99142539019ceaab1899',1,'Заводов():&#160;input_text.txt'],['../output__text_8txt.html#a33b7a7cca90b9936ad5599161eeee07a',1,'Заводов():&#160;output_text.txt']]],
-  ['Задека_2983',['Задека',['../input__text_8txt.html#a78f0b4e1384e368924f1e2a1746d8dab',1,'input_text.txt']]],
-  ['Задумавшись_2984',['Задумавшись',['../input__text_8txt.html#a9f6a4207c1d2ca35835da12d2bb4a854',1,'Задумавшись():&#160;input_text.txt'],['../output__text_8txt.html#a1240144b63830b52687bbda421e98dc4',1,'Задумавшись():&#160;output_text.txt']]],
-  ['Задумчивость_2985',['Задумчивость',['../input__text_8txt.html#a6b304383885cc5c5df138a9061858f53',1,'Задумчивость():&#160;input_text.txt'],['../output__text_8txt.html#a6c1d9d886d0453c31654f7131f7103ed',1,'Задумчивость():&#160;output_text.txt']]],
-  ['Заметив_2986',['Заметив',['../input__text_8txt.html#a5d6ff74467685960a171a17b52fa49e4',1,'Заметив():&#160;input_text.txt'],['../output__text_8txt.html#a632b98e67068e066af8c709a3a5587e5',1,'Заметив():&#160;output_text.txt']]],
-  ['Запел_2987',['Запел',['../input__text_8txt.html#a6a199925424ebd19c55793dfdde1c482',1,'Запел():&#160;input_text.txt'],['../output__text_8txt.html#adfe4be1c1a6cf22408b35b96af8f7f3b',1,'Запел():&#160;output_text.txt']]],
-  ['Зарецкий_2988',['Зарецкий',['../input__text_8txt.html#ac1f56a40720b24386e0122df4faf7fa9',1,'Зарецкий():&#160;input_text.txt'],['../output__text_8txt.html#ac1f56a40720b24386e0122df4faf7fa9',1,'Зарецкий():&#160;output_text.txt']]],
-  ['Засеребрился_2989',['Засеребрился',['../input__text_8txt.html#abd7d13394798184e3f87684bd28e5577',1,'Засеребрился():&#160;input_text.txt'],['../output__text_8txt.html#ae5e55edd72e567fef7c305a28564c2ab',1,'Засеребрился():&#160;output_text.txt']]],
-  ['Затем_2990',['Затем',['../input__text_8txt.html#a21df3cf8154c101018418d170e21f383',1,'Затем():&#160;input_text.txt'],['../output__text_8txt.html#a21df3cf8154c101018418d170e21f383',1,'Затем():&#160;output_text.txt']]],
-  ['Затянут_2991',['Затянут',['../input__text_8txt.html#a952616def6a0cdf63895dcca3e042de7',1,'Затянут():&#160;input_text.txt'],['../output__text_8txt.html#a440f920580065fbc6349233d2489f336',1,'Затянут():&#160;output_text.txt']]],
-  ['Здорова_2992',['Здорова',['../output__text_8txt.html#a3eebb463723d5201c2aab8feed55d3a5',1,'output_text.txt']]],
-  ['Здоровье_2993',['Здоровье',['../input__text_8txt.html#a3a7633bc4646b9d0d782853b484b80ef',1,'Здоровье():&#160;input_text.txt'],['../output__text_8txt.html#a1357002d874ebb662cceac0f172e075b',1,'Здоровье():&#160;output_text.txt']]],
-  ['Зевая_2994',['Зевая',['../input__text_8txt.html#a99dabd37ce9acaa664da9cd6b423a31c',1,'Зевая():&#160;input_text.txt'],['../output__text_8txt.html#a4bd25c677ee2d747efe016fb3aca02ad',1,'Зевая():&#160;output_text.txt']]],
-  ['Зизи_2995',['Зизи',['../input__text_8txt.html#a330de050ce9f567a8d6080202c3f5379',1,'input_text.txt']]],
-  ['Зимой_2996',['Зимой',['../input__text_8txt.html#aaf27bada4077f0b1037c6eb60c8b47c8',1,'Зимой():&#160;input_text.txt'],['../output__text_8txt.html#a1fa43f7826420eb3af5c2b14b368d36d',1,'Зимой():&#160;output_text.txt']]],
-  ['Зовут_2997',['Зовут',['../input__text_8txt.html#a364aa47004914085277a712a8467541d',1,'input_text.txt']]],
-  ['Зубчатый_2998',['Зубчатый',['../input__text_8txt.html#aced4e734735a127c088aa9c928faafcd',1,'input_text.txt']]]
+  ['И_3040',['И',['../input__text_8txt.html#ac9c941bde9fed583cc1706a2faefd860',1,'input_text.txt']]],
+  ['Идет_3041',['Идет',['../input__text_8txt.html#abc310181c321e664896d590af04b2fe7',1,'input_text.txt']]],
+  ['Идти_3042',['Идти',['../input__text_8txt.html#ad5f17f903043cd8bb49eeed21a1eb3ca',1,'input_text.txt']]],
+  ['Изволь_3043',['Изволь',['../input__text_8txt.html#a74128e69f595625b4df893220e6e03f9',1,'input_text.txt']]],
+  ['Или_3044',['Или',['../input__text_8txt.html#a6f618c465cc0a955f8329a3a98b5d537',1,'input_text.txt']]],
+  ['Иная_3045',['Иная',['../input__text_8txt.html#abda866e23450255e34f899a5e3aa98ac',1,'input_text.txt']]],
+  ['Ипокреной_3046',['Ипокреной',['../input__text_8txt.html#a9f140eb45eabfa023947378175e15531',1,'Ипокреной():&#160;input_text.txt'],['../output__text_8txt.html#a2e327785769f883a9193a01882c14a78',1,'Ипокреной():&#160;output_text.txt']]],
+  ['Истомина_3047',['Истомина',['../input__text_8txt.html#a54b30dc415590c45ce0d22db563538b2',1,'input_text.txt']]],
+  ['Итак_3048',['Итак',['../input__text_8txt.html#a792b08d52e3858bb1d785c8cf8868b08',1,'input_text.txt']]]
 ];

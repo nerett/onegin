@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['Чадаев_3273',['Чадаев',['../output__text_8txt.html#aa1867c9a22aed05c2bc3140d15838fec',1,'output_text.txt']]],
-  ['Чацкий_3274',['Чацкий',['../input__text_8txt.html#a4aaaad6f4ded607f264bee8351952209',1,'input_text.txt']]],
-  ['Чистосердечней_3275',['Чистосердечней',['../input__text_8txt.html#a14d80f197adf524ede981c43d884bbf0',1,'input_text.txt']]],
-  ['Читай_3276',['Читай',['../input__text_8txt.html#a532bf691804a254c6c1702755ad02e2b',1,'input_text.txt']]],
-  ['Читал_3277',['Читал',['../input__text_8txt.html#a022102d40147b17f3ed8c199c494c8c5',1,'input_text.txt']]],
-  ['Читатель_3278',['Читатель',['../input__text_8txt.html#a5405fc4deaf9e356aec47fb39bae2431',1,'input_text.txt']]],
-  ['Что_3279',['Что',['../input__text_8txt.html#ab1291e4ef64bd1b435580141c7bcfc22',1,'input_text.txt']]],
-  ['Чувствительны_3280',['Чувствительны',['../input__text_8txt.html#ad758e7eb8135e3697b4b5d1d334d1bb8',1,'input_text.txt']]]
+  ['Шамфора_3327',['Шамфора',['../input__text_8txt.html#a3a0d6d4dcf1ebc9143796dc4127b093f',1,'input_text.txt']]],
+  ['Шатобриан_3328',['Шатобриан',['../input__text_8txt.html#a61626655302aa1322a83b7f2b6d64417',1,'input_text.txt']]],
+  ['Шептал_3329',['Шептал',['../input__text_8txt.html#a1e32a160006c1283356a137f73418d56',1,'input_text.txt']]],
+  ['Шипит_3330',['Шипит',['../input__text_8txt.html#a1cb51014baa3446c36c29c82c0e2bbef',1,'input_text.txt']]],
+  ['Шла_3331',['Шла',['../input__text_8txt.html#a3d67f236243f7b4d9265f26af7327130',1,'input_text.txt']]],
+  ['Шум_3332',['Шум',['../input__text_8txt.html#a4e3ff1a724dedb9244136ae5eacbc23f',1,'input_text.txt']]],
+  ['Шумит_3333',['Шумит',['../input__text_8txt.html#a76f52a34e542e39e84c1cbe9dcc0f0b4',1,'input_text.txt']]],
+  ['Шутить_3334',['Шутить',['../input__text_8txt.html#aa7d736abc93bed97b9bc0af042474166',1,'input_text.txt']]]
 ];

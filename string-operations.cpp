@@ -8,9 +8,6 @@
 int input_text( struct text* some_text ) // text *some_text
 {
     FILE* input_file = fopen( "input_text.txt", "r" );
-
-    //printf("11!\n");
-
     // проверка fopen
 
     fseek( input_file, 0L, SEEK_END ); //определение размера файла
@@ -19,21 +16,13 @@ int input_text( struct text* some_text ) // text *some_text
     //проверка ftell
     fseek( input_file, 0L, SEEK_SET );
     //проверка fseek
-
-    //printf("12!\n");
                                                                                         //!TODO read func
     some_text->text_line = ( char* ) calloc( some_text->N_symbols, sizeof( char ) ); //выделение памяти и чтение из файла
     fread( some_text->text_line, sizeof( char ), some_text->N_symbols, input_file ); //fread!
 
-    //printf("13!\n");
-
     printf("count_strings: %d\n", count_strings( some_text ));
 
-    //printf("14!\n");
-
     some_text->index_string = ( char** ) calloc( some_text->N_strings, sizeof( char* ) ); //выделение памяти под массив указателей на начало строк и его заполнение
-
-    //printf("15!\n");
 
     assert( some_text->index_string != NULL );
 
@@ -48,8 +37,6 @@ for( int k = 0; k < some_text->N_symbols; k++ )
 }
 
     find_string_beginning( some_text );
-
-    //printf("16!\n");
 
 /*
     void* error_indicator = NULL;
@@ -115,7 +102,6 @@ printf( "second====%d\n", second_startfrom );
     {
         if( first_string[first_startfrom + i] < second_string[second_startfrom + i] )
         {
-//printf( "=============%c\n", first_string[first_startfrom + i] );
             return -1;
         }
         else if( first_string[first_startfrom + i] > second_string[second_startfrom + i] )
@@ -310,8 +296,6 @@ int free_memory( struct text* some_text )
     free( some_text->index_string );
     free( some_text->text_line );
 
-//    fclose( output_file );
-
     return 0;
 }
 
@@ -412,14 +396,10 @@ int find_string_beginning( struct text* some_text )
     assert( some_text->N_strings > 0 );
     assert( some_text->N_symbols > 0 );
 
-    //isfinite убрать
-
     // желательно заменить \n на \0 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
     //some_text->index_string[0] = &(some_text->text_line[0]);
     char last_read = '\n';
-
-//printf("151!\n");
 
     int j = 0;
 
@@ -435,8 +415,6 @@ int find_string_beginning( struct text* some_text )
             some_text->index_string[j] = some_text->text_line + i;
             j++;
         }
-
-        //printf("%c\n", some_text->text_line[i]);
         last_read = some_text->text_line[i];
     }
 
@@ -489,7 +467,6 @@ int cmp_strings_back( char* first_string, char* second_string )
     assert( second_string != NULL );
 
     int i1 = strlen( first_string );
-    //printf( "i1======%d\n", i1 );
     int i2 = strlen( second_string );
     while( first_string[i1] != '\n' || second_string[i2] != '\n' || first_string[i1] != '\0' || second_string[i2] != '\0' ) //собственно сравниваем
     {
@@ -549,8 +526,6 @@ int text_file_file_plain_output( struct text* some_text, bool enable_loseless_ad
             continue;
         }
         fputc( some_text->text_line[i], output_file );
-
-        //fputs( "\n", output_file);
     }
 
     fclose( output_file );

@@ -2,7 +2,7 @@
  *
  * This project was created during MIPT Ded's course.
  * It reads some text from the input_text.txt, sorts it on lexicographic principles and
- * puts the result into text_output.txt.
+ * puts the result into output_text.txt.
  * In theory, this program can work with arbitrary-sized text and strings. Cyrillic symbols
  * are also supported.
  * The code structure is pseudo object oriented and divided into many functions.
@@ -17,11 +17,11 @@
 int main()
 {
     struct text onegin;
-    //printf("1!\n");
     input_text( &onegin );
 
-    //printf("2!\n");
-    sort_strings( &onegin );
+    bubblesort_strings_back( &onegin );
+
+    //sort_strings( &onegin );
     //qsort_strings( &onegin, 0, onegin.N_strings );
 
     //text_console_output( &onegin );

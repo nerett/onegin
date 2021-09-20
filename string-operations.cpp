@@ -431,9 +431,49 @@ int find_string_beginning( struct text* some_text )
 
 
 /// DEBUG
+/*
     for (j = 0; j < some_text->N_strings; j++)
     {
         printf("%d\n", some_text->index_string[j]);
+    }
+*/
+
+    return 0;
+}
+
+
+
+int bubblesort_strings_back( struct text* some_text )
+{
+    assert( some_text != NULL );
+    assert( some_text->text_line != NULL );
+    assert( some_text->index_string != NULL );
+    assert( some_text->N_strings > 0 );
+    assert( some_text->N_symbols > 0 );
+
+
+/*
+    int increment = 1;
+    int startfrom = 0;
+
+    if( back_sort )
+    {
+        increment = -1;
+    }
+*/
+    int sort_step = 1; //изначально единица отнималась от длины сама, это просто оптимизация, так надо
+    for( int sort_iterations = 0; sort_iterations <= some_text->N_strings; sort_iterations++ ) //повторить некое число раз
+    {
+        for( int i = 0; i < some_text->N_strings - sort_step; i++ ) //пробежаться по массиву и сравнить строки
+        {
+            if( cmp_strings_back( some_text, i, i + 1 )  > 0 )
+            {
+                change_strings( some_text, i, i + 1 );
+            }
+        }
+
+        printf( "sort_iterations = %d/%d\n", sort_iterations, some_text->N_strings );
+        sort_step++;
     }
 
     return 0;
@@ -441,5 +481,42 @@ int find_string_beginning( struct text* some_text )
 
 
 
+int cmp_strings_back( struct text* some_text, int str1_number, int str2_number )
+{
+    char* first_string = some_text->index_string[str1_number + 1];
+    char* second_string = some_text->index_string[str2_number + 1];
 
+    assert( some_text != NULL );
 
+    int first_startfrom = 0, second_startfrom = 0;
+
+    //first_startfrom = find_first_letter( first_string );
+    //second_startfrom = find_first_letter( second_string );
+
+    first_startfrom = strlen( first_string );
+    second_startfrom = strlen( second_string );
+
+    int i1 = strlen( first_string );
+    int i2 = strlen( second_string );
+    while( first_string[i1] != '\n' || second_string[i2] != '\n' || first_string[i1] != '\0' || second_string[i2] != '\0' ) //собственно сравниваем
+    {
+/*
+        if( i1 == some_text->N_strings || i2 == some_text->N_strings )
+        {
+            break;
+        }
+*/
+        if( first_string[first_startfrom - i1] < second_string[second_startfrom - i2] )
+        {
+            return -1;
+        }
+        else if( first_string[first_startfrom - i1] > second_string[second_startfrom - i2] )
+        {
+            return 1;
+        }
+        i1++;
+        i2++;
+    }
+
+    return 0;
+}

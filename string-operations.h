@@ -37,5 +37,8 @@ bool is_letter( char symbol ); ///< Returns true if this symbol is letter, false
 int count_strings( struct text* some_text );
 int find_string_beginning( struct text* some_text );
 
+int bubblesort_strings_back( struct text* some_text );
+int cmp_strings_back( struct text* some_text, int str1_number, int str2_number );
+
 
 #endif // STRING-OPERATIONS_H_INCLUDED

@@ -10,7 +10,7 @@ int input_text( struct text* some_text ) // text *some_text
 {
     FILE* input_file = fopen( "input_text.txt", "r" );
 
-    printf("11!\n");
+    //printf("11!\n");
 
     // проверка fopen
 
@@ -21,20 +21,20 @@ int input_text( struct text* some_text ) // text *some_text
     fseek( input_file, 0L, SEEK_SET );
     //проверка fseek
 
-    printf("12!\n");
+    //printf("12!\n");
 
     some_text->text_line = ( char* ) calloc( some_text->N_symbols, sizeof( char ) ); //выделение памяти и чтение из файла
     fread( some_text->text_line, sizeof( char ), some_text->N_symbols, input_file ); //fread!
 
-    printf("13!\n");
+    //printf("13!\n");
 
     printf("count_strings: %d\n", count_strings( some_text ));
 
-    printf("14!\n");
+    //printf("14!\n");
 
     some_text->index_string = ( char** ) calloc( some_text->N_strings, sizeof( char* ) ); //выделение памяти под массив указателей на начало строк и его заполнение
 
-    printf("15!\n");
+    //printf("15!\n");
 
     assert( some_text->index_string != NULL );
 
@@ -84,7 +84,7 @@ int cmp_strings( char* first_string, char* second_string )
 {
 assert(first_string != nullptr);
 assert(second_string != nullptr);
-#ifdef AAAAA
+/*
     int result = strcmp( first_string, second_string );
 
     if( result > 0 )
@@ -95,8 +95,7 @@ assert(second_string != nullptr);
     {
         return -1;
     }
-#endif
-#ifndef AAAAA
+*/
     //int length_1 = strlen( first_string );
     //int length_2 = strlen( second_string );
     //int cmp_iterations = 0;
@@ -105,12 +104,19 @@ assert(second_string != nullptr);
 
     first_startfrom = find_first_letter( first_string );
     second_startfrom = find_first_letter( second_string );
+/*
+if( first_startfrom != 0 )
+printf( "first====%d\n", first_startfrom );
 
+if( second_startfrom != 0 )
+printf( "second====%d\n", second_startfrom );
+*/
     i = 0;
     while( first_string[i] != '\n' || second_string[i] != '\n' ) //собственно сравниваем
     {
         if( first_string[first_startfrom + i] < second_string[second_startfrom + i] )
         {
+///printf( "=============%c\n", first_string[first_startfrom + i] );
             return -1;
         }
         else if( first_string[first_startfrom + i] > second_string[second_startfrom + i] )
@@ -119,8 +125,6 @@ assert(second_string != nullptr);
         }
         i++;
     }
-
-#endif
     return 0;
 }
 
@@ -270,8 +274,7 @@ int text_file_output( struct text* some_text )
         fputs( "\n", output_file );
     }
 
-    fclose( output_file );
-
+    fclose( output_file ); ///TODO убрать
     return 0;
 }
 
@@ -285,6 +288,8 @@ int free_memory( struct text* some_text )
 
     free( some_text->index_string );
     free( some_text->text_line );
+
+//    fclose( output_file );
 
     return 0;
 }
@@ -309,17 +314,19 @@ int bubblesort_strings( struct text* some_text )
         increment = -1;
     }
 */
-
-    for( int sort_iterations = 0; sort_iterations < some_text->N_strings; sort_iterations++ )
+    int sort_step = 1; //изначально единица отнималась от длины сама, это просто оптимизация, так надо
+    for( int sort_iterations = 0; sort_iterations <= some_text->N_strings; sort_iterations++ ) //повторить некое число раз
     {
-        for( int i = 0; i < some_text->N_strings - 1; i++ )
+        for( int i = 0; i < some_text->N_strings - sort_step; i++ ) //пробежаться по массиву и сравнить строки
         {
             if( cmp_strings( some_text->index_string[i], some_text->index_string[i+1] ) > 0 )
             {
                 change_strings( some_text, i, i + 1 );
             }
         }
-printf( "sort_iterations=%d\n", sort_iterations );
+
+        printf( "sort_iterations = %d/%d\n", sort_iterations, some_text->N_strings );
+        sort_step++;
     }
 
     return 0;
@@ -350,16 +357,16 @@ int find_first_letter( char* some_string )
 
 bool is_letter( char symbol )
 {
-    assert( isfinite( symbol ) );
+    //assert( isfinite( symbol ) );
 
 
     if( symbol == '"' || symbol == '(' || symbol == ')' || symbol == ' ' || symbol == '.' || symbol == ',' || symbol == '-' )
     {
-        return 0;
+        return false;
     }
     else
     {
-        return 1;
+        return true;
     }
 }
 
@@ -400,7 +407,7 @@ int find_string_beginning( struct text* some_text )
     //some_text->index_string[0] = &(some_text->text_line[0]);
     char last_read = '\n';
 
-    printf("151!\n");
+//printf("151!\n");
 
     int j = 0;
 
@@ -421,6 +428,8 @@ int find_string_beginning( struct text* some_text )
         last_read = some_text->text_line[i];
     }
 
+
+/// DEBUG
     for (j = 0; j < some_text->N_strings; j++)
     {
         printf("%d\n", some_text->index_string[j]);

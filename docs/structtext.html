@@ -96,22 +96,26 @@ $(document).ready(function(){initNavTree('structtext.html',''); initResizable();
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a2fef7f06e89e8f9bc9087b863c05b701"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtext.html#a2fef7f06e89e8f9bc9087b863c05b701">index_string</a> [<a class="el" href="string-operations_8h.html#a1a86577255c11aff9d1ca4b31922a5e6">MAX_NUMBER_STRINGS</a>] = {}</td></tr>
-<tr class="separator:a2fef7f06e89e8f9bc9087b863c05b701"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67c3657326b768ad3a8f653532bf9e49"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtext.html#a67c3657326b768ad3a8f653532bf9e49">N_strings</a> = <a class="el" href="string-operations_8h.html#a1a86577255c11aff9d1ca4b31922a5e6">MAX_NUMBER_STRINGS</a></td></tr>
+<tr class="memitem:a06fd352428f0e62681c203ee1569dbca"><td class="memItemLeft" align="right" valign="top">char **&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtext.html#a06fd352428f0e62681c203ee1569dbca">index_string</a> = NULL</td></tr>
+<tr class="separator:a06fd352428f0e62681c203ee1569dbca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d893e61901affadb0fad88c534d5611"><td class="memItemLeft" align="right" valign="top">char *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtext.html#a8d893e61901affadb0fad88c534d5611">text_line</a> = NULL</td></tr>
+<tr class="separator:a8d893e61901affadb0fad88c534d5611"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a174ab31ed3fe6daadd04cc1631e9d5f7"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtext.html#a174ab31ed3fe6daadd04cc1631e9d5f7">N_symbols</a> = 0</td></tr>
+<tr class="separator:a174ab31ed3fe6daadd04cc1631e9d5f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67c3657326b768ad3a8f653532bf9e49"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtext.html#a67c3657326b768ad3a8f653532bf9e49">N_strings</a> = 0</td></tr>
 <tr class="separator:a67c3657326b768ad3a8f653532bf9e49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>TODO сделать подсчёт примерной оценки исходя из длины строки </p>
 </div><h2 class="groupheader">Member Data Documentation</h2>
-<a id="a2fef7f06e89e8f9bc9087b863c05b701"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2fef7f06e89e8f9bc9087b863c05b701">&#9670;&nbsp;</a></span>index_string</h2>
+<a id="a06fd352428f0e62681c203ee1569dbca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06fd352428f0e62681c203ee1569dbca">&#9670;&nbsp;</a></span>index_string</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">char* text::index_string[<a class="el" href="string-operations_8h.html#a1a86577255c11aff9d1ca4b31922a5e6">MAX_NUMBER_STRINGS</a>] = {}</td>
+          <td class="memname">char** text::index_string = NULL</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -125,7 +129,35 @@ Public Attributes</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int text::N_strings = <a class="el" href="string-operations_8h.html#a1a86577255c11aff9d1ca4b31922a5e6">MAX_NUMBER_STRINGS</a></td>
+          <td class="memname">int text::N_strings = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a174ab31ed3fe6daadd04cc1631e9d5f7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a174ab31ed3fe6daadd04cc1631e9d5f7">&#9670;&nbsp;</a></span>N_symbols</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int text::N_symbols = 0</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a8d893e61901affadb0fad88c534d5611"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d893e61901affadb0fad88c534d5611">&#9670;&nbsp;</a></span>text_line</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">char* text::text_line = NULL</td>
         </tr>
       </table>
 </div><div class="memdoc">

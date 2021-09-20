@@ -4,5 +4,6 @@ onegin.cbp
 onegin.layout
 /input_data
 output_text.txt
+Doxyfile
 
 /string-utils

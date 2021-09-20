@@ -173,6 +173,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a3eae1eea92589f4bfa7f89263595a154"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string-operations_8h.html#a3eae1eea92589f4bfa7f89263595a154">is_letter</a> (char symbol)</td></tr>
 <tr class="memdesc:a3eae1eea92589f4bfa7f89263595a154"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this symbol is letter, false if it isn't.  <a href="string-operations_8h.html#a3eae1eea92589f4bfa7f89263595a154">More...</a><br /></td></tr>
 <tr class="separator:a3eae1eea92589f4bfa7f89263595a154"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a896ccef637931300bd22350ab3497ad9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string-operations_8h.html#a896ccef637931300bd22350ab3497ad9">count_strings</a> (struct <a class="el" href="structtext.html">text</a> *some_text)</td></tr>
+<tr class="separator:a896ccef637931300bd22350ab3497ad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a826909aa35462782e6a9f2767c976559"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string-operations_8h.html#a826909aa35462782e6a9f2767c976559">find_string_beginning</a> (struct <a class="el" href="structtext.html">text</a> *some_text)</td></tr>
+<tr class="separator:a826909aa35462782e6a9f2767c976559"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -332,6 +336,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Returns -1 if the second string is greater than first, 0 if they're equal and 1 if first string is greater. </p>
+<p>printf( "=============%c\n", first_string[first_startfrom + i] );</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -350,6 +355,34 @@ Here is the caller graph for this function:</div>
 <area shape="rect" title="Returns &#45;1 if the second string is greater than first, 0 if they&#39;re equal and 1 if first string is gr..." alt="" coords="445,5,547,32"/>
 <area shape="rect" href="string-operations_8h.html#a710e01f393790248c648cc1412ddfd04" title="Sorts the strings given with bubblesort algorithm." alt="" coords="255,5,397,32"/>
 <area shape="rect" href="string-operations_8h.html#adc5ab94d8fe51484237057b0b7d49c63" title="Choses string sorting algorithm." alt="" coords="108,5,207,32"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a896ccef637931300bd22350ab3497ad9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a896ccef637931300bd22350ab3497ad9">&#9670;&nbsp;</a></span>count_strings()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int count_strings </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structtext.html">text</a> *&#160;</td>
+          <td class="paramname"><em>some_text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="string-operations_8h_a896ccef637931300bd22350ab3497ad9_icgraph.png" border="0" usemap="#string-operations_8h_a896ccef637931300bd22350ab3497ad9_icgraph" alt=""/></div>
+<map name="string-operations_8h_a896ccef637931300bd22350ab3497ad9_icgraph" id="string-operations_8h_a896ccef637931300bd22350ab3497ad9_icgraph">
+<area shape="rect" title=" " alt="" coords="244,5,353,32"/>
+<area shape="rect" href="string-operations_8h.html#a66b2f66a1b6e099e92b12fb701b75168" title="Reads text from input_text.txt, divides it into several strings and put them into dynamically allocat..." alt="" coords="108,5,196,32"/>
 <area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
 </map>
 </div>
@@ -391,6 +424,35 @@ Here is the caller graph for this function:</div>
 <area shape="rect" href="string-operations_8h.html#acf1b1dfb7353d817e76e385bbb6d077e" title="Returns &#45;1 if the second string is greater than first, 0 if they&#39;re equal and 1 if first string is gr..." alt="" coords="445,5,547,32"/>
 <area shape="rect" href="string-operations_8h.html#a710e01f393790248c648cc1412ddfd04" title="Sorts the strings given with bubblesort algorithm." alt="" coords="255,5,397,32"/>
 <area shape="rect" href="string-operations_8h.html#adc5ab94d8fe51484237057b0b7d49c63" title="Choses string sorting algorithm." alt="" coords="108,5,207,32"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<a id="a826909aa35462782e6a9f2767c976559"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a826909aa35462782e6a9f2767c976559">&#9670;&nbsp;</a></span>find_string_beginning()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">int find_string_beginning </td>
+          <td>(</td>
+          <td class="paramtype">struct <a class="el" href="structtext.html">text</a> *&#160;</td>
+          <td class="paramname"><em>some_text</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>DEBUG</p>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="string-operations_8h_a826909aa35462782e6a9f2767c976559_icgraph.png" border="0" usemap="#string-operations_8h_a826909aa35462782e6a9f2767c976559_icgraph" alt=""/></div>
+<map name="string-operations_8h_a826909aa35462782e6a9f2767c976559_icgraph" id="string-operations_8h_a826909aa35462782e6a9f2767c976559_icgraph">
+<area shape="rect" title=" " alt="" coords="244,5,405,32"/>
+<area shape="rect" href="string-operations_8h.html#a66b2f66a1b6e099e92b12fb701b75168" title="Reads text from input_text.txt, divides it into several strings and put them into dynamically allocat..." alt="" coords="108,5,196,32"/>
 <area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
 </map>
 </div>
@@ -443,6 +505,17 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Reads text from <a class="el" href="input__text_8txt.html">input_text.txt</a>, divides it into several strings and put them into dynamically allocated memory. </p>
+<p>DEBUG</p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="string-operations_8h_a66b2f66a1b6e099e92b12fb701b75168_cgraph.png" border="0" usemap="#string-operations_8h_a66b2f66a1b6e099e92b12fb701b75168_cgraph" alt=""/></div>
+<map name="string-operations_8h_a66b2f66a1b6e099e92b12fb701b75168_cgraph" id="string-operations_8h_a66b2f66a1b6e099e92b12fb701b75168_cgraph">
+<area shape="rect" title="Reads text from input_text.txt, divides it into several strings and put them into dynamically allocat..." alt="" coords="5,31,93,57"/>
+<area shape="rect" href="string-operations_8cpp.html#a896ccef637931300bd22350ab3497ad9" title=" " alt="" coords="167,5,277,32"/>
+<area shape="rect" href="string-operations_8cpp.html#a826909aa35462782e6a9f2767c976559" title=" " alt="" coords="141,56,303,83"/>
+</map>
+</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
@@ -603,6 +676,7 @@ Here is the caller graph for this function:</div>
 </div><div class="memdoc">
 
 <p>Puts strings given into the <a class="el" href="output__text_8txt.html">output_text.txt</a>. </p>
+<p>TODO убрать</p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">

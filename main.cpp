@@ -19,13 +19,23 @@ int main()
     struct text onegin;
     input_text( &onegin );
 
-    bubblesort_strings_back( &onegin );
+    //bubblesort_strings_back( &onegin );
 
-    //sort_strings( &onegin );
+    sort_strings( &onegin, false );
     //qsort_strings( &onegin, 0, onegin.N_strings );
 
+    text_file_add_delimiter();
     //text_console_output( &onegin );
-    text_file_output( &onegin );
+    text_file_output( &onegin, false );
+
+    text_file_add_delimiter();
+
+    sort_strings( &onegin, true );
+    text_file_output( &onegin, true );
+
+    text_file_add_delimiter();
+
+    text_file_file_plain_output( &onegin, true );
 
     // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
     // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!

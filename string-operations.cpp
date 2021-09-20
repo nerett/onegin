@@ -4,7 +4,6 @@
 //#define USER_QSORT
 //#define DEFAULT_QSORT
 
-//#define AAAAA
 
 int input_text( struct text* some_text ) // text *some_text
 {
@@ -22,7 +21,7 @@ int input_text( struct text* some_text ) // text *some_text
     //проверка fseek
 
     //printf("12!\n");
-
+                                                                                        //!TODO read func
     some_text->text_line = ( char* ) calloc( some_text->N_symbols, sizeof( char ) ); //выделение памяти и чтение из файла
     fread( some_text->text_line, sizeof( char ), some_text->N_symbols, input_file ); //fread!
 
@@ -38,7 +37,7 @@ int input_text( struct text* some_text ) // text *some_text
 
     assert( some_text->index_string != NULL );
 
-    //! DEBUG
+    //! DEBUG:
 
 for( int k = 0; k < some_text->N_symbols; k++ )
 {
@@ -82,8 +81,8 @@ for( int k = 0; k < some_text->N_symbols; k++ )
 
 int cmp_strings( char* first_string, char* second_string )
 {
-assert(first_string != nullptr);
-assert(second_string != nullptr);
+    assert( first_string != NULL );
+    assert( second_string != NULL );
 /*
     int result = strcmp( first_string, second_string );
 
@@ -152,13 +151,22 @@ int change_strings( struct text* some_text, int first_string, int second_string 
 
 
 
-int sort_strings( struct text* some_text )
+int sort_strings( struct text* some_text, bool enable_reverse )
 {
     assert( some_text != NULL );
     assert( some_text->text_line != NULL );
     assert( some_text->index_string != NULL );
     assert( some_text->N_strings > 0 );
     assert( some_text->N_symbols > 0 );
+
+    if( enable_reverse )
+    {
+        bubblesort_strings_back( some_text );
+    }
+    else
+    {
+        bubblesort_strings( some_text );
+    }
 
 
     #ifdef DEFAULT_QSORT
@@ -173,19 +181,12 @@ int sort_strings( struct text* some_text )
     #endif
     #ifdef BUBBLESORT
 
-        bubblesort_strings( some_text );
+        //bubblesort_strings( some_text );
 
     #endif
     return 0;
 }
 
-
-
-int back_sort_strings( struct text* some_text )
-{
-
-    return 0;
-}
 
 
 /*
@@ -257,7 +258,7 @@ int text_console_output( struct text* some_text )
 
 
 
-int text_file_output( struct text* some_text )
+int text_file_output( struct text* some_text, bool enable_loseless_adding )
 {
     assert( some_text != NULL );
     assert( some_text->text_line != NULL );
@@ -267,7 +268,15 @@ int text_file_output( struct text* some_text )
 
 
     FILE* output_file;
-    output_file = fopen( "output_text.txt", "w" );
+    if( enable_loseless_adding )
+    {
+        output_file = fopen( "output_text.txt", "a" );
+    }
+    else
+    {
+        output_file = fopen( "output_text.txt", "w" );
+    }
+    //output_file = fopen( "output_text.txt", "w" );
 
     for( int i = 0; i < some_text->N_strings; i++ )
     {
@@ -452,21 +461,12 @@ int bubblesort_strings_back( struct text* some_text )
     assert( some_text->N_symbols > 0 );
 
 
-/*
-    int increment = 1;
-    int startfrom = 0;
-
-    if( back_sort )
-    {
-        increment = -1;
-    }
-*/
     int sort_step = 1; //изначально единица отнималась от длины сама, это просто оптимизация, так надо
     for( int sort_iterations = 0; sort_iterations <= some_text->N_strings; sort_iterations++ ) //повторить некое число раз
     {
         for( int i = 0; i < some_text->N_strings - sort_step; i++ ) //пробежаться по массиву и сравнить строки
         {
-            if( cmp_strings_back( some_text, i, i + 1 )  > 0 )
+            if( cmp_strings_back( some_text->index_string[i], some_text->index_string[i+1] ) > 0 )
             {
                 change_strings( some_text, i, i + 1 );
             }
@@ -481,42 +481,80 @@ int bubblesort_strings_back( struct text* some_text )
 
 
 
-int cmp_strings_back( struct text* some_text, int str1_number, int str2_number )
+int cmp_strings_back( char* first_string, char* second_string )
 {
-    char* first_string = some_text->index_string[str1_number + 1];
-    char* second_string = some_text->index_string[str2_number + 1];
-
-    assert( some_text != NULL );
-
-    int first_startfrom = 0, second_startfrom = 0;
-
-    //first_startfrom = find_first_letter( first_string );
-    //second_startfrom = find_first_letter( second_string );
-
-    first_startfrom = strlen( first_string );
-    second_startfrom = strlen( second_string );
+    assert( first_string != NULL );
+    assert( second_string != NULL );
 
     int i1 = strlen( first_string );
+    //printf( "i1======%d\n", i1 );
     int i2 = strlen( second_string );
     while( first_string[i1] != '\n' || second_string[i2] != '\n' || first_string[i1] != '\0' || second_string[i2] != '\0' ) //собственно сравниваем
     {
-/*
-        if( i1 == some_text->N_strings || i2 == some_text->N_strings )
-        {
-            break;
-        }
-*/
-        if( first_string[first_startfrom - i1] < second_string[second_startfrom - i2] )
+        if( first_string[i1] < second_string[i2] )
         {
             return -1;
         }
-        else if( first_string[first_startfrom - i1] > second_string[second_startfrom - i2] )
+        else if( first_string[i1] > second_string[i2] )
         {
             return 1;
         }
-        i1++;
-        i2++;
+        i1--;
+        i2--;
     }
+    return 0;
+}
+
+
+
+int text_file_add_delimiter()
+{
+    FILE* output_file;
+    output_file = fopen( "output_text.txt", "a" );
+
+    fputs( "\n", output_file );
+    fputs( "================================", output_file );
+    fputs( "СЛЕДУЮЩАЯ ЧАСТЬ ЗАДАНИЯ", output_file );
+    fputs( "================================", output_file );
+    fputs( "\n", output_file );
+
+    fclose( output_file ); ///TODO убрать
 
     return 0;
 }
+
+
+
+int text_file_file_plain_output( struct text* some_text, bool enable_loseless_adding )
+{
+    FILE* output_file;
+    if( enable_loseless_adding )
+    {
+        output_file = fopen( "output_text.txt", "a" );
+    }
+    else
+    {
+        output_file = fopen( "output_text.txt", "w" );
+    }
+
+    //fputs( some_text->text_line, output_file);
+
+    for( int i = 0; i < some_text->N_symbols; i++ )
+    {
+        if( some_text->text_line[i] == '\0' )
+        {
+            fputs( "\n", output_file);
+            continue;
+        }
+        fputc( some_text->text_line[i], output_file );
+
+        //fputs( "\n", output_file);
+    }
+
+    fclose( output_file );
+
+    return 0;
+}
+
+
+

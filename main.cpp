@@ -19,7 +19,6 @@ int main()
     struct text onegin;
     input_text( &onegin );
 
-
     sort_strings( &onegin, false );
 
     text_file_output( &onegin, false ); ///*

@@ -10,6 +10,7 @@ err_code input_text( struct text* some_text ) // text *some_text
     int error_int = 0;
     void* error_ptr = NULL;
 
+
     FILE* input_file = fopen( "input_text.txt", "r" );
     if( input_file == NULL )
     {
@@ -33,9 +34,10 @@ err_code input_text( struct text* some_text ) // text *some_text
     {
         return FSEEK_ERR;
     }
+
                                                                                         //!TODO read func
-    some_text->text_line = ( char* ) calloc( some_text->N_symbols, sizeof( char ) ); //выделение памяти и чтение из файла //проверка каллока без ассертовм а с кодом ошибки
-    error_int = fread( some_text->text_line, sizeof( char ), some_text->N_symbols, input_file ); //fread!
+    some_text->text_line = ( char* ) calloc( some_text->N_symbols, sizeof( char ) ); //выделение памяти и чтение из файла
+    error_int = fread( some_text->text_line, sizeof( char ), some_text->N_symbols, input_file );
     if( error_int != some_text->N_symbols )
     {
         return FREAD_ERR;
@@ -43,24 +45,14 @@ err_code input_text( struct text* some_text ) // text *some_text
 
     count_strings( some_text );
 
-    some_text->index_string = ( char** ) calloc( some_text->N_strings, sizeof( char* ) ); //выделение памяти под массив указателей на начало строк и его заполнение
+    some_text->index_string = ( char** ) calloc( some_text->N_strings, sizeof( char* ) ); //выделение памяти под массив указателей на начало строк (????????????) и его заполнение
     if( some_text->index_string == NULL )
     {
         return CALLOC_ERR;
     }
 
-    //assert( some_text->index_string != NULL );
-
-    //! DEBUG:
-for( int k = 0; k < some_text->N_symbols; k++ )
-{
-    if( some_text->text_line[k] == '\n' )
-    {
-            some_text->text_line[k] = '\0';
-    }
-}
-
     find_string_beginning( some_text );
+
 
     return OK;
 }
@@ -83,9 +75,7 @@ int cmp_strings( char* first_string, char* second_string )
         return -1;
     }
 */
-    //int length_1 = strlen( first_string );
-    //int length_2 = strlen( second_string );
-    //int cmp_iterations = 0;
+
     int first_startfrom = 0, second_startfrom = 0;
     int i;
 
@@ -178,8 +168,8 @@ int sort_strings( struct text* some_text, bool enable_reverse )
 
 
 
-/*
-int qsort_strings( struct text* some_text, const int start, const int finish )
+
+int qsort_strings( struct text* some_text, const int start, const int finish ) //DOESN'T WORK!!
 {
     //char** base_element = some_text->index_string + start + ( finish / 2 );
     //char** left_element = some_text->index_string + start;
@@ -225,7 +215,7 @@ int qsort_strings( struct text* some_text, const int start, const int finish )
 
     return 0;
 }
-*/
+
 
 
 int text_console_output( struct text* some_text )
@@ -313,7 +303,7 @@ int bubblesort_strings( struct text* some_text )
             }
         }
 
-        ///printf( "sort_iterations = %d/%d\n", sort_iterations, some_text->N_strings );
+        printf( "sort_iterations = %d/%d\n", sort_iterations, some_text->N_strings );
         sort_step++;
     }
 
@@ -372,6 +362,7 @@ int count_strings( struct text* some_text )
         if( some_text->text_line[i] == '\n' ) //а если '\0' ну или выделять памяти на одну строку больше
         {
             some_text->N_strings++;
+            some_text->text_line[i] = '\0';
         }
     }
 
@@ -444,7 +435,7 @@ int bubblesort_strings_back( struct text* some_text )
             }
         }
 
-        ///printf( "sort_iterations = %d/%d\n", sort_iterations, some_text->N_strings );
+        printf( "sort_iterations = %d/%d\n", sort_iterations, some_text->N_strings );
         sort_step++;
     }
 

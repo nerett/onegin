@@ -5,29 +5,53 @@
 //#define DEFAULT_QSORT
 
 
-int input_text( struct text* some_text ) // text *some_text
+err_code input_text( struct text* some_text ) // text *some_text
 {
+    int error_int = 0;
+    void* error_ptr = NULL;
+
     FILE* input_file = fopen( "input_text.txt", "r" );
-    // проверка fopen
+    if( input_file == NULL )
+    {
+        return FOPEN_ERR;
+    }
 
-    fseek( input_file, 0L, SEEK_END ); //определение размера файла
-    //проверка fseek
+    error_int = fseek( input_file, 0L, SEEK_END ); //определение размера файла
+    if( error_int != 0 )
+    {
+        return FSEEK_ERR;
+    }
+
     some_text->N_symbols = ftell( input_file );
-    //проверка ftell
-    fseek( input_file, 0L, SEEK_SET );
-    //проверка fseek
-                                                                                        //!TODO read func
-    some_text->text_line = ( char* ) calloc( some_text->N_symbols, sizeof( char ) ); //выделение памяти и чтение из файла
-    fread( some_text->text_line, sizeof( char ), some_text->N_symbols, input_file ); //fread!
+    if( some_text->N_symbols < 0 )
+    {
+        return FTELL_ERR;
+    }
 
-    printf("count_strings: %d\n", count_strings( some_text ));
+    error_int = fseek( input_file, 0L, SEEK_SET );
+    if( error_int != 0 )
+    {
+        return FSEEK_ERR;
+    }
+                                                                                        //!TODO read func
+    some_text->text_line = ( char* ) calloc( some_text->N_symbols, sizeof( char ) ); //выделение памяти и чтение из файла //проверка каллока без ассертовм а с кодом ошибки
+    error_int = fread( some_text->text_line, sizeof( char ), some_text->N_symbols, input_file ); //fread!
+    if( error_int != some_text->N_symbols )
+    {
+        return FREAD_ERR;
+    }
+
+    count_strings( some_text );
 
     some_text->index_string = ( char** ) calloc( some_text->N_strings, sizeof( char* ) ); //выделение памяти под массив указателей на начало строк и его заполнение
+    if( some_text->index_string == NULL )
+    {
+        return CALLOC_ERR;
+    }
 
-    assert( some_text->index_string != NULL );
+    //assert( some_text->index_string != NULL );
 
     //! DEBUG:
-
 for( int k = 0; k < some_text->N_symbols; k++ )
 {
     if( some_text->text_line[k] == '\n' )
@@ -38,30 +62,7 @@ for( int k = 0; k < some_text->N_symbols; k++ )
 
     find_string_beginning( some_text );
 
-/*
-    void* error_indicator = NULL;
-    int i = 0;
-    for( i = 0; i < MAX_NUMBER_STRINGS; i++ )
-    {
-        error_indicator = fgets( temp_buffer, sizeof( temp_buffer ), input_file );
-        if( error_indicator == NULL )
-        {
-            break;
-        }
-        //int current_string_length = strlen( temp_buffer ); //!TODO определение количества элементов строки, перевести на свои библиотеки
-
-        some_text->index_string[i] = strdup( temp_buffer );
-
-        //index_strings[i] = ( char* ) calloc( current_string_length, sizeof( char ) );
-        //*( index_strings[i] ) = temp_buffer;
-    }
-
-    fclose( input_file );
-
-    some_text->N_strings = i;
-*/
-
-    return 0;
+    return OK;
 }
 
 
@@ -71,7 +72,7 @@ int cmp_strings( char* first_string, char* second_string )
     assert( first_string != NULL );
     assert( second_string != NULL );
 /*
-    int result = strcmp( first_string, second_string );
+    int result = strcmp( first_string, second_string ); // это быстрее за счёт strcmp!
 
     if( result > 0 )
     {
@@ -90,13 +91,7 @@ int cmp_strings( char* first_string, char* second_string )
 
     first_startfrom = find_first_letter( first_string );
     second_startfrom = find_first_letter( second_string );
-/*
-if( first_startfrom != 0 )
-printf( "first====%d\n", first_startfrom );
 
-if( second_startfrom != 0 )
-printf( "second====%d\n", second_startfrom );
-*/
     i = 0;
     while( first_string[i] != '\n' || second_string[i] != '\n' ) //собственно сравниваем
     {
@@ -124,9 +119,6 @@ int change_strings( struct text* some_text, int first_string, int second_string 
     assert( some_text->N_strings > 0 );
     assert( some_text->N_symbols > 0 );
 
-    assert( isfinite( first_string ) );
-    assert( isfinite( second_string ) );
-
 
     char* temporary = some_text->index_string[first_string];
     some_text->index_string[first_string] = some_text->index_string[second_string];
@@ -149,7 +141,7 @@ int sort_strings( struct text* some_text, bool enable_reverse )
 
         if( enable_reverse )
         {
-            qsort( some_text->index_string, some_text->N_strings, sizeof( some_text->text_line ), ( __compar_fn_t )cmp_strings_back );
+            qsort( some_text->index_string, some_text->N_strings, sizeof( char* ), ( __compar_fn_t )cmp_strings_back );
         }
         else
         {
@@ -281,7 +273,7 @@ int text_file_output( struct text* some_text, bool enable_loseless_adding )
         fputs( "\n", output_file );
     }
 
-    fclose( output_file ); ///TODO убрать
+    fclose( output_file );
     return 0;
 }
 
@@ -321,7 +313,7 @@ int bubblesort_strings( struct text* some_text )
             }
         }
 
-        printf( "sort_iterations = %d/%d\n", sort_iterations, some_text->N_strings );
+        ///printf( "sort_iterations = %d/%d\n", sort_iterations, some_text->N_strings );
         sort_step++;
     }
 
@@ -408,7 +400,7 @@ int find_string_beginning( struct text* some_text )
         //printf("! i = %d ", i);printf("1!\n");
         if( last_read == '\n' || last_read == '\0' )
         {
-            printf("! %d !\n", i);
+//printf("! %d !\n", i);
 
             //some_text->text_line[i-1] = '\0'; //замена на слеш-нули!
 
@@ -452,7 +444,7 @@ int bubblesort_strings_back( struct text* some_text )
             }
         }
 
-        printf( "sort_iterations = %d/%d\n", sort_iterations, some_text->N_strings );
+        ///printf( "sort_iterations = %d/%d\n", sort_iterations, some_text->N_strings );
         sort_step++;
     }
 
@@ -486,10 +478,13 @@ int cmp_strings_back( char* first_string, char* second_string )
 
 
 
-int text_file_add_delimiter()
+err_code text_file_add_delimiter()
 {
-    FILE* output_file;
-    output_file = fopen( "output_text.txt", "a" );
+    FILE* output_file = fopen( "output_text.txt", "a" );
+    if( output_file == NULL )
+    {
+        return FOPEN_ERR;
+    }
 
     fputs( "\n", output_file );
     fputs( "================================", output_file );
@@ -497,23 +492,31 @@ int text_file_add_delimiter()
     fputs( "================================", output_file );
     fputs( "\n", output_file );
 
-    fclose( output_file ); ///TODO убрать
+    fclose( output_file );
 
-    return 0;
+    return OK;
 }
 
 
 
-int text_file_file_plain_output( struct text* some_text, bool enable_loseless_adding )
+err_code text_file_file_plain_output( struct text* some_text, bool enable_loseless_adding )
 {
     FILE* output_file;
     if( enable_loseless_adding )
     {
         output_file = fopen( "output_text.txt", "a" );
+        if( output_file == NULL )
+        {
+            return FOPEN_ERR;
+        }
     }
     else
     {
         output_file = fopen( "output_text.txt", "w" );
+        if( output_file == NULL )
+        {
+            return FOPEN_ERR;
+        }
     }
 
     //fputs( some_text->text_line, output_file);
@@ -530,7 +533,7 @@ int text_file_file_plain_output( struct text* some_text, bool enable_loseless_ad
 
     fclose( output_file );
 
-    return 0;
+    return OK;
 }
 
 

@@ -13,6 +13,7 @@
 
 
 #include "string-operations.h"
+#include "string-sort.h"
 
 int main()
 {

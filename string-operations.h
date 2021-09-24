@@ -1,5 +1,5 @@
-#ifndef STRING-OPERATIONS_H_INCLUDED
-#define STRING-OPERATIONS_H_INCLUDED
+#ifndef STRING_OPERATIONS_H_INCLUDED
+#define STRING_OPERATIONS_H_INCLUDED
 
 #include <stdlib.h>
 #include <stdio.h>
@@ -16,7 +16,7 @@ enum err_code { OK, FOPEN_ERR, FSEEK_ERR, FTELL_ERR, FREAD_ERR, CALLOC_ERR }; //
 //enum sort_algo { QSORT_DEFAULT, QSORT_CUSTOM, BUBBLESORT };
 
 //const int MAX_STRING_LENGTH = 100;
-const char NOT_A_LETTER[] = ".,-!?\"( )':;";
+const char NOT_A_LETTER[] = ".,-!?\"( )':;"; ///< String of non-letter symbols
 
 struct text ///< Structture which is text you can easilly work with
 {
@@ -35,20 +35,8 @@ int text_console_output( struct text* some_text ); ///< Displays strings into th
 static int count_strings( struct text* some_text ); ///< Counts number of strings in the text and result into N_strings
 static int find_string_beginning( struct text* some_text ); ///< Puts pointers from index_stringto the beginnings of lines
 
-int cmp_strings( const void* string_1_ptr, const void* string_2_ptr ); ///< Returns -1 if the second string is greater than first, 0 if they're equal and 1 if first string is greater
-int cmp_strings_back( const void* string_1_ptr, const void* string_2_ptr ); ///< This function is like cmp_strings, but compares strings from their end (soon it'll be overwritten and merged with cmp_strings)
 
-int sort_strings( struct text* some_text, bool enable_reverse ); ///< Choses string sorting algorithm and sorting mode (reverse or not)
-int change_strings( struct text* some_text, int first_string, int second_string ); ///< Swaps pointers to two input strings
-
-static int qsort_strings( struct text* some_text, int start, int finish ); ///< Custom qsort algorithm for strings (that doesn't work yet)
-static int bubblesort_strings( struct text* some_text ); ///< Sorts the strings given with bubblesort algorithm
-static int bubblesort_strings_back( struct text* some_text ); ///< This function is like bubblesort_strings, but it uses cmp_strings_back (soon it'll be overwritten and merged with bubblesort_strings)
-
-int find_first_letter( char* some_string, bool find_from_end ); ///< Returns the number of the first letter in the string
-bool is_letter( char symbol ); ///< Returns true if this symbol is letter, false if it isn't
-
-void TryToExecute( err_code func_return_code, text* operand_to_free_mem );
+void TryToExecute( err_code func_return_code, text* operand_to_free_mem ); ///< Frees memory and aborts program in case it returns non-OK error code
 int free_memory( struct text* some_text ); ///< Frees all heap memory occupied by text
 
 #endif // STRING-OPERATIONS_H_INCLUDED

@@ -16,10 +16,10 @@
 1631865980 source:/home/shob/Dev/ILAB 2020-2021/onegin/string-operations.cpp
 	"string-operations.h"
 
-1632501166 source:/home/shob/Dev/ILab+Huawei/onegin/main.cpp
+1632517099 source:/home/shob/Dev/ILab+Huawei/onegin/main.cpp
 	"string-operations.h"
 
-1632501974 /home/shob/Dev/ILab+Huawei/onegin/string-operations.h
+1632516812 /home/shob/Dev/ILab+Huawei/onegin/string-operations.h
 	<stdlib.h>
 	<stdio.h>
 	<assert.h>
@@ -28,7 +28,7 @@
 	<algorithm>
 	<ctype.h>
 
-1632502098 source:/home/shob/Dev/ILab+Huawei/onegin/string-operations.cpp
+1632517884 source:/home/shob/Dev/ILab+Huawei/onegin/string-operations.cpp
 	"string-operations.h"
 
 1630255448 /home/shob/Dev/ILab+Huawei/onegin/string-utils/string-utils.h

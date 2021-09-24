@@ -17,19 +17,31 @@
 int main()
 {
     struct text onegin;
-    input_text( &onegin );
+    TryToExecute(
+        input_text( &onegin ),
+            &onegin );
 
     sort_strings( &onegin, false );
 
-    text_file_output( &onegin, false ); ///*
-    text_file_add_delimiter();
+    TryToExecute(
+        text_file_output( &onegin, false ),
+            &onegin );
+    TryToExecute(
+        text_file_add_delimiter(),
+            &onegin );
 
     sort_strings( &onegin, true );
 
-    text_file_output( &onegin, true );
-    text_file_add_delimiter();
+    TryToExecute(
+        text_file_output( &onegin, true ),
+            &onegin );
+    TryToExecute(
+        text_file_add_delimiter(),
+            &onegin );
+    TryToExecute(
+        text_file_file_plain_output( &onegin, true ),
+            &onegin );
 
-    text_file_file_plain_output( &onegin, true ); //*/
 
     free_memory( &onegin );
     return 0;

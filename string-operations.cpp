@@ -7,12 +7,12 @@
 
 err_code input_text( struct text* some_text ) // text *some_text
 {
-    int error_int = 0;
+    int error_int = 0;  // ret  / retval / res
     void* error_ptr = NULL;
 
 
-    FILE* input_file = fopen( "input_text.txt", "r" );
-    if( input_file == NULL )
+    FILE* input_file = fopen( "input_text.txt", "r" ); // argc argv
+    if (input_file == NULL) // I LIKE IT BETTER
     {
         return FOPEN_ERR;
     }
@@ -88,7 +88,7 @@ int cmp_strings( const void* string_1_ptr, const void* string_2_ptr )
     second_startfrom = find_first_letter( second_string, false );
 
     i = 0;
-    while( first_string[i] != '\n' || second_string[i] != '\n' ) //собственно сравниваем
+    while( first_string[i] != '\n' || second_string[i] != '\0' ) //собственно сравниваем // \0
     {
         if( first_string[first_startfrom + i] < second_string[second_startfrom + i] )
         {
@@ -242,7 +242,7 @@ int text_console_output( struct text* some_text )
 
 
 
-int text_file_output( struct text* some_text, bool enable_loseless_adding )
+err_code text_file_output( struct text* some_text, bool enable_loseless_adding )
 {
     assert( some_text != NULL );
     assert( some_text->text_line != NULL );
@@ -260,7 +260,10 @@ int text_file_output( struct text* some_text, bool enable_loseless_adding )
     {
         output_file = fopen( "output_text.txt", "w" );
     }
-
+    if( output_file == NULL )
+    {
+        return FOPEN_ERR;
+    }
 
     for( int i = 0; i < some_text->N_strings; i++ )
     {
@@ -269,7 +272,7 @@ int text_file_output( struct text* some_text, bool enable_loseless_adding )
     }
 
     fclose( output_file );
-    return 0;
+    return OK;
 }
 
 
@@ -377,7 +380,7 @@ int count_strings( struct text* some_text )
     assert( some_text->N_symbols > 0 );
 
 
-    for( int i = 0; i < some_text->N_symbols; i++ )
+    for( int i = 0; i < some_text->N_symbols; i++ ) // strchr
     {
         if( some_text->text_line[i] == '\n' ) //а если '\0' ну или выделять памяти на одну строку больше
         {
@@ -391,7 +394,7 @@ int count_strings( struct text* some_text )
 
 
 
-int find_string_beginning( struct text* some_text )
+int find_string_beginning( struct text* some_text ) // init_strings
 {
     assert( some_text != NULL );
     assert( some_text->text_line != NULL );
@@ -556,7 +559,17 @@ err_code text_file_file_plain_output( struct text* some_text, bool enable_losele
 
 
 
+void TryToExecute( err_code func_return_code, text* operand_to_free_mem )
+{
+    if( func_return_code != OK )
+    {
+        printf( "ERROR %d\n", func_return_code );
+        printf( "You can find more information about error codes in enum err_code documentation.\n\n" );
+        free_memory( operand_to_free_mem );
 
+        abort();
+    }
+}
 
 
 

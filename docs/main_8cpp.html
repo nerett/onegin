@@ -88,20 +88,22 @@ $(document).ready(function(){initNavTree('main_8cpp.html',''); initResizable(); 
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="string-operations_8h_source.html">string-operations.h</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="string-sort_8h_source.html">string-sort.h</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for main.cpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="main_8cpp__incl.png" border="0" usemap="#main_8cpp" alt=""/></div>
 <map name="main_8cpp" id="main_8cpp">
 <area shape="rect" title=" " alt="" coords="283,5,366,32"/>
-<area shape="rect" href="string-operations_8h.html" title=" " alt="" coords="252,80,397,107"/>
-<area shape="rect" title=" " alt="" coords="5,155,76,181"/>
-<area shape="rect" title=" " alt="" coords="101,155,167,181"/>
-<area shape="rect" title=" " alt="" coords="191,155,266,181"/>
-<area shape="rect" title=" " alt="" coords="291,155,359,181"/>
-<area shape="rect" title=" " alt="" coords="383,155,453,181"/>
-<area shape="rect" title=" " alt="" coords="478,155,563,181"/>
-<area shape="rect" title=" " alt="" coords="588,155,659,181"/>
+<area shape="rect" href="string-operations_8h.html" title=" " alt="" coords="252,155,397,181"/>
+<area shape="rect" href="string-sort_8h.html" title=" " alt="" coords="318,80,419,107"/>
+<area shape="rect" title=" " alt="" coords="5,229,76,256"/>
+<area shape="rect" title=" " alt="" coords="101,229,167,256"/>
+<area shape="rect" title=" " alt="" coords="191,229,266,256"/>
+<area shape="rect" title=" " alt="" coords="291,229,359,256"/>
+<area shape="rect" title=" " alt="" coords="383,229,453,256"/>
+<area shape="rect" title=" " alt="" coords="478,229,563,256"/>
+<area shape="rect" title=" " alt="" coords="588,229,659,256"/>
 </map>
 </div>
 </div><table class="memberdecls">
@@ -130,22 +132,23 @@ Here is the call graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph.png" border="0" usemap="#main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph" alt=""/></div>
 <map name="main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph" id="main_8cpp_ae66f6b31b5ad750f1fe042a706a4e3d4_cgraph">
-<area shape="rect" title=" " alt="" coords="5,132,60,159"/>
-<area shape="rect" href="string-operations_8cpp.html#a17222f63f6f4c53e06c15fdb75f10c34" title="Frees all heap memory occupied by text." alt="" coords="139,5,249,32"/>
-<area shape="rect" href="string-operations_8cpp.html#a66b2f66a1b6e099e92b12fb701b75168" title="Reads text from input_text.txt, determines it&#39;s size, allocates memory, puts text into text_line and ..." alt="" coords="150,56,238,83"/>
-<area shape="rect" href="string-operations_8cpp.html#a9094dbf48480c9276f28b2610a878be9" title="Choses string sorting algorithm and sorting mode (reverse or not)" alt="" coords="145,107,243,133"/>
-<area shape="rect" href="string-operations_8cpp.html#a2ad649004a81d42ef0772f64bbf29388" title="Ads awesome text label into the output_text.txt." alt="" coords="108,157,280,184"/>
-<area shape="rect" href="string-operations_8cpp.html#a29317629b754b01f9b70fdde1ee09be8" title="Puts the contents of the text_line into the output_text.txt (usually text_line contains non&#45;modified ..." alt="" coords="123,209,265,250"/>
-<area shape="rect" href="string-operations_8cpp.html#af66b58877cd82cab6793825f90d898f8" title="Puts strings given into the output_text.txt." alt="" coords="132,275,256,301"/>
-<area shape="rect" href="string-operations_8cpp.html#a896ccef637931300bd22350ab3497ad9" title="Counts number of strings in the text and result into N_strings." alt="" coords="363,5,473,32"/>
-<area shape="rect" href="string-operations_8cpp.html#a826909aa35462782e6a9f2767c976559" title="Puts pointers from index_stringto the beginnings of lines." alt="" coords="337,56,499,83"/>
-<area shape="rect" href="string-operations_8cpp.html#a710e01f393790248c648cc1412ddfd04" title="Sorts the strings given with bubblesort algorithm." alt="" coords="347,107,489,133"/>
-<area shape="rect" href="string-operations_8cpp.html#ac4e30612d516254609e1b4795edb278a" title="This function is like bubblesort_strings, but it uses cmp_strings_back (soon it&#39;ll be overwritten and..." alt="" coords="328,157,508,184"/>
-<area shape="rect" href="string-operations_8cpp.html#a0468d00bf92cbe722ade85e2e04932ad" title="Swaps pointers to two input strings." alt="" coords="565,132,685,159"/>
-<area shape="rect" href="string-operations_8cpp.html#acf1b1dfb7353d817e76e385bbb6d077e" title="Returns &#45;1 if the second string is greater than first, 0 if they&#39;re equal and 1 if first string is gr..." alt="" coords="575,81,676,108"/>
-<area shape="rect" href="string-operations_8cpp.html#a4a3b78688fac8c65663b40663a929d20" title="Returns the number of the first letter in the string." alt="" coords="743,81,863,108"/>
-<area shape="rect" href="string-operations_8cpp.html#a3eae1eea92589f4bfa7f89263595a154" title="Returns true if this symbol is letter, false if it isn&#39;t." alt="" coords="911,81,985,108"/>
-<area shape="rect" href="string-operations_8cpp.html#ac44ad5dac4cb3b034eee4d19288e87b5" title="This function is like cmp_strings, but compares strings from their end (soon it&#39;ll be overwritten and..." alt="" coords="556,183,695,209"/>
+<area shape="rect" title=" " alt="" coords="5,259,60,285"/>
+<area shape="rect" href="string-operations_8cpp.html#a17222f63f6f4c53e06c15fdb75f10c34" title="Frees all heap memory occupied by text." alt="" coords="363,368,473,395"/>
+<area shape="rect" href="string-operations_8cpp.html#a75d87696c86f7bb6b3ead982a23ea576" title="Reads text from input_text.txt, determines it&#39;s size, allocates memory, puts text into text_line and ..." alt="" coords="150,56,238,83"/>
+<area shape="rect" href="string-sort_8cpp.html#a9094dbf48480c9276f28b2610a878be9" title="Choses string sorting algorithm and sorting mode (reverse or not)" alt="" coords="145,157,243,184"/>
+<area shape="rect" href="string-operations_8cpp.html#a3b9b0a0440b427646d40864e32555aa3" title="Ads awesome text label into the output_text.txt. Returns error code." alt="" coords="108,259,280,285"/>
+<area shape="rect" href="string-operations_8cpp.html#a2dd20513cf8d48b63b06fddeb7f110a1" title="Puts the contents of the text_line into the output_text.txt (usually text_line contains non&#45;modified ..." alt="" coords="123,310,265,351"/>
+<area shape="rect" href="string-operations_8cpp.html#a1a86d1e0872dcb2f86ce42f3b8e8382d" title="Puts strings given into the output_text.txt." alt="" coords="132,376,256,403"/>
+<area shape="rect" href="string-operations_8cpp.html#a94e11f43ba2d6b39feb571f479b15cb2" title="Frees memory and aborts program in case it returns non&#45;OK error code." alt="" coords="141,208,247,235"/>
+<area shape="rect" href="string-operations_8cpp.html#a896ccef637931300bd22350ab3497ad9" title="Counts number of strings in the text and result into N_strings." alt="" coords="363,56,473,83"/>
+<area shape="rect" href="string-operations_8cpp.html#a826909aa35462782e6a9f2767c976559" title="Puts pointers from index_stringto the beginnings of lines." alt="" coords="337,5,499,32"/>
+<area shape="rect" href="string-sort_8cpp.html#a710e01f393790248c648cc1412ddfd04" title="Sorts the strings given with bubblesort algorithm." alt="" coords="347,208,489,235"/>
+<area shape="rect" href="string-sort_8cpp.html#a224801ebfb783f91db88204d708d8f81" title="Returns &#45;1 if the second string is greater than first, 0 if they&#39;re equal and 1 if first string is gr..." alt="" coords="575,233,676,260"/>
+<area shape="rect" href="string-sort_8cpp.html#ac4e30612d516254609e1b4795edb278a" title="This function is like bubblesort_strings, but it uses cmp_strings_back (soon it&#39;ll be overwritten and..." alt="" coords="328,157,508,184"/>
+<area shape="rect" href="string-sort_8cpp.html#a7fc300c63504ee50068840d856536461" title="This function is like cmp_strings, but compares strings from their end (soon it&#39;ll be overwritten and..." alt="" coords="556,132,695,159"/>
+<area shape="rect" href="string-sort_8cpp.html#a0468d00bf92cbe722ade85e2e04932ad" title="Swaps pointers to two input strings." alt="" coords="565,183,685,209"/>
+<area shape="rect" href="string-sort_8cpp.html#a7694052dd798102ec36af3150f30890c" title="Returns the number of the first letter in the string." alt="" coords="743,183,863,209"/>
+<area shape="rect" href="string-sort_8cpp.html#a3eae1eea92589f4bfa7f89263595a154" title="Returns true if this symbol is letter, false if it isn&#39;t." alt="" coords="911,183,985,209"/>
 </map>
 </div>
 

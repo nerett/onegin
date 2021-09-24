@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['faut_2826',['faut',['../input__text_8txt.html#a70480bbd9f69586daabb1cae3d55d3fd',1,'input_text.txt']]],
-  ['find_5ffirst_5fletter_2827',['find_first_letter',['../string-operations_8cpp.html#a4a3b78688fac8c65663b40663a929d20',1,'find_first_letter(char *some_string):&#160;string-operations.cpp'],['../string-operations_8h.html#a4a3b78688fac8c65663b40663a929d20',1,'find_first_letter(char *some_string):&#160;string-operations.cpp']]],
-  ['find_5fstring_5fbeginning_2828',['find_string_beginning',['../string-operations_8cpp.html#a826909aa35462782e6a9f2767c976559',1,'find_string_beginning(struct text *some_text):&#160;string-operations.cpp'],['../string-operations_8h.html#a826909aa35462782e6a9f2767c976559',1,'find_string_beginning(struct text *some_text):&#160;string-operations.cpp']]],
-  ['free_5fmemory_2829',['free_memory',['../string-operations_8cpp.html#a17222f63f6f4c53e06c15fdb75f10c34',1,'free_memory(struct text *some_text):&#160;string-operations.cpp'],['../string-operations_8h.html#a17222f63f6f4c53e06c15fdb75f10c34',1,'free_memory(struct text *some_text):&#160;string-operations.cpp']]]
+  ['input_5ftext_57',['input_text',['../string-operations_8cpp.html#a75d87696c86f7bb6b3ead982a23ea576',1,'input_text(struct text *some_text):&#160;string-operations.cpp'],['../string-operations_8h.html#a75d87696c86f7bb6b3ead982a23ea576',1,'input_text(struct text *some_text):&#160;string-operations.cpp']]],
+  ['is_5fletter_58',['is_letter',['../string-sort_8cpp.html#a3eae1eea92589f4bfa7f89263595a154',1,'is_letter(char symbol):&#160;string-sort.cpp'],['../string-sort_8h.html#a3eae1eea92589f4bfa7f89263595a154',1,'is_letter(char symbol):&#160;string-sort.cpp']]]
 ];

@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['input_5ftext_2830',['input_text',['../string-operations_8cpp.html#a66b2f66a1b6e099e92b12fb701b75168',1,'input_text(struct text *some_text):&#160;string-operations.cpp'],['../string-operations_8h.html#a66b2f66a1b6e099e92b12fb701b75168',1,'input_text(struct text *some_text):&#160;string-operations.cpp']]],
-  ['is_5fletter_2831',['is_letter',['../string-operations_8cpp.html#a3eae1eea92589f4bfa7f89263595a154',1,'is_letter(char symbol):&#160;string-operations.cpp'],['../string-operations_8h.html#a3eae1eea92589f4bfa7f89263595a154',1,'is_letter(char symbol):&#160;string-operations.cpp']]]
+  ['main_59',['main',['../main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main.cpp']]]
 ];

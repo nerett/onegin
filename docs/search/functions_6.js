@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['qsort_5fstrings_2833',['qsort_strings',['../string-operations_8h.html#a4da5607e0fdcbbc93b6b00f279ee09bb',1,'string-operations.h']]]
+  ['sort_5fstrings_61',['sort_strings',['../string-sort_8cpp.html#a9094dbf48480c9276f28b2610a878be9',1,'sort_strings(struct text *some_text, bool enable_reverse):&#160;string-sort.cpp'],['../string-sort_8h.html#a9094dbf48480c9276f28b2610a878be9',1,'sort_strings(struct text *some_text, bool enable_reverse):&#160;string-sort.cpp']]]
 ];

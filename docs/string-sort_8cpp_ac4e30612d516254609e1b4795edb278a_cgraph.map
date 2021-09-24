@@ -1,0 +1,7 @@
+<map id="bubblesort_strings_back" name="bubblesort_strings_back">
+<area shape="rect" id="node1" title="This function is like bubblesort_strings, but it uses cmp_strings_back (soon it&#39;ll be overwritten and..." alt="" coords="5,31,185,57"/>
+<area shape="rect" id="node2" href="$string-sort_8cpp.html#a0468d00bf92cbe722ade85e2e04932ad" title="Swaps pointers to two input strings." alt="" coords="243,5,363,32"/>
+<area shape="rect" id="node3" href="$string-sort_8cpp.html#a7fc300c63504ee50068840d856536461" title="This function is like cmp_strings, but compares strings from their end (soon it&#39;ll be overwritten and..." alt="" coords="233,56,372,83"/>
+<area shape="rect" id="node4" href="$string-sort_8cpp.html#a7694052dd798102ec36af3150f30890c" title="Returns the number of the first letter in the string." alt="" coords="420,56,540,83"/>
+<area shape="rect" id="node5" href="$string-sort_8cpp.html#a3eae1eea92589f4bfa7f89263595a154" title="Returns true if this symbol is letter, false if it isn&#39;t." alt="" coords="588,56,663,83"/>
+</map>

@@ -83,8 +83,9 @@ $(document).ready(function(){initNavTree('string-operations_8h.html',''); initRe
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#enum-members">Enumerations</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">string-operations.h File Reference</div>  </div>
 </div><!--header-->
@@ -116,9 +117,11 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="string-operations_8h__dep__incl.png" border="0" usemap="#string-operations_8hdep" alt=""/></div>
 <map name="string-operations_8hdep" id="string-operations_8hdep">
-<area shape="rect" title=" " alt="" coords="46,5,191,32"/>
-<area shape="rect" href="main_8cpp.html" title=" " alt="" coords="5,80,88,107"/>
-<area shape="rect" href="string-operations_8cpp.html" title=" " alt="" coords="112,80,272,107"/>
+<area shape="rect" title=" " alt="" coords="62,5,207,32"/>
+<area shape="rect" href="main_8cpp.html" title=" " alt="" coords="5,155,88,181"/>
+<area shape="rect" href="string-sort_8h.html" title=" " alt="" coords="84,80,185,107"/>
+<area shape="rect" href="string-operations_8cpp.html" title=" " alt="" coords="209,80,369,107"/>
+<area shape="rect" href="string-sort_8cpp.html" title=" " alt="" coords="113,155,229,181"/>
 </map>
 </div>
 </div>
@@ -127,409 +130,80 @@ This graph shows which files directly or indirectly include this file:</div>
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtext.html">text</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO перевести программу на самописные функции (библиотека string-utils)  <a href="structtext.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">&lt; Structture which is text you can easilly work with  <a href="structtext.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a0f4d394a3ab4e09bff60f714c66dc5ee"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string-operations_8h.html#a0f4d394a3ab4e09bff60f714c66dc5ee">STRING</a>&#160;&#160;&#160;-OPERATIONS_H_INCLUDED</td></tr>
-<tr class="separator:a0f4d394a3ab4e09bff60f714c66dc5ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:a08b18ac8af0f3462354240d9732f3852"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string-operations_8h.html#a08b18ac8af0f3462354240d9732f3852">err_code</a> { <br />
+&#160;&#160;<a class="el" href="string-operations_8h.html#a08b18ac8af0f3462354240d9732f3852a2bc49ec37d6a5715dd23e85f1ff5bb59">OK</a>, 
+<a class="el" href="string-operations_8h.html#a08b18ac8af0f3462354240d9732f3852a01f2874c5ce5c21aca4ddf7f786c0486">FOPEN_ERR</a>, 
+<a class="el" href="string-operations_8h.html#a08b18ac8af0f3462354240d9732f3852aad16b1b11baa59d4406d5597db827f57">FSEEK_ERR</a>, 
+<a class="el" href="string-operations_8h.html#a08b18ac8af0f3462354240d9732f3852a9df610ed3aa5c32c2392c6b9d368a9d4">FTELL_ERR</a>, 
+<br />
+&#160;&#160;<a class="el" href="string-operations_8h.html#a08b18ac8af0f3462354240d9732f3852af3d687168d6af249c9848a6e26d11adb">FREAD_ERR</a>, 
+<a class="el" href="string-operations_8h.html#a08b18ac8af0f3462354240d9732f3852ace73326b6af88b97b092575d7bb1c3dc">CALLOC_ERR</a>
+<br />
+ }</td></tr>
+<tr class="memdesc:a08b18ac8af0f3462354240d9732f3852"><td class="mdescLeft">&#160;</td><td class="mdescRight">TODO перевести программу на самописные функции (библиотека string-utils)  <a href="string-operations_8h.html#a08b18ac8af0f3462354240d9732f3852">More...</a><br /></td></tr>
+<tr class="separator:a08b18ac8af0f3462354240d9732f3852"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a66b2f66a1b6e099e92b12fb701b75168"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string-operations_8h.html#a66b2f66a1b6e099e92b12fb701b75168">input_text</a> (struct <a class="el" href="structtext.html">text</a> *some_text)</td></tr>
-<tr class="memdesc:a66b2f66a1b6e099e92b12fb701b75168"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads text from <a class="el" href="input__text_8txt.html">input_text.txt</a>, determines it's size, allocates memory, puts text into text_line and puts pointers from index_stringto the beginnings of lines (with a help of find_strings_beginnings)  <a href="string-operations_8h.html#a66b2f66a1b6e099e92b12fb701b75168">More...</a><br /></td></tr>
-<tr class="separator:a66b2f66a1b6e099e92b12fb701b75168"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf1b1dfb7353d817e76e385bbb6d077e"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string-operations_8h.html#acf1b1dfb7353d817e76e385bbb6d077e">cmp_strings</a> (char *first_string, char *second_string)</td></tr>
-<tr class="memdesc:acf1b1dfb7353d817e76e385bbb6d077e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns -1 if the second string is greater than first, 0 if they're equal and 1 if first string is greater.  <a href="string-operations_8h.html#acf1b1dfb7353d817e76e385bbb6d077e">More...</a><br /></td></tr>
-<tr class="separator:acf1b1dfb7353d817e76e385bbb6d077e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0468d00bf92cbe722ade85e2e04932ad"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string-operations_8h.html#a0468d00bf92cbe722ade85e2e04932ad">change_strings</a> (struct <a class="el" href="structtext.html">text</a> *some_text, int first_string, int second_string)</td></tr>
-<tr class="memdesc:a0468d00bf92cbe722ade85e2e04932ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swaps pointers to two input strings.  <a href="string-operations_8h.html#a0468d00bf92cbe722ade85e2e04932ad">More...</a><br /></td></tr>
-<tr class="separator:a0468d00bf92cbe722ade85e2e04932ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9094dbf48480c9276f28b2610a878be9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string-operations_8h.html#a9094dbf48480c9276f28b2610a878be9">sort_strings</a> (struct <a class="el" href="structtext.html">text</a> *some_text, bool enable_reverse)</td></tr>
-<tr class="memdesc:a9094dbf48480c9276f28b2610a878be9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Choses string sorting algorithm and sorting mode (reverse or not)  <a href="string-operations_8h.html#a9094dbf48480c9276f28b2610a878be9">More...</a><br /></td></tr>
-<tr class="separator:a9094dbf48480c9276f28b2610a878be9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4da5607e0fdcbbc93b6b00f279ee09bb"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string-operations_8h.html#a4da5607e0fdcbbc93b6b00f279ee09bb">qsort_strings</a> (struct <a class="el" href="structtext.html">text</a> *some_text, int start, int finish)</td></tr>
-<tr class="memdesc:a4da5607e0fdcbbc93b6b00f279ee09bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Custom qsort algorithm for strings (that doesn't work yet)  <a href="string-operations_8h.html#a4da5607e0fdcbbc93b6b00f279ee09bb">More...</a><br /></td></tr>
-<tr class="separator:a4da5607e0fdcbbc93b6b00f279ee09bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a710e01f393790248c648cc1412ddfd04"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string-operations_8h.html#a710e01f393790248c648cc1412ddfd04">bubblesort_strings</a> (struct <a class="el" href="structtext.html">text</a> *some_text)</td></tr>
-<tr class="memdesc:a710e01f393790248c648cc1412ddfd04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts the strings given with bubblesort algorithm.  <a href="string-operations_8h.html#a710e01f393790248c648cc1412ddfd04">More...</a><br /></td></tr>
-<tr class="separator:a710e01f393790248c648cc1412ddfd04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a75d87696c86f7bb6b3ead982a23ea576"><td class="memItemLeft" align="right" valign="top"><a class="el" href="string-operations_8h.html#a08b18ac8af0f3462354240d9732f3852">err_code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string-operations_8h.html#a75d87696c86f7bb6b3ead982a23ea576">input_text</a> (struct <a class="el" href="structtext.html">text</a> *some_text)</td></tr>
+<tr class="memdesc:a75d87696c86f7bb6b3ead982a23ea576"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reads text from input_text.txt, determines it's size, allocates memory, puts text into text_line and puts pointers from index_stringto the beginnings of lines (with a help of find_strings_beginnings). Returns error code.  <a href="string-operations_8h.html#a75d87696c86f7bb6b3ead982a23ea576">More...</a><br /></td></tr>
+<tr class="separator:a75d87696c86f7bb6b3ead982a23ea576"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1a86d1e0872dcb2f86ce42f3b8e8382d"><td class="memItemLeft" align="right" valign="top"><a class="el" href="string-operations_8h.html#a08b18ac8af0f3462354240d9732f3852">err_code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string-operations_8h.html#a1a86d1e0872dcb2f86ce42f3b8e8382d">text_file_output</a> (struct <a class="el" href="structtext.html">text</a> *some_text, bool enable_loseless_adding)</td></tr>
+<tr class="memdesc:a1a86d1e0872dcb2f86ce42f3b8e8382d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Puts strings given into the output_text.txt.  <a href="string-operations_8h.html#a1a86d1e0872dcb2f86ce42f3b8e8382d">More...</a><br /></td></tr>
+<tr class="separator:a1a86d1e0872dcb2f86ce42f3b8e8382d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b9b0a0440b427646d40864e32555aa3"><td class="memItemLeft" align="right" valign="top"><a class="el" href="string-operations_8h.html#a08b18ac8af0f3462354240d9732f3852">err_code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string-operations_8h.html#a3b9b0a0440b427646d40864e32555aa3">text_file_add_delimiter</a> ()</td></tr>
+<tr class="memdesc:a3b9b0a0440b427646d40864e32555aa3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ads awesome text label into the output_text.txt. Returns error code.  <a href="string-operations_8h.html#a3b9b0a0440b427646d40864e32555aa3">More...</a><br /></td></tr>
+<tr class="separator:a3b9b0a0440b427646d40864e32555aa3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2dd20513cf8d48b63b06fddeb7f110a1"><td class="memItemLeft" align="right" valign="top"><a class="el" href="string-operations_8h.html#a08b18ac8af0f3462354240d9732f3852">err_code</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string-operations_8h.html#a2dd20513cf8d48b63b06fddeb7f110a1">text_file_file_plain_output</a> (struct <a class="el" href="structtext.html">text</a> *some_text, bool enable_loseless_adding)</td></tr>
+<tr class="memdesc:a2dd20513cf8d48b63b06fddeb7f110a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Puts the contents of the text_line into the output_text.txt (usually text_line contains non-modified text red from file). Returns error code.  <a href="string-operations_8h.html#a2dd20513cf8d48b63b06fddeb7f110a1">More...</a><br /></td></tr>
+<tr class="separator:a2dd20513cf8d48b63b06fddeb7f110a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad7d04534405521de6e565763029696c0"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string-operations_8h.html#ad7d04534405521de6e565763029696c0">text_console_output</a> (struct <a class="el" href="structtext.html">text</a> *some_text)</td></tr>
 <tr class="memdesc:ad7d04534405521de6e565763029696c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Displays strings into the console.  <a href="string-operations_8h.html#ad7d04534405521de6e565763029696c0">More...</a><br /></td></tr>
 <tr class="separator:ad7d04534405521de6e565763029696c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af66b58877cd82cab6793825f90d898f8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string-operations_8h.html#af66b58877cd82cab6793825f90d898f8">text_file_output</a> (struct <a class="el" href="structtext.html">text</a> *some_text, bool enable_loseless_adding)</td></tr>
-<tr class="memdesc:af66b58877cd82cab6793825f90d898f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Puts strings given into the <a class="el" href="output__text_8txt.html">output_text.txt</a>.  <a href="string-operations_8h.html#af66b58877cd82cab6793825f90d898f8">More...</a><br /></td></tr>
-<tr class="separator:af66b58877cd82cab6793825f90d898f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94e11f43ba2d6b39feb571f479b15cb2"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string-operations_8h.html#a94e11f43ba2d6b39feb571f479b15cb2">TryToExecute</a> (<a class="el" href="string-operations_8h.html#a08b18ac8af0f3462354240d9732f3852">err_code</a> func_return_code, <a class="el" href="structtext.html">text</a> *operand_to_free_mem)</td></tr>
+<tr class="memdesc:a94e11f43ba2d6b39feb571f479b15cb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees memory and aborts program in case it returns non-OK error code.  <a href="string-operations_8h.html#a94e11f43ba2d6b39feb571f479b15cb2">More...</a><br /></td></tr>
+<tr class="separator:a94e11f43ba2d6b39feb571f479b15cb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a17222f63f6f4c53e06c15fdb75f10c34"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string-operations_8h.html#a17222f63f6f4c53e06c15fdb75f10c34">free_memory</a> (struct <a class="el" href="structtext.html">text</a> *some_text)</td></tr>
 <tr class="memdesc:a17222f63f6f4c53e06c15fdb75f10c34"><td class="mdescLeft">&#160;</td><td class="mdescRight">Frees all heap memory occupied by text.  <a href="string-operations_8h.html#a17222f63f6f4c53e06c15fdb75f10c34">More...</a><br /></td></tr>
 <tr class="separator:a17222f63f6f4c53e06c15fdb75f10c34"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4a3b78688fac8c65663b40663a929d20"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string-operations_8h.html#a4a3b78688fac8c65663b40663a929d20">find_first_letter</a> (char *some_string)</td></tr>
-<tr class="memdesc:a4a3b78688fac8c65663b40663a929d20"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of the first letter in the string.  <a href="string-operations_8h.html#a4a3b78688fac8c65663b40663a929d20">More...</a><br /></td></tr>
-<tr class="separator:a4a3b78688fac8c65663b40663a929d20"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3eae1eea92589f4bfa7f89263595a154"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string-operations_8h.html#a3eae1eea92589f4bfa7f89263595a154">is_letter</a> (char symbol)</td></tr>
-<tr class="memdesc:a3eae1eea92589f4bfa7f89263595a154"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if this symbol is letter, false if it isn't.  <a href="string-operations_8h.html#a3eae1eea92589f4bfa7f89263595a154">More...</a><br /></td></tr>
-<tr class="separator:a3eae1eea92589f4bfa7f89263595a154"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a896ccef637931300bd22350ab3497ad9"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string-operations_8h.html#a896ccef637931300bd22350ab3497ad9">count_strings</a> (struct <a class="el" href="structtext.html">text</a> *some_text)</td></tr>
-<tr class="memdesc:a896ccef637931300bd22350ab3497ad9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Counts number of strings in the text and result into N_strings.  <a href="string-operations_8h.html#a896ccef637931300bd22350ab3497ad9">More...</a><br /></td></tr>
-<tr class="separator:a896ccef637931300bd22350ab3497ad9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a826909aa35462782e6a9f2767c976559"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string-operations_8h.html#a826909aa35462782e6a9f2767c976559">find_string_beginning</a> (struct <a class="el" href="structtext.html">text</a> *some_text)</td></tr>
-<tr class="memdesc:a826909aa35462782e6a9f2767c976559"><td class="mdescLeft">&#160;</td><td class="mdescRight">Puts pointers from index_stringto the beginnings of lines.  <a href="string-operations_8h.html#a826909aa35462782e6a9f2767c976559">More...</a><br /></td></tr>
-<tr class="separator:a826909aa35462782e6a9f2767c976559"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac4e30612d516254609e1b4795edb278a"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string-operations_8h.html#ac4e30612d516254609e1b4795edb278a">bubblesort_strings_back</a> (struct <a class="el" href="structtext.html">text</a> *some_text)</td></tr>
-<tr class="memdesc:ac4e30612d516254609e1b4795edb278a"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is like bubblesort_strings, but it uses cmp_strings_back (soon it'll be overwritten and merged with bubblesort_strings)  <a href="string-operations_8h.html#ac4e30612d516254609e1b4795edb278a">More...</a><br /></td></tr>
-<tr class="separator:ac4e30612d516254609e1b4795edb278a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac44ad5dac4cb3b034eee4d19288e87b5"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string-operations_8h.html#ac44ad5dac4cb3b034eee4d19288e87b5">cmp_strings_back</a> (char *first_string, char *second_string)</td></tr>
-<tr class="memdesc:ac44ad5dac4cb3b034eee4d19288e87b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">This function is like cmp_strings, but compares strings from their end (soon it'll be overwritten and merged with cmp_strings)  <a href="string-operations_8h.html#ac44ad5dac4cb3b034eee4d19288e87b5">More...</a><br /></td></tr>
-<tr class="separator:ac44ad5dac4cb3b034eee4d19288e87b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2ad649004a81d42ef0772f64bbf29388"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string-operations_8h.html#a2ad649004a81d42ef0772f64bbf29388">text_file_add_delimiter</a> ()</td></tr>
-<tr class="memdesc:a2ad649004a81d42ef0772f64bbf29388"><td class="mdescLeft">&#160;</td><td class="mdescRight">Ads awesome text label into the <a class="el" href="output__text_8txt.html">output_text.txt</a>.  <a href="string-operations_8h.html#a2ad649004a81d42ef0772f64bbf29388">More...</a><br /></td></tr>
-<tr class="separator:a2ad649004a81d42ef0772f64bbf29388"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29317629b754b01f9b70fdde1ee09be8"><td class="memItemLeft" align="right" valign="top">int&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string-operations_8h.html#a29317629b754b01f9b70fdde1ee09be8">text_file_file_plain_output</a> (struct <a class="el" href="structtext.html">text</a> *some_text, bool enable_loseless_adding)</td></tr>
-<tr class="memdesc:a29317629b754b01f9b70fdde1ee09be8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Puts the contents of the text_line into the <a class="el" href="output__text_8txt.html">output_text.txt</a> (usually text_line contains non-modified text red from file)  <a href="string-operations_8h.html#a29317629b754b01f9b70fdde1ee09be8">More...</a><br /></td></tr>
-<tr class="separator:a29317629b754b01f9b70fdde1ee09be8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:aae1a19cd706aafe833a8ddae43e0e845"><td class="memItemLeft" align="right" valign="top">const char&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="string-operations_8h.html#aae1a19cd706aafe833a8ddae43e0e845">NOT_A_LETTER</a> [] = &quot;.,-!?\&quot;( )':;&quot;</td></tr>
+<tr class="memdesc:aae1a19cd706aafe833a8ddae43e0e845"><td class="mdescLeft">&#160;</td><td class="mdescRight">String of non-letter symbols.  <a href="string-operations_8h.html#aae1a19cd706aafe833a8ddae43e0e845">More...</a><br /></td></tr>
+<tr class="separator:aae1a19cd706aafe833a8ddae43e0e845"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a0f4d394a3ab4e09bff60f714c66dc5ee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f4d394a3ab4e09bff60f714c66dc5ee">&#9670;&nbsp;</a></span>STRING</h2>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a08b18ac8af0f3462354240d9732f3852"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08b18ac8af0f3462354240d9732f3852">&#9670;&nbsp;</a></span>err_code</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define STRING&#160;&#160;&#160;-OPERATIONS_H_INCLUDED</td>
+          <td class="memname">enum <a class="el" href="string-operations_8h.html#a08b18ac8af0f3462354240d9732f3852">err_code</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>TODO перевести программу на самописные функции (библиотека string-utils) </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a08b18ac8af0f3462354240d9732f3852a2bc49ec37d6a5715dd23e85f1ff5bb59"></a>OK&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a08b18ac8af0f3462354240d9732f3852a01f2874c5ce5c21aca4ddf7f786c0486"></a>FOPEN_ERR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a08b18ac8af0f3462354240d9732f3852aad16b1b11baa59d4406d5597db827f57"></a>FSEEK_ERR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a08b18ac8af0f3462354240d9732f3852a9df610ed3aa5c32c2392c6b9d368a9d4"></a>FTELL_ERR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a08b18ac8af0f3462354240d9732f3852af3d687168d6af249c9848a6e26d11adb"></a>FREAD_ERR&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a08b18ac8af0f3462354240d9732f3852ace73326b6af88b97b092575d7bb1c3dc"></a>CALLOC_ERR&#160;</td><td class="fielddoc"></td></tr>
+</table>
 
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a710e01f393790248c648cc1412ddfd04"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a710e01f393790248c648cc1412ddfd04">&#9670;&nbsp;</a></span>bubblesort_strings()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int bubblesort_strings </td>
-          <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structtext.html">text</a> *&#160;</td>
-          <td class="paramname"><em>some_text</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Sorts the strings given with bubblesort algorithm. </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="string-operations_8h_a710e01f393790248c648cc1412ddfd04_cgraph.png" border="0" usemap="#string-operations_8h_a710e01f393790248c648cc1412ddfd04_cgraph" alt=""/></div>
-<map name="string-operations_8h_a710e01f393790248c648cc1412ddfd04_cgraph" id="string-operations_8h_a710e01f393790248c648cc1412ddfd04_cgraph">
-<area shape="rect" title="Sorts the strings given with bubblesort algorithm." alt="" coords="5,31,148,57"/>
-<area shape="rect" href="string-operations_8cpp.html#a0468d00bf92cbe722ade85e2e04932ad" title="Swaps pointers to two input strings." alt="" coords="196,5,316,32"/>
-<area shape="rect" href="string-operations_8cpp.html#acf1b1dfb7353d817e76e385bbb6d077e" title="Returns &#45;1 if the second string is greater than first, 0 if they&#39;re equal and 1 if first string is gr..." alt="" coords="205,56,307,83"/>
-<area shape="rect" href="string-operations_8cpp.html#a4a3b78688fac8c65663b40663a929d20" title="Returns the number of the first letter in the string." alt="" coords="364,56,484,83"/>
-<area shape="rect" href="string-operations_8cpp.html#a3eae1eea92589f4bfa7f89263595a154" title="Returns true if this symbol is letter, false if it isn&#39;t." alt="" coords="532,56,607,83"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="string-operations_8h_a710e01f393790248c648cc1412ddfd04_icgraph.png" border="0" usemap="#string-operations_8h_a710e01f393790248c648cc1412ddfd04_icgraph" alt=""/></div>
-<map name="string-operations_8h_a710e01f393790248c648cc1412ddfd04_icgraph" id="string-operations_8h_a710e01f393790248c648cc1412ddfd04_icgraph">
-<area shape="rect" title="Sorts the strings given with bubblesort algorithm." alt="" coords="255,5,397,32"/>
-<area shape="rect" href="string-operations_8h.html#a9094dbf48480c9276f28b2610a878be9" title="Choses string sorting algorithm and sorting mode (reverse or not)" alt="" coords="108,5,207,32"/>
-<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="ac4e30612d516254609e1b4795edb278a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac4e30612d516254609e1b4795edb278a">&#9670;&nbsp;</a></span>bubblesort_strings_back()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int bubblesort_strings_back </td>
-          <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structtext.html">text</a> *&#160;</td>
-          <td class="paramname"><em>some_text</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>This function is like bubblesort_strings, but it uses cmp_strings_back (soon it'll be overwritten and merged with bubblesort_strings) </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="string-operations_8h_ac4e30612d516254609e1b4795edb278a_cgraph.png" border="0" usemap="#string-operations_8h_ac4e30612d516254609e1b4795edb278a_cgraph" alt=""/></div>
-<map name="string-operations_8h_ac4e30612d516254609e1b4795edb278a_cgraph" id="string-operations_8h_ac4e30612d516254609e1b4795edb278a_cgraph">
-<area shape="rect" title="This function is like bubblesort_strings, but it uses cmp_strings_back (soon it&#39;ll be overwritten and..." alt="" coords="5,31,185,57"/>
-<area shape="rect" href="string-operations_8cpp.html#a0468d00bf92cbe722ade85e2e04932ad" title="Swaps pointers to two input strings." alt="" coords="243,5,363,32"/>
-<area shape="rect" href="string-operations_8cpp.html#ac44ad5dac4cb3b034eee4d19288e87b5" title="This function is like cmp_strings, but compares strings from their end (soon it&#39;ll be overwritten and..." alt="" coords="233,56,372,83"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="string-operations_8h_ac4e30612d516254609e1b4795edb278a_icgraph.png" border="0" usemap="#string-operations_8h_ac4e30612d516254609e1b4795edb278a_icgraph" alt=""/></div>
-<map name="string-operations_8h_ac4e30612d516254609e1b4795edb278a_icgraph" id="string-operations_8h_ac4e30612d516254609e1b4795edb278a_icgraph">
-<area shape="rect" title="This function is like bubblesort_strings, but it uses cmp_strings_back (soon it&#39;ll be overwritten and..." alt="" coords="255,5,435,32"/>
-<area shape="rect" href="string-operations_8h.html#a9094dbf48480c9276f28b2610a878be9" title="Choses string sorting algorithm and sorting mode (reverse or not)" alt="" coords="108,5,207,32"/>
-<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a0468d00bf92cbe722ade85e2e04932ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0468d00bf92cbe722ade85e2e04932ad">&#9670;&nbsp;</a></span>change_strings()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int change_strings </td>
-          <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structtext.html">text</a> *&#160;</td>
-          <td class="paramname"><em>some_text</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>first_string</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>second_string</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Swaps pointers to two input strings. </p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="string-operations_8h_a0468d00bf92cbe722ade85e2e04932ad_icgraph.png" border="0" usemap="#string-operations_8h_a0468d00bf92cbe722ade85e2e04932ad_icgraph" alt=""/></div>
-<map name="string-operations_8h_a0468d00bf92cbe722ade85e2e04932ad_icgraph" id="string-operations_8h_a0468d00bf92cbe722ade85e2e04932ad_icgraph">
-<area shape="rect" title="Swaps pointers to two input strings." alt="" coords="483,31,603,57"/>
-<area shape="rect" href="string-operations_8h.html#a710e01f393790248c648cc1412ddfd04" title="Sorts the strings given with bubblesort algorithm." alt="" coords="273,5,416,32"/>
-<area shape="rect" href="string-operations_8h.html#ac4e30612d516254609e1b4795edb278a" title="This function is like bubblesort_strings, but it uses cmp_strings_back (soon it&#39;ll be overwritten and..." alt="" coords="255,56,435,83"/>
-<area shape="rect" href="string-operations_8h.html#a9094dbf48480c9276f28b2610a878be9" title="Choses string sorting algorithm and sorting mode (reverse or not)" alt="" coords="108,31,207,57"/>
-<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,31,60,57"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="acf1b1dfb7353d817e76e385bbb6d077e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf1b1dfb7353d817e76e385bbb6d077e">&#9670;&nbsp;</a></span>cmp_strings()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int cmp_strings </td>
-          <td>(</td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>first_string</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>second_string</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns -1 if the second string is greater than first, 0 if they're equal and 1 if first string is greater. </p>
-<p>printf( "=============%c\n", first_string[first_startfrom + i] );</p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="string-operations_8h_acf1b1dfb7353d817e76e385bbb6d077e_cgraph.png" border="0" usemap="#string-operations_8h_acf1b1dfb7353d817e76e385bbb6d077e_cgraph" alt=""/></div>
-<map name="string-operations_8h_acf1b1dfb7353d817e76e385bbb6d077e_cgraph" id="string-operations_8h_acf1b1dfb7353d817e76e385bbb6d077e_cgraph">
-<area shape="rect" title="Returns &#45;1 if the second string is greater than first, 0 if they&#39;re equal and 1 if first string is gr..." alt="" coords="5,5,107,32"/>
-<area shape="rect" href="string-operations_8cpp.html#a4a3b78688fac8c65663b40663a929d20" title="Returns the number of the first letter in the string." alt="" coords="155,5,275,32"/>
-<area shape="rect" href="string-operations_8cpp.html#a3eae1eea92589f4bfa7f89263595a154" title="Returns true if this symbol is letter, false if it isn&#39;t." alt="" coords="323,5,397,32"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="string-operations_8h_acf1b1dfb7353d817e76e385bbb6d077e_icgraph.png" border="0" usemap="#string-operations_8h_acf1b1dfb7353d817e76e385bbb6d077e_icgraph" alt=""/></div>
-<map name="string-operations_8h_acf1b1dfb7353d817e76e385bbb6d077e_icgraph" id="string-operations_8h_acf1b1dfb7353d817e76e385bbb6d077e_icgraph">
-<area shape="rect" title="Returns &#45;1 if the second string is greater than first, 0 if they&#39;re equal and 1 if first string is gr..." alt="" coords="445,5,547,32"/>
-<area shape="rect" href="string-operations_8h.html#a710e01f393790248c648cc1412ddfd04" title="Sorts the strings given with bubblesort algorithm." alt="" coords="255,5,397,32"/>
-<area shape="rect" href="string-operations_8h.html#a9094dbf48480c9276f28b2610a878be9" title="Choses string sorting algorithm and sorting mode (reverse or not)" alt="" coords="108,5,207,32"/>
-<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="ac44ad5dac4cb3b034eee4d19288e87b5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac44ad5dac4cb3b034eee4d19288e87b5">&#9670;&nbsp;</a></span>cmp_strings_back()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int cmp_strings_back </td>
-          <td>(</td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>first_string</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>second_string</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>This function is like cmp_strings, but compares strings from their end (soon it'll be overwritten and merged with cmp_strings) </p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="string-operations_8h_ac44ad5dac4cb3b034eee4d19288e87b5_icgraph.png" border="0" usemap="#string-operations_8h_ac44ad5dac4cb3b034eee4d19288e87b5_icgraph" alt=""/></div>
-<map name="string-operations_8h_ac44ad5dac4cb3b034eee4d19288e87b5_icgraph" id="string-operations_8h_ac44ad5dac4cb3b034eee4d19288e87b5_icgraph">
-<area shape="rect" title="This function is like cmp_strings, but compares strings from their end (soon it&#39;ll be overwritten and..." alt="" coords="483,5,621,32"/>
-<area shape="rect" href="string-operations_8h.html#ac4e30612d516254609e1b4795edb278a" title="This function is like bubblesort_strings, but it uses cmp_strings_back (soon it&#39;ll be overwritten and..." alt="" coords="255,5,435,32"/>
-<area shape="rect" href="string-operations_8h.html#a9094dbf48480c9276f28b2610a878be9" title="Choses string sorting algorithm and sorting mode (reverse or not)" alt="" coords="108,5,207,32"/>
-<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a896ccef637931300bd22350ab3497ad9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a896ccef637931300bd22350ab3497ad9">&#9670;&nbsp;</a></span>count_strings()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int count_strings </td>
-          <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structtext.html">text</a> *&#160;</td>
-          <td class="paramname"><em>some_text</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Counts number of strings in the text and result into N_strings. </p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="string-operations_8h_a896ccef637931300bd22350ab3497ad9_icgraph.png" border="0" usemap="#string-operations_8h_a896ccef637931300bd22350ab3497ad9_icgraph" alt=""/></div>
-<map name="string-operations_8h_a896ccef637931300bd22350ab3497ad9_icgraph" id="string-operations_8h_a896ccef637931300bd22350ab3497ad9_icgraph">
-<area shape="rect" title="Counts number of strings in the text and result into N_strings." alt="" coords="244,5,353,32"/>
-<area shape="rect" href="string-operations_8h.html#a66b2f66a1b6e099e92b12fb701b75168" title="Reads text from input_text.txt, determines it&#39;s size, allocates memory, puts text into text_line and ..." alt="" coords="108,5,196,32"/>
-<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a4a3b78688fac8c65663b40663a929d20"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4a3b78688fac8c65663b40663a929d20">&#9670;&nbsp;</a></span>find_first_letter()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int find_first_letter </td>
-          <td>(</td>
-          <td class="paramtype">char *&#160;</td>
-          <td class="paramname"><em>some_string</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns the number of the first letter in the string. </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="string-operations_8h_a4a3b78688fac8c65663b40663a929d20_cgraph.png" border="0" usemap="#string-operations_8h_a4a3b78688fac8c65663b40663a929d20_cgraph" alt=""/></div>
-<map name="string-operations_8h_a4a3b78688fac8c65663b40663a929d20_cgraph" id="string-operations_8h_a4a3b78688fac8c65663b40663a929d20_cgraph">
-<area shape="rect" title="Returns the number of the first letter in the string." alt="" coords="5,5,125,32"/>
-<area shape="rect" href="string-operations_8cpp.html#a3eae1eea92589f4bfa7f89263595a154" title="Returns true if this symbol is letter, false if it isn&#39;t." alt="" coords="173,5,248,32"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="string-operations_8h_a4a3b78688fac8c65663b40663a929d20_icgraph.png" border="0" usemap="#string-operations_8h_a4a3b78688fac8c65663b40663a929d20_icgraph" alt=""/></div>
-<map name="string-operations_8h_a4a3b78688fac8c65663b40663a929d20_icgraph" id="string-operations_8h_a4a3b78688fac8c65663b40663a929d20_icgraph">
-<area shape="rect" title="Returns the number of the first letter in the string." alt="" coords="595,5,715,32"/>
-<area shape="rect" href="string-operations_8h.html#acf1b1dfb7353d817e76e385bbb6d077e" title="Returns &#45;1 if the second string is greater than first, 0 if they&#39;re equal and 1 if first string is gr..." alt="" coords="445,5,547,32"/>
-<area shape="rect" href="string-operations_8h.html#a710e01f393790248c648cc1412ddfd04" title="Sorts the strings given with bubblesort algorithm." alt="" coords="255,5,397,32"/>
-<area shape="rect" href="string-operations_8h.html#a9094dbf48480c9276f28b2610a878be9" title="Choses string sorting algorithm and sorting mode (reverse or not)" alt="" coords="108,5,207,32"/>
-<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a826909aa35462782e6a9f2767c976559"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a826909aa35462782e6a9f2767c976559">&#9670;&nbsp;</a></span>find_string_beginning()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int find_string_beginning </td>
-          <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structtext.html">text</a> *&#160;</td>
-          <td class="paramname"><em>some_text</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Puts pointers from index_stringto the beginnings of lines. </p>
-<p>DEBUG</p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="string-operations_8h_a826909aa35462782e6a9f2767c976559_icgraph.png" border="0" usemap="#string-operations_8h_a826909aa35462782e6a9f2767c976559_icgraph" alt=""/></div>
-<map name="string-operations_8h_a826909aa35462782e6a9f2767c976559_icgraph" id="string-operations_8h_a826909aa35462782e6a9f2767c976559_icgraph">
-<area shape="rect" title="Puts pointers from index_stringto the beginnings of lines." alt="" coords="244,5,405,32"/>
-<area shape="rect" href="string-operations_8h.html#a66b2f66a1b6e099e92b12fb701b75168" title="Reads text from input_text.txt, determines it&#39;s size, allocates memory, puts text into text_line and ..." alt="" coords="108,5,196,32"/>
-<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
-</map>
-</div>
-
-</div>
-</div>
 <a id="a17222f63f6f4c53e06c15fdb75f10c34"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a17222f63f6f4c53e06c15fdb75f10c34">&#9670;&nbsp;</a></span>free_memory()</h2>
 
@@ -552,21 +226,22 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="string-operations_8h_a17222f63f6f4c53e06c15fdb75f10c34_icgraph.png" border="0" usemap="#string-operations_8h_a17222f63f6f4c53e06c15fdb75f10c34_icgraph" alt=""/></div>
 <map name="string-operations_8h_a17222f63f6f4c53e06c15fdb75f10c34_icgraph" id="string-operations_8h_a17222f63f6f4c53e06c15fdb75f10c34_icgraph">
-<area shape="rect" title="Frees all heap memory occupied by text." alt="" coords="108,5,219,32"/>
+<area shape="rect" title="Frees all heap memory occupied by text." alt="" coords="263,5,373,32"/>
 <area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
+<area shape="rect" href="string-operations_8h.html#a94e11f43ba2d6b39feb571f479b15cb2" title="Frees memory and aborts program in case it returns non&#45;OK error code." alt="" coords="108,31,215,57"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a66b2f66a1b6e099e92b12fb701b75168"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a66b2f66a1b6e099e92b12fb701b75168">&#9670;&nbsp;</a></span>input_text()</h2>
+<a id="a75d87696c86f7bb6b3ead982a23ea576"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a75d87696c86f7bb6b3ead982a23ea576">&#9670;&nbsp;</a></span>input_text()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int input_text </td>
+          <td class="memname"><a class="el" href="string-operations_8h.html#a08b18ac8af0f3462354240d9732f3852">err_code</a> input_text </td>
           <td>(</td>
           <td class="paramtype">struct <a class="el" href="structtext.html">text</a> *&#160;</td>
           <td class="paramname"><em>some_text</em></td><td>)</td>
@@ -575,14 +250,13 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Reads text from <a class="el" href="input__text_8txt.html">input_text.txt</a>, determines it's size, allocates memory, puts text into text_line and puts pointers from index_stringto the beginnings of lines (with a help of find_strings_beginnings) </p>
+<p>Reads text from input_text.txt, determines it's size, allocates memory, puts text into text_line and puts pointers from index_stringto the beginnings of lines (with a help of find_strings_beginnings). Returns error code. </p>
 <p>TODO read func</p>
-<p>DEBUG:</p>
 <div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="string-operations_8h_a66b2f66a1b6e099e92b12fb701b75168_cgraph.png" border="0" usemap="#string-operations_8h_a66b2f66a1b6e099e92b12fb701b75168_cgraph" alt=""/></div>
-<map name="string-operations_8h_a66b2f66a1b6e099e92b12fb701b75168_cgraph" id="string-operations_8h_a66b2f66a1b6e099e92b12fb701b75168_cgraph">
+<div class="center"><img src="string-operations_8h_a75d87696c86f7bb6b3ead982a23ea576_cgraph.png" border="0" usemap="#string-operations_8h_a75d87696c86f7bb6b3ead982a23ea576_cgraph" alt=""/></div>
+<map name="string-operations_8h_a75d87696c86f7bb6b3ead982a23ea576_cgraph" id="string-operations_8h_a75d87696c86f7bb6b3ead982a23ea576_cgraph">
 <area shape="rect" title="Reads text from input_text.txt, determines it&#39;s size, allocates memory, puts text into text_line and ..." alt="" coords="5,31,93,57"/>
 <area shape="rect" href="string-operations_8cpp.html#a896ccef637931300bd22350ab3497ad9" title="Counts number of strings in the text and result into N_strings." alt="" coords="167,5,277,32"/>
 <area shape="rect" href="string-operations_8cpp.html#a826909aa35462782e6a9f2767c976559" title="Puts pointers from index_stringto the beginnings of lines." alt="" coords="141,56,303,83"/>
@@ -591,132 +265,9 @@ Here is the call graph for this function:</div>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="string-operations_8h_a66b2f66a1b6e099e92b12fb701b75168_icgraph.png" border="0" usemap="#string-operations_8h_a66b2f66a1b6e099e92b12fb701b75168_icgraph" alt=""/></div>
-<map name="string-operations_8h_a66b2f66a1b6e099e92b12fb701b75168_icgraph" id="string-operations_8h_a66b2f66a1b6e099e92b12fb701b75168_icgraph">
+<div class="center"><img src="string-operations_8h_a75d87696c86f7bb6b3ead982a23ea576_icgraph.png" border="0" usemap="#string-operations_8h_a75d87696c86f7bb6b3ead982a23ea576_icgraph" alt=""/></div>
+<map name="string-operations_8h_a75d87696c86f7bb6b3ead982a23ea576_icgraph" id="string-operations_8h_a75d87696c86f7bb6b3ead982a23ea576_icgraph">
 <area shape="rect" title="Reads text from input_text.txt, determines it&#39;s size, allocates memory, puts text into text_line and ..." alt="" coords="108,5,196,32"/>
-<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a3eae1eea92589f4bfa7f89263595a154"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3eae1eea92589f4bfa7f89263595a154">&#9670;&nbsp;</a></span>is_letter()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">bool is_letter </td>
-          <td>(</td>
-          <td class="paramtype">char&#160;</td>
-          <td class="paramname"><em>symbol</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Returns true if this symbol is letter, false if it isn't. </p>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="string-operations_8h_a3eae1eea92589f4bfa7f89263595a154_icgraph.png" border="0" usemap="#string-operations_8h_a3eae1eea92589f4bfa7f89263595a154_icgraph" alt=""/></div>
-<map name="string-operations_8h_a3eae1eea92589f4bfa7f89263595a154_icgraph" id="string-operations_8h_a3eae1eea92589f4bfa7f89263595a154_icgraph">
-<area shape="rect" title="Returns true if this symbol is letter, false if it isn&#39;t." alt="" coords="763,5,837,32"/>
-<area shape="rect" href="string-operations_8h.html#a4a3b78688fac8c65663b40663a929d20" title="Returns the number of the first letter in the string." alt="" coords="595,5,715,32"/>
-<area shape="rect" href="string-operations_8h.html#acf1b1dfb7353d817e76e385bbb6d077e" title="Returns &#45;1 if the second string is greater than first, 0 if they&#39;re equal and 1 if first string is gr..." alt="" coords="445,5,547,32"/>
-<area shape="rect" href="string-operations_8h.html#a710e01f393790248c648cc1412ddfd04" title="Sorts the strings given with bubblesort algorithm." alt="" coords="255,5,397,32"/>
-<area shape="rect" href="string-operations_8h.html#a9094dbf48480c9276f28b2610a878be9" title="Choses string sorting algorithm and sorting mode (reverse or not)" alt="" coords="108,5,207,32"/>
-<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
-</map>
-</div>
-
-</div>
-</div>
-<a id="a4da5607e0fdcbbc93b6b00f279ee09bb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4da5607e0fdcbbc93b6b00f279ee09bb">&#9670;&nbsp;</a></span>qsort_strings()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int qsort_strings </td>
-          <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structtext.html">text</a> *&#160;</td>
-          <td class="paramname"><em>some_text</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>start</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>finish</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Custom qsort algorithm for strings (that doesn't work yet) </p>
-
-</div>
-</div>
-<a id="a9094dbf48480c9276f28b2610a878be9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9094dbf48480c9276f28b2610a878be9">&#9670;&nbsp;</a></span>sort_strings()</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">int sort_strings </td>
-          <td>(</td>
-          <td class="paramtype">struct <a class="el" href="structtext.html">text</a> *&#160;</td>
-          <td class="paramname"><em>some_text</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>enable_reverse</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td></td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Choses string sorting algorithm and sorting mode (reverse or not) </p>
-<div class="dynheader">
-Here is the call graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="string-operations_8h_a9094dbf48480c9276f28b2610a878be9_cgraph.png" border="0" usemap="#string-operations_8h_a9094dbf48480c9276f28b2610a878be9_cgraph" alt=""/></div>
-<map name="string-operations_8h_a9094dbf48480c9276f28b2610a878be9_cgraph" id="string-operations_8h_a9094dbf48480c9276f28b2610a878be9_cgraph">
-<area shape="rect" title="Choses string sorting algorithm and sorting mode (reverse or not)" alt="" coords="5,56,104,83"/>
-<area shape="rect" href="string-operations_8cpp.html#a710e01f393790248c648cc1412ddfd04" title="Sorts the strings given with bubblesort algorithm." alt="" coords="171,31,313,57"/>
-<area shape="rect" href="string-operations_8cpp.html#ac4e30612d516254609e1b4795edb278a" title="This function is like bubblesort_strings, but it uses cmp_strings_back (soon it&#39;ll be overwritten and..." alt="" coords="152,81,332,108"/>
-<area shape="rect" href="string-operations_8cpp.html#a0468d00bf92cbe722ade85e2e04932ad" title="Swaps pointers to two input strings." alt="" coords="389,56,509,83"/>
-<area shape="rect" href="string-operations_8cpp.html#acf1b1dfb7353d817e76e385bbb6d077e" title="Returns &#45;1 if the second string is greater than first, 0 if they&#39;re equal and 1 if first string is gr..." alt="" coords="399,5,500,32"/>
-<area shape="rect" href="string-operations_8cpp.html#a4a3b78688fac8c65663b40663a929d20" title="Returns the number of the first letter in the string." alt="" coords="567,5,687,32"/>
-<area shape="rect" href="string-operations_8cpp.html#a3eae1eea92589f4bfa7f89263595a154" title="Returns true if this symbol is letter, false if it isn&#39;t." alt="" coords="735,5,809,32"/>
-<area shape="rect" href="string-operations_8cpp.html#ac44ad5dac4cb3b034eee4d19288e87b5" title="This function is like cmp_strings, but compares strings from their end (soon it&#39;ll be overwritten and..." alt="" coords="380,107,519,133"/>
-</map>
-</div>
-<div class="dynheader">
-Here is the caller graph for this function:</div>
-<div class="dyncontent">
-<div class="center"><img src="string-operations_8h_a9094dbf48480c9276f28b2610a878be9_icgraph.png" border="0" usemap="#string-operations_8h_a9094dbf48480c9276f28b2610a878be9_icgraph" alt=""/></div>
-<map name="string-operations_8h_a9094dbf48480c9276f28b2610a878be9_icgraph" id="string-operations_8h_a9094dbf48480c9276f28b2610a878be9_icgraph">
-<area shape="rect" title="Choses string sorting algorithm and sorting mode (reverse or not)" alt="" coords="108,5,207,32"/>
 <area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
 </map>
 </div>
@@ -743,14 +294,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a2ad649004a81d42ef0772f64bbf29388"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2ad649004a81d42ef0772f64bbf29388">&#9670;&nbsp;</a></span>text_file_add_delimiter()</h2>
+<a id="a3b9b0a0440b427646d40864e32555aa3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3b9b0a0440b427646d40864e32555aa3">&#9670;&nbsp;</a></span>text_file_add_delimiter()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int text_file_add_delimiter </td>
+          <td class="memname"><a class="el" href="string-operations_8h.html#a08b18ac8af0f3462354240d9732f3852">err_code</a> text_file_add_delimiter </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -758,28 +309,27 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Ads awesome text label into the <a class="el" href="output__text_8txt.html">output_text.txt</a>. </p>
-<p>TODO убрать</p>
+<p>Ads awesome text label into the output_text.txt. Returns error code. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="string-operations_8h_a2ad649004a81d42ef0772f64bbf29388_icgraph.png" border="0" usemap="#string-operations_8h_a2ad649004a81d42ef0772f64bbf29388_icgraph" alt=""/></div>
-<map name="string-operations_8h_a2ad649004a81d42ef0772f64bbf29388_icgraph" id="string-operations_8h_a2ad649004a81d42ef0772f64bbf29388_icgraph">
-<area shape="rect" title="Ads awesome text label into the output_text.txt." alt="" coords="108,5,280,32"/>
+<div class="center"><img src="string-operations_8h_a3b9b0a0440b427646d40864e32555aa3_icgraph.png" border="0" usemap="#string-operations_8h_a3b9b0a0440b427646d40864e32555aa3_icgraph" alt=""/></div>
+<map name="string-operations_8h_a3b9b0a0440b427646d40864e32555aa3_icgraph" id="string-operations_8h_a3b9b0a0440b427646d40864e32555aa3_icgraph">
+<area shape="rect" title="Ads awesome text label into the output_text.txt. Returns error code." alt="" coords="108,5,280,32"/>
 <area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
 </map>
 </div>
 
 </div>
 </div>
-<a id="a29317629b754b01f9b70fdde1ee09be8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a29317629b754b01f9b70fdde1ee09be8">&#9670;&nbsp;</a></span>text_file_file_plain_output()</h2>
+<a id="a2dd20513cf8d48b63b06fddeb7f110a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2dd20513cf8d48b63b06fddeb7f110a1">&#9670;&nbsp;</a></span>text_file_file_plain_output()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int text_file_file_plain_output </td>
+          <td class="memname"><a class="el" href="string-operations_8h.html#a08b18ac8af0f3462354240d9732f3852">err_code</a> text_file_file_plain_output </td>
           <td>(</td>
           <td class="paramtype">struct <a class="el" href="structtext.html">text</a> *&#160;</td>
           <td class="paramname"><em>some_text</em>, </td>
@@ -798,12 +348,12 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Puts the contents of the text_line into the <a class="el" href="output__text_8txt.html">output_text.txt</a> (usually text_line contains non-modified text red from file) </p>
+<p>Puts the contents of the text_line into the output_text.txt (usually text_line contains non-modified text red from file). Returns error code. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="string-operations_8h_a29317629b754b01f9b70fdde1ee09be8_icgraph.png" border="0" usemap="#string-operations_8h_a29317629b754b01f9b70fdde1ee09be8_icgraph" alt=""/></div>
-<map name="string-operations_8h_a29317629b754b01f9b70fdde1ee09be8_icgraph" id="string-operations_8h_a29317629b754b01f9b70fdde1ee09be8_icgraph">
+<div class="center"><img src="string-operations_8h_a2dd20513cf8d48b63b06fddeb7f110a1_icgraph.png" border="0" usemap="#string-operations_8h_a2dd20513cf8d48b63b06fddeb7f110a1_icgraph" alt=""/></div>
+<map name="string-operations_8h_a2dd20513cf8d48b63b06fddeb7f110a1_icgraph" id="string-operations_8h_a2dd20513cf8d48b63b06fddeb7f110a1_icgraph">
 <area shape="rect" title="Puts the contents of the text_line into the output_text.txt (usually text_line contains non&#45;modified ..." alt="" coords="108,5,249,47"/>
 <area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,13,60,39"/>
 </map>
@@ -811,14 +361,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="af66b58877cd82cab6793825f90d898f8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af66b58877cd82cab6793825f90d898f8">&#9670;&nbsp;</a></span>text_file_output()</h2>
+<a id="a1a86d1e0872dcb2f86ce42f3b8e8382d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1a86d1e0872dcb2f86ce42f3b8e8382d">&#9670;&nbsp;</a></span>text_file_output()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">int text_file_output </td>
+          <td class="memname"><a class="el" href="string-operations_8h.html#a08b18ac8af0f3462354240d9732f3852">err_code</a> text_file_output </td>
           <td>(</td>
           <td class="paramtype">struct <a class="el" href="structtext.html">text</a> *&#160;</td>
           <td class="paramname"><em>some_text</em>, </td>
@@ -837,17 +387,81 @@ Here is the caller graph for this function:</div>
       </table>
 </div><div class="memdoc">
 
-<p>Puts strings given into the <a class="el" href="output__text_8txt.html">output_text.txt</a>. </p>
-<p>TODO убрать</p>
+<p>Puts strings given into the output_text.txt. </p>
 <div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
-<div class="center"><img src="string-operations_8h_af66b58877cd82cab6793825f90d898f8_icgraph.png" border="0" usemap="#string-operations_8h_af66b58877cd82cab6793825f90d898f8_icgraph" alt=""/></div>
-<map name="string-operations_8h_af66b58877cd82cab6793825f90d898f8_icgraph" id="string-operations_8h_af66b58877cd82cab6793825f90d898f8_icgraph">
+<div class="center"><img src="string-operations_8h_a1a86d1e0872dcb2f86ce42f3b8e8382d_icgraph.png" border="0" usemap="#string-operations_8h_a1a86d1e0872dcb2f86ce42f3b8e8382d_icgraph" alt=""/></div>
+<map name="string-operations_8h_a1a86d1e0872dcb2f86ce42f3b8e8382d_icgraph" id="string-operations_8h_a1a86d1e0872dcb2f86ce42f3b8e8382d_icgraph">
 <area shape="rect" title="Puts strings given into the output_text.txt." alt="" coords="108,5,232,32"/>
 <area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
 </map>
 </div>
+
+</div>
+</div>
+<a id="a94e11f43ba2d6b39feb571f479b15cb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94e11f43ba2d6b39feb571f479b15cb2">&#9670;&nbsp;</a></span>TryToExecute()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void TryToExecute </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="string-operations_8h.html#a08b18ac8af0f3462354240d9732f3852">err_code</a>&#160;</td>
+          <td class="paramname"><em>func_return_code</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structtext.html">text</a> *&#160;</td>
+          <td class="paramname"><em>operand_to_free_mem</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Frees memory and aborts program in case it returns non-OK error code. </p>
+<div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="string-operations_8h_a94e11f43ba2d6b39feb571f479b15cb2_cgraph.png" border="0" usemap="#string-operations_8h_a94e11f43ba2d6b39feb571f479b15cb2_cgraph" alt=""/></div>
+<map name="string-operations_8h_a94e11f43ba2d6b39feb571f479b15cb2_cgraph" id="string-operations_8h_a94e11f43ba2d6b39feb571f479b15cb2_cgraph">
+<area shape="rect" title="Frees memory and aborts program in case it returns non&#45;OK error code." alt="" coords="5,5,112,32"/>
+<area shape="rect" href="string-operations_8cpp.html#a17222f63f6f4c53e06c15fdb75f10c34" title="Frees all heap memory occupied by text." alt="" coords="160,5,271,32"/>
+</map>
+</div>
+<div class="dynheader">
+Here is the caller graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="string-operations_8h_a94e11f43ba2d6b39feb571f479b15cb2_icgraph.png" border="0" usemap="#string-operations_8h_a94e11f43ba2d6b39feb571f479b15cb2_icgraph" alt=""/></div>
+<map name="string-operations_8h_a94e11f43ba2d6b39feb571f479b15cb2_icgraph" id="string-operations_8h_a94e11f43ba2d6b39feb571f479b15cb2_icgraph">
+<area shape="rect" title="Frees memory and aborts program in case it returns non&#45;OK error code." alt="" coords="108,5,215,32"/>
+<area shape="rect" href="main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,5,60,32"/>
+</map>
+</div>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="aae1a19cd706aafe833a8ddae43e0e845"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aae1a19cd706aafe833a8ddae43e0e845">&#9670;&nbsp;</a></span>NOT_A_LETTER</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">const char NOT_A_LETTER[] = &quot;.,-!?\&quot;( )':;&quot;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>String of non-letter symbols. </p>
 
 </div>
 </div>

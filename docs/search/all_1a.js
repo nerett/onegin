@@ -1,20 +1,7 @@
 var searchData=
 [
-  ['Заводов_184',['Заводов',['../input__text_8txt.html#a6dcc2577954f99142539019ceaab1899',1,'Заводов():&#160;input_text.txt'],['../output__text_8txt.html#a33b7a7cca90b9936ad5599161eeee07a',1,'Заводов():&#160;output_text.txt']]],
-  ['Задека_185',['Задека',['../input__text_8txt.html#add2447f6f16ea4bb018c47eaab45875a',1,'input_text.txt']]],
-  ['Задумавшись_186',['Задумавшись',['../input__text_8txt.html#a9f6a4207c1d2ca35835da12d2bb4a854',1,'Задумавшись():&#160;input_text.txt'],['../output__text_8txt.html#a1240144b63830b52687bbda421e98dc4',1,'Задумавшись():&#160;output_text.txt']]],
-  ['Задумчивость_187',['Задумчивость',['../input__text_8txt.html#a6b304383885cc5c5df138a9061858f53',1,'Задумчивость():&#160;input_text.txt'],['../output__text_8txt.html#a6c1d9d886d0453c31654f7131f7103ed',1,'Задумчивость():&#160;output_text.txt']]],
-  ['Заметив_188',['Заметив',['../input__text_8txt.html#a5d6ff74467685960a171a17b52fa49e4',1,'Заметив():&#160;input_text.txt'],['../output__text_8txt.html#a632b98e67068e066af8c709a3a5587e5',1,'Заметив():&#160;output_text.txt']]],
-  ['Запел_189',['Запел',['../input__text_8txt.html#a6a199925424ebd19c55793dfdde1c482',1,'Запел():&#160;input_text.txt'],['../output__text_8txt.html#adfe4be1c1a6cf22408b35b96af8f7f3b',1,'Запел():&#160;output_text.txt']]],
-  ['Зарецкий_190',['Зарецкий',['../input__text_8txt.html#ac1f56a40720b24386e0122df4faf7fa9',1,'Зарецкий():&#160;input_text.txt'],['../output__text_8txt.html#ac1f56a40720b24386e0122df4faf7fa9',1,'Зарецкий():&#160;output_text.txt']]],
-  ['Засеребрился_191',['Засеребрился',['../input__text_8txt.html#abd7d13394798184e3f87684bd28e5577',1,'Засеребрился():&#160;input_text.txt'],['../output__text_8txt.html#ae5e55edd72e567fef7c305a28564c2ab',1,'Засеребрился():&#160;output_text.txt']]],
-  ['Затем_192',['Затем',['../input__text_8txt.html#a21df3cf8154c101018418d170e21f383',1,'Затем():&#160;input_text.txt'],['../output__text_8txt.html#a21df3cf8154c101018418d170e21f383',1,'Затем():&#160;output_text.txt']]],
-  ['Затянут_193',['Затянут',['../input__text_8txt.html#a952616def6a0cdf63895dcca3e042de7',1,'Затянут():&#160;input_text.txt'],['../output__text_8txt.html#a440f920580065fbc6349233d2489f336',1,'Затянут():&#160;output_text.txt']]],
-  ['Здорова_194',['Здорова',['../output__text_8txt.html#a3eebb463723d5201c2aab8feed55d3a5',1,'output_text.txt']]],
-  ['Здоровье_195',['Здоровье',['../input__text_8txt.html#a3a7633bc4646b9d0d782853b484b80ef',1,'Здоровье():&#160;input_text.txt'],['../output__text_8txt.html#a1357002d874ebb662cceac0f172e075b',1,'Здоровье():&#160;output_text.txt']]],
-  ['Зевая_196',['Зевая',['../input__text_8txt.html#a99dabd37ce9acaa664da9cd6b423a31c',1,'Зевая():&#160;input_text.txt'],['../output__text_8txt.html#a4bd25c677ee2d747efe016fb3aca02ad',1,'Зевая():&#160;output_text.txt']]],
-  ['Зизи_197',['Зизи',['../input__text_8txt.html#a330de050ce9f567a8d6080202c3f5379',1,'input_text.txt']]],
-  ['Зимой_198',['Зимой',['../input__text_8txt.html#aaf27bada4077f0b1037c6eb60c8b47c8',1,'Зимой():&#160;input_text.txt'],['../output__text_8txt.html#a1fa43f7826420eb3af5c2b14b368d36d',1,'Зимой():&#160;output_text.txt']]],
-  ['Зовут_199',['Зовут',['../input__text_8txt.html#a364aa47004914085277a712a8467541d',1,'input_text.txt']]],
-  ['Зубчатый_200',['Зубчатый',['../input__text_8txt.html#a1e02bae6b2d9ed748931a94179a47b62',1,'input_text.txt']]]
+  ['Жаль_198',['Жаль',['../input__text_8txt.html#ac2d7740a0bb829383b25d9c911fc7186',1,'Жаль():&#160;input_text.txt'],['../output__text_8txt.html#ac2d7740a0bb829383b25d9c911fc7186',1,'Жаль():&#160;output_text.txt']]],
+  ['Жеманство_199',['Жеманство',['../input__text_8txt.html#a593cfa2ff3123f4ceed70d4e950e3440',1,'Жеманство():&#160;input_text.txt'],['../output__text_8txt.html#a593cfa2ff3123f4ceed70d4e950e3440',1,'Жеманство():&#160;output_text.txt']]],
+  ['Живет_200',['Живет',['../input__text_8txt.html#af2b249999286e605df75c4836ff9f5ca',1,'Живет():&#160;input_text.txt'],['../output__text_8txt.html#af2b249999286e605df75c4836ff9f5ca',1,'Живет():&#160;output_text.txt']]],
+  ['Живу_201',['Живу',['../output__text_8txt.html#ac4e2d129f1accc025f107ca1b4159d20',1,'output_text.txt']]]
 ];

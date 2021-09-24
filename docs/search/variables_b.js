@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['staёl_2909',['Staёl',['../input__text_8txt.html#a4c8c196a86b0e2d9f323edb3aeac4f2e',1,'input_text.txt']]]
+  ['staёl_2984',['Staёl',['../input__text_8txt.html#a649ab641f3defe1816671976c1e6be15',1,'Staёl():&#160;input_text.txt'],['../output__text_8txt.html#a649ab641f3defe1816671976c1e6be15',1,'Staёl():&#160;output_text.txt']]]
 ];

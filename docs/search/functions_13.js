@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['его_2852',['его',['../input__text_8txt.html#abda4eb8778c470ba6f3da13814a3012c',1,'input_text.txt']]]
+  ['его_2918',['его',['../input__text_8txt.html#abda4eb8778c470ba6f3da13814a3012c',1,'его(Что, может быть, одно и то же) Его честили так и сяк. Врагов имеет в мире всяк:&#160;input_text.txt'],['../output__text_8txt.html#abda4eb8778c470ba6f3da13814a3012c',1,'его(Что, может быть, одно и то же) Его честили так и сяк. Врагов имеет в мире всяк:&#160;output_text.txt']]]
 ];

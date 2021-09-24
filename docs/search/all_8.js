@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['la_48',['La',['../input__text_8txt.html#adaabd126f7ab9420a93961097c48cc5b',1,'input_text.txt']]],
-  ['l’abbé_49',['l’Abbé',['../input__text_8txt.html#a500c4f116bc4a80196b641493e7feba9',1,'input_text.txt']]]
+  ['onegin_24',['Onegin',['../index.html',1,'']]],
+  ['onegin_25',['Onegin',['../md__r_e_a_d_m_e.html',1,'']]],
+  ['ok_26',['OK',['../string-operations_8h.html#a08b18ac8af0f3462354240d9732f3852a2bc49ec37d6a5715dd23e85f1ff5bb59',1,'string-operations.h']]]
 ];

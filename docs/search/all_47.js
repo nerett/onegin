@@ -1,7 +1,6 @@
 var searchData=
 [
-  ['эконом_2791',['эконом',['../input__text_8txt.html#a478d1e7354f427d4c8919db13c6bde2e',1,'input_text.txt']]],
-  ['эта_2792',['эта',['../input__text_8txt.html#a4aec837db4593bf43ba547329af091bc',1,'эта():&#160;input_text.txt'],['../output__text_8txt.html#a957ca054deae84d1ee3a5566676010df',1,'эта():&#160;output_text.txt']]],
-  ['этом_2793',['этом',['../input__text_8txt.html#a55bb7764ee71fe2b77f11a97dc23c3bd',1,'этом():&#160;input_text.txt'],['../output__text_8txt.html#a4b5b3feda508863efe3cf59d75e6c988',1,'этом():&#160;output_text.txt']]],
-  ['эту_2794',['эту',['../input__text_8txt.html#af8a33da06cc65445a31150a2a8a23aa0',1,'input_text.txt']]]
+  ['щадить_2851',['щадить',['../input__text_8txt.html#a171e8f27ea87e0bd69b1c95b9af25744',1,'щадить():&#160;input_text.txt'],['../output__text_8txt.html#a171e8f27ea87e0bd69b1c95b9af25744',1,'щадить():&#160;output_text.txt']]],
+  ['щелку_2852',['щелку',['../input__text_8txt.html#a339b3e947c173c3740c9b25a2c876f79',1,'щелку():&#160;input_text.txt'],['../output__text_8txt.html#a339b3e947c173c3740c9b25a2c876f79',1,'щелку():&#160;output_text.txt']]],
+  ['щетиниться_2853',['щетиниться',['../input__text_8txt.html#a7b50464215feda3921e4877f53a274ff',1,'щетиниться():&#160;input_text.txt'],['../output__text_8txt.html#a7b50464215feda3921e4877f53a274ff',1,'щетиниться():&#160;output_text.txt']]]
 ];

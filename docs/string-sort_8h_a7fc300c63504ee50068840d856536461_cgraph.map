@@ -1,0 +1,5 @@
+<map id="cmp_strings_back" name="cmp_strings_back">
+<area shape="rect" id="node1" title="This function is like cmp_strings, but compares strings from their end (soon it&#39;ll be overwritten and..." alt="" coords="5,5,144,32"/>
+<area shape="rect" id="node2" href="$string-sort_8cpp.html#a7694052dd798102ec36af3150f30890c" title="Returns the number of the first letter in the string." alt="" coords="192,5,312,32"/>
+<area shape="rect" id="node3" href="$string-sort_8cpp.html#a3eae1eea92589f4bfa7f89263595a154" title="Returns true if this symbol is letter, false if it isn&#39;t." alt="" coords="360,5,435,32"/>
+</map>

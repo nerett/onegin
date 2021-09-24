@@ -1,5 +1,4 @@
 var searchData=
 [
-  ['main_50',['main',['../main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4',1,'main.cpp']]],
-  ['main_2ecpp_51',['main.cpp',['../main_8cpp.html',1,'']]]
+  ['qsort_5fstrings_27',['qsort_strings',['../string-sort_8cpp.html#a2195e04392ee82d3fdffaac14591a259',1,'string-sort.cpp']]]
 ];

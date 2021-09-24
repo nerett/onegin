@@ -1,0 +1,11 @@
+<map id="is_letter" name="is_letter">
+<area shape="rect" id="node1" title="Returns true if this symbol is letter, false if it isn&#39;t." alt="" coords="837,132,912,159"/>
+<area shape="rect" id="node2" href="$string-sort_8h.html#a7694052dd798102ec36af3150f30890c" title="Returns the number of the first letter in the string." alt="" coords="669,132,789,159"/>
+<area shape="rect" id="node3" href="$string-sort_8h.html#a224801ebfb783f91db88204d708d8f81" title="Returns &#45;1 if the second string is greater than first, 0 if they&#39;re equal and 1 if first string is gr..." alt="" coords="501,81,603,108"/>
+<area shape="rect" id="node8" href="$string-sort_8h.html#a7fc300c63504ee50068840d856536461" title="This function is like cmp_strings, but compares strings from their end (soon it&#39;ll be overwritten and..." alt="" coords="483,157,621,184"/>
+<area shape="rect" id="node4" href="$string-sort_8cpp.html#a710e01f393790248c648cc1412ddfd04" title="Sorts the strings given with bubblesort algorithm." alt="" coords="273,5,416,32"/>
+<area shape="rect" id="node5" href="$string-sort_8h.html#a9094dbf48480c9276f28b2610a878be9" title="Choses string sorting algorithm and sorting mode (reverse or not)" alt="" coords="108,107,207,133"/>
+<area shape="rect" id="node7" href="$string-sort_8cpp.html#a2195e04392ee82d3fdffaac14591a259" title="Custom qsort algorithm for strings (that doesn&#39;t work yet)" alt="" coords="291,107,398,133"/>
+<area shape="rect" id="node6" href="$main_8cpp.html#ae66f6b31b5ad750f1fe042a706a4e3d4" title=" " alt="" coords="5,107,60,133"/>
+<area shape="rect" id="node9" href="$string-sort_8cpp.html#ac4e30612d516254609e1b4795edb278a" title="This function is like bubblesort_strings, but it uses cmp_strings_back (soon it&#39;ll be overwritten and..." alt="" coords="255,208,435,235"/>
+</map>

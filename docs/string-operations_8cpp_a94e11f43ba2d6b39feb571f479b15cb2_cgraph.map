@@ -1,0 +1,4 @@
+<map id="TryToExecute" name="TryToExecute">
+<area shape="rect" id="node1" title="Frees memory and aborts program in case it returns non&#45;OK error code." alt="" coords="5,5,112,32"/>
+<area shape="rect" id="node2" href="$string-operations_8cpp.html#a17222f63f6f4c53e06c15fdb75f10c34" title="Frees all heap memory occupied by text." alt="" coords="160,5,271,32"/>
+</map>

@@ -1,8 +1,8 @@
 #include "string-operations.h"
 
-#define BUBBLESORT
+//#define BUBBLESORT
 //#define USER_QSORT
-//#define DEFAULT_QSORT
+#define DEFAULT_QSORT
 
 
 err_code input_text( struct text* some_text ) // text *some_text
@@ -59,10 +59,14 @@ err_code input_text( struct text* some_text ) // text *some_text
 
 
 
-int cmp_strings( char* first_string, char* second_string )
+int cmp_strings( const void* string_1_ptr, const void* string_2_ptr )
 {
+    char* first_string = *( char** )string_1_ptr;
+    char* second_string = *( char** )string_2_ptr;
+
     assert( first_string != NULL );
     assert( second_string != NULL );
+
 /*
     int result = strcmp( first_string, second_string ); // это быстрее за счёт strcmp!
 
@@ -131,11 +135,11 @@ int sort_strings( struct text* some_text, bool enable_reverse )
 
         if( enable_reverse )
         {
-            qsort( some_text->index_string, some_text->N_strings, sizeof( char* ), ( __compar_fn_t )cmp_strings_back );
+            qsort( some_text->index_string, some_text->N_strings, sizeof( char* ), cmp_strings_back );
         }
         else
         {
-            qsort( some_text->index_string, some_text->N_strings, sizeof( some_text->text_line ), ( __compar_fn_t )cmp_strings );
+            qsort( some_text->index_string, some_text->N_strings, sizeof( some_text->text_line ), cmp_strings );
         }
 
     #endif
@@ -444,8 +448,11 @@ int bubblesort_strings_back( struct text* some_text )
 
 
 
-int cmp_strings_back( char* first_string, char* second_string )
+int cmp_strings_back( const void* string_1_ptr, const void* string_2_ptr )
 {
+    char* first_string = *( char** )string_1_ptr;
+    char* second_string = *( char** )string_2_ptr;
+
     assert( first_string != NULL );
     assert( second_string != NULL );
 

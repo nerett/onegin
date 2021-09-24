@@ -26,7 +26,7 @@ struct text ///< Structture which is text you can easilly work with
 };
 
 err_code input_text( struct text* some_text ); ///< Reads text from input_text.txt, determines it's size, allocates memory, puts text into text_line and puts pointers from index_stringto the beginnings of lines (with a help of find_strings_beginnings). Returns error code
-int cmp_strings( char* first_string, char* second_string ); ///< Returns -1 if the second string is greater than first, 0 if they're equal and 1 if first string is greater
+int cmp_strings( const void* string_1_ptr, const void* string_2_ptr ); ///< Returns -1 if the second string is greater than first, 0 if they're equal and 1 if first string is greater
 int change_strings( struct text* some_text, int first_string, int second_string ); ///< Swaps pointers to two input strings
 int sort_strings( struct text* some_text, bool enable_reverse ); ///< Choses string sorting algorithm and sorting mode (reverse or not)
 static int qsort_strings( struct text* some_text, int start, int finish ); ///< Custom qsort algorithm for strings (that doesn't work yet)
@@ -40,7 +40,7 @@ static int count_strings( struct text* some_text ); ///< Counts number of string
 static int find_string_beginning( struct text* some_text ); ///< Puts pointers from index_stringto the beginnings of lines
 
 static int bubblesort_strings_back( struct text* some_text ); ///< This function is like bubblesort_strings, but it uses cmp_strings_back (soon it'll be overwritten and merged with bubblesort_strings)
-int cmp_strings_back( char* first_string, char* second_string ); ///< This function is like cmp_strings, but compares strings from their end (soon it'll be overwritten and merged with cmp_strings)
+int cmp_strings_back( const void* string_1_ptr, const void* string_2_ptr ); ///< This function is like cmp_strings, but compares strings from their end (soon it'll be overwritten and merged with cmp_strings)
 
 err_code text_file_add_delimiter(); ///< Ads awesome text label into the output_text.txt. Returns error code
 err_code text_file_file_plain_output( struct text* some_text, bool enable_loseless_adding ); ///< Puts the contents of the text_line into the output_text.txt (usually text_line contains non-modified text red from file). Returns error code

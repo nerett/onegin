@@ -45,7 +45,7 @@ err_code input_text( struct text* some_text ) // text *some_text
 
     count_strings( some_text );
 
-    some_text->index_string = ( char** ) calloc( some_text->N_strings, sizeof( char* ) ); //выделение памяти под массив указателей на начало строк (????????????) и его заполнение
+    some_text->index_string = ( char** ) calloc( some_text->N_strings, sizeof( char* ) ); //выделение памяти под массив указателей на начало строк
     if( some_text->index_string == NULL )
     {
         return CALLOC_ERR;
@@ -61,11 +61,12 @@ err_code input_text( struct text* some_text ) // text *some_text
 
 int cmp_strings( const void* string_1_ptr, const void* string_2_ptr )
 {
+    assert( string_1_ptr != NULL );
+    assert( string_2_ptr != NULL );
+
+
     char* first_string = *( char** )string_1_ptr;
     char* second_string = *( char** )string_2_ptr;
-
-    assert( first_string != NULL );
-    assert( second_string != NULL );
 
 /*
     int result = strcmp( first_string, second_string ); // это быстрее за счёт strcmp!
@@ -83,8 +84,8 @@ int cmp_strings( const void* string_1_ptr, const void* string_2_ptr )
     int first_startfrom = 0, second_startfrom = 0;
     int i;
 
-    first_startfrom = find_first_letter( first_string );
-    second_startfrom = find_first_letter( second_string );
+    first_startfrom = find_first_letter( first_string, false );
+    second_startfrom = find_first_letter( second_string, false );
 
     i = 0;
     while( first_string[i] != '\n' || second_string[i] != '\n' ) //собственно сравниваем
@@ -259,7 +260,7 @@ int text_file_output( struct text* some_text, bool enable_loseless_adding )
     {
         output_file = fopen( "output_text.txt", "w" );
     }
-    //output_file = fopen( "output_text.txt", "w" );
+
 
     for( int i = 0; i < some_text->N_strings; i++ )
     {
@@ -316,22 +317,37 @@ int bubblesort_strings( struct text* some_text )
 
 
 
-int find_first_letter( char* some_string )
+int find_first_letter( char* some_string, bool find_from_end )
 {
     assert( some_string != NULL );
 
-    int first_letter = 0;
+
     int i = 0;
-    while( some_string[i] != '\n' ) //ищем первую букву первой строки
+    int increment = 1;
+    int first_letter = 0;
+
+    if( find_from_end )
+    {
+        i = strlen( some_string );
+//i = string_utils_strlen( some_string );
+//printf( "i= %d string= %s\n", i, some_string );
+        increment = -1;
+//first_letter = -1; ///DEBUG
+    }
+
+    while( some_string[i] != '\0' ) //ищем первую букву первой строки
     {
         if( is_letter( some_string[i] ) )
         {
-            first_letter = i;
+            //first_letter = i;
             break;
         }
-        i++;
+        i += increment;
+        first_letter += increment;
     }
-    i = 0;
+
+//printf( "%s ", some_string );
+//printf( "%d\n", first_letter );
     return first_letter;
 }
 
@@ -339,17 +355,17 @@ int find_first_letter( char* some_string )
 
 bool is_letter( char symbol )
 {
-    //assert( isfinite( symbol ) );
-
-
-    if( symbol == '"' || symbol == '(' || symbol == ')' || symbol == ' ' || symbol == '.' || symbol == ',' || symbol == '-' )
+    int i = 0;
+    while( NOT_A_LETTER[i] != '\0' )
     {
-        return false;
+        if( symbol == NOT_A_LETTER[i] )
+        {
+            return false;
+        }
+        i++;
     }
-    else
-    {
-        return true;
-    }
+
+    return true;
 }
 
 
@@ -383,7 +399,6 @@ int find_string_beginning( struct text* some_text )
     assert( some_text->N_strings > 0 );
     assert( some_text->N_symbols > 0 );
 
-    // желательно заменить \n на \0 !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
     //some_text->index_string[0] = &(some_text->text_line[0]);
     char last_read = '\n';
@@ -450,14 +465,20 @@ int bubblesort_strings_back( struct text* some_text )
 
 int cmp_strings_back( const void* string_1_ptr, const void* string_2_ptr )
 {
+    assert( string_1_ptr != NULL );
+    assert( string_2_ptr != NULL );
+
+
     char* first_string = *( char** )string_1_ptr;
     char* second_string = *( char** )string_2_ptr;
-
-    assert( first_string != NULL );
-    assert( second_string != NULL );
-
-    int i1 = strlen( first_string );
-    int i2 = strlen( second_string );
+/*
+if(  find_first_letter( first_string, true ) != 0 )
+{
+    printf( "%d ", find_first_letter( first_string, true ) );
+}
+*/
+    int i1 = strlen( first_string ) + find_first_letter( first_string, true );
+    int i2 = strlen( second_string ) + find_first_letter( second_string, true );
     while( first_string[i1] != '\n' || second_string[i2] != '\n' || first_string[i1] != '\0' || second_string[i2] != '\0' ) //собственно сравниваем
     {
         if( first_string[i1] < second_string[i2] )
@@ -517,7 +538,6 @@ err_code text_file_file_plain_output( struct text* some_text, bool enable_losele
         }
     }
 
-    //fputs( some_text->text_line, output_file);
 
     for( int i = 0; i < some_text->N_symbols; i++ )
     {
@@ -533,6 +553,10 @@ err_code text_file_file_plain_output( struct text* some_text, bool enable_losele
 
     return OK;
 }
+
+
+
+
 
 
 

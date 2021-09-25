@@ -49,6 +49,7 @@ err_code input_text( struct text* some_text ) // text *some_text
 
     find_string_beginning( some_text );
 
+    fclose( input_file );
 
     return OK;
 }

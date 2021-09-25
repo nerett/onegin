@@ -4,11 +4,10 @@
 err_code input_text( struct text* some_text ) // text *some_text
 {
     int error_int = 0;  // ret  / retval / res
-    void* error_ptr = NULL;
 
 
     FILE* input_file = fopen( "input_text.txt", "r" ); // argc argv
-    if (input_file == NULL) // I LIKE IT BETTER
+    if( input_file == NULL ) // I LIKE IT BETTER (пробел перед if, но нет пробелов в скобках)
     {
         return FOPEN_ERR;
     }
@@ -67,7 +66,7 @@ int text_console_output( struct text* some_text )
 
     for( int i = 0; i < some_text->N_strings; i++ )
     {
-        printf("%s", some_text->index_string[i] );
+        printf( "%s", some_text->index_string[i] );
     }
 
     return 0;
@@ -154,34 +153,18 @@ int find_string_beginning( struct text* some_text ) // init_strings
     assert( some_text->N_symbols > 0 );
 
 
-    //some_text->index_string[0] = &(some_text->text_line[0]);
     char last_read = '\n';
-
     int j = 0;
 
     for( int i = 0; i < some_text->N_symbols; i++ ) //начинать с нуля
     {
-        //printf("! i = %d ", i);printf("1!\n");
         if( last_read == '\n' || last_read == '\0' )
         {
-//printf("! %d !\n", i);
-
-            //some_text->text_line[i-1] = '\0'; //замена на слеш-нули!
-
             some_text->index_string[j] = some_text->text_line + i;
             j++;
         }
         last_read = some_text->text_line[i];
     }
-
-
-/// DEBUG
-/*
-    for (j = 0; j < some_text->N_strings; j++)
-    {
-        printf("%d\n", some_text->index_string[j]);
-    }
-*/
 
     return 0;
 }

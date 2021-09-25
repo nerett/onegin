@@ -271,8 +271,6 @@ int find_first_letter( char* some_string, bool find_from_end )
     if( find_from_end )
     {
         i = strlen( some_string );
-//i = string_utils_strlen( some_string );
-//printf( "i= %d string= %s\n", i, some_string );
         increment = -1;
 //first_letter = -1; ///DEBUG
     }
@@ -288,8 +286,6 @@ int find_first_letter( char* some_string, bool find_from_end )
         first_letter += increment;
     }
 
-//printf( "%s ", some_string );
-//printf( "%d\n", first_letter );
     return first_letter;
 }
 

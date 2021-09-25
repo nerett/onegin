@@ -1,12 +1,10 @@
 var searchData=
 [
-  ['И_3116',['И',['../input__text_8txt.html#ac9c941bde9fed583cc1706a2faefd860',1,'И():&#160;input_text.txt'],['../output__text_8txt.html#ac9c941bde9fed583cc1706a2faefd860',1,'И():&#160;output_text.txt']]],
-  ['Идет_3117',['Идет',['../input__text_8txt.html#abc310181c321e664896d590af04b2fe7',1,'Идет():&#160;input_text.txt'],['../output__text_8txt.html#abc310181c321e664896d590af04b2fe7',1,'Идет():&#160;output_text.txt']]],
-  ['Идти_3118',['Идти',['../input__text_8txt.html#ad5f17f903043cd8bb49eeed21a1eb3ca',1,'Идти():&#160;input_text.txt'],['../output__text_8txt.html#ad5f17f903043cd8bb49eeed21a1eb3ca',1,'Идти():&#160;output_text.txt']]],
-  ['Изволь_3119',['Изволь',['../input__text_8txt.html#a4ea9ab1f0791a5a258ff19e8c2b68fbb',1,'Изволь():&#160;input_text.txt'],['../output__text_8txt.html#a4ea9ab1f0791a5a258ff19e8c2b68fbb',1,'Изволь():&#160;output_text.txt']]],
-  ['Или_3120',['Или',['../input__text_8txt.html#a6f618c465cc0a955f8329a3a98b5d537',1,'Или():&#160;input_text.txt'],['../output__text_8txt.html#a6f618c465cc0a955f8329a3a98b5d537',1,'Или():&#160;output_text.txt']]],
-  ['Иная_3121',['Иная',['../input__text_8txt.html#abda866e23450255e34f899a5e3aa98ac',1,'Иная():&#160;input_text.txt'],['../output__text_8txt.html#abda866e23450255e34f899a5e3aa98ac',1,'Иная():&#160;output_text.txt']]],
-  ['Ипокреной_3122',['Ипокреной',['../input__text_8txt.html#a9f140eb45eabfa023947378175e15531',1,'Ипокреной():&#160;input_text.txt'],['../output__text_8txt.html#a9f140eb45eabfa023947378175e15531',1,'Ипокреной():&#160;output_text.txt']]],
-  ['Истомина_3123',['Истомина',['../input__text_8txt.html#a54b30dc415590c45ce0d22db563538b2',1,'Истомина():&#160;input_text.txt'],['../output__text_8txt.html#a54b30dc415590c45ce0d22db563538b2',1,'Истомина():&#160;output_text.txt']]],
-  ['Итак_3124',['Итак',['../input__text_8txt.html#a792b08d52e3858bb1d785c8cf8868b08',1,'Итак():&#160;input_text.txt'],['../output__text_8txt.html#a792b08d52e3858bb1d785c8cf8868b08',1,'Итак():&#160;output_text.txt']]]
+  ['Алина_3127',['Алина',['../_onegin_8txt.html#a61743e53c5ca213513750c41600a92e1',1,'Onegin.txt']]],
+  ['Алину_3128',['Алину',['../_onegin_8txt.html#ac8d4411463b79264bf0e02d35bc53530',1,'Onegin.txt']]],
+  ['Аполлона_3129',['Аполлона',['../_onegin_8txt.html#adc5de0b936262608e1e2a36362aab1bf',1,'Onegin.txt']]],
+  ['Аптеки_3130',['Аптеки',['../_onegin_8txt.html#a8d260d92d772473dac52b7d2a3ee4270',1,'Onegin.txt']]],
+  ['Апулея_3131',['Апулея',['../_onegin_8txt.html#ab68ee3146fd83bab278e6fd6e25f7de0',1,'Onegin.txt']]],
+  ['Армид_3132',['Армид',['../_onegin_8txt.html#a0c4dec1dff07fca260fa4dd33e3dbe76',1,'Onegin.txt']]],
+  ['Ах_3133',['Ах',['../_onegin_8txt.html#a4e9502a831ac52c26b754cc6174912dd',1,'Onegin.txt']]]
 ];

@@ -1,4 +1,27 @@
 var searchData=
 [
-  ['well_93',['well',['../input__text_8txt.html#a748d90924d609d1374996163c832f5d3',1,'well():&#160;input_text.txt'],['../output__text_8txt.html#a748d90924d609d1374996163c832f5d3',1,'well():&#160;output_text.txt']]]
+  ['sailors_166',['Sailors',['../_hamlet_8txt.html#a3a6ef0addd5050312352b3e7dbb2a262',1,'Hamlet.txt']]],
+  ['say_167',['say',['../_hamlet_8txt.html#a0755497bcf575d82ea3e6b4926fc971a',1,'Hamlet.txt']]],
+  ['scholar_168',['scholar',['../_hamlet_8txt.html#ae7903f584a4bf4a238eb49d870258cc3',1,'Hamlet.txt']]],
+  ['see_169',['See',['../_hamlet_8txt.html#a7f9632316eb35232bd543b56e64142ef',1,'Hamlet.txt']]],
+  ['shipwrights_170',['shipwrights',['../_hamlet_8txt.html#ac71bcdbbaa77913700a966475cd0b270',1,'Hamlet.txt']]],
+  ['sight_171',['sight',['../_hamlet_8txt.html#a182057ffc3133aaf9796539cae8900f0',1,'Hamlet.txt']]],
+  ['sir_172',['sir',['../_hamlet_8txt.html#a05b1dae125e16286a94385a5a950509c',1,'Hamlet.txt']]],
+  ['soldiers_173',['Soldiers',['../_hamlet_8txt.html#a297e08f4740b6a8951037efbc5d99f36',1,'Hamlet.txt']]],
+  ['sort_5fstrings_174',['sort_strings',['../string-sort_8cpp.html#a9094dbf48480c9276f28b2610a878be9',1,'sort_strings(struct text *some_text, bool enable_reverse):&#160;string-sort.cpp'],['../string-sort_8h.html#a9094dbf48480c9276f28b2610a878be9',1,'sort_strings(struct text *some_text, bool enable_reverse):&#160;string-sort.cpp']]],
+  ['sound_175',['sound',['../_hamlet_8txt.html#af4b3fc596f2b6df1fd300dfc3bbac5c5',1,'Hamlet.txt']]],
+  ['speak_176',['speak',['../_hamlet_8txt.html#aa40343d5da900e306a6370bd2d01200f',1,'Hamlet.txt']]],
+  ['spirit_177',['spirit',['../_hamlet_8txt.html#aa13b76373545e4d4036b00876837bd7f',1,'Hamlet.txt']]],
+  ['stand_178',['Stand',['../_hamlet_8txt.html#a31cf45bc5d426cbce582062c5bfc2bc8',1,'Hamlet.txt']]],
+  ['started_179',['started',['../_hamlet_8txt.html#a6441e95aa910af009a50db0ba5b59312',1,'Hamlet.txt']]],
+  ['state_180',['state',['../_hamlet_8txt.html#a026d7f2ed644f8b89c58462b23d247a1',1,'Hamlet.txt']]],
+  ['staёl_181',['Staёl',['../_onegin_8txt.html#a649ab641f3defe1816671976c1e6be15',1,'Onegin.txt']]],
+  ['story_182',['story',['../_hamlet_8txt.html#ae8adf9ccc6fe2ceb70da7d9b81fb2f2b',1,'Hamlet.txt']]],
+  ['streets_183',['streets',['../_hamlet_8txt.html#a29d959f9f0ac7563565994f368f92834',1,'Hamlet.txt']]],
+  ['strike_184',['strike',['../_hamlet_8txt.html#a51a23198c4975d83ac0171c68d0153df',1,'Hamlet.txt']]],
+  ['string_2doperations_2ecpp_185',['string-operations.cpp',['../string-operations_8cpp.html',1,'']]],
+  ['string_2doperations_2eh_186',['string-operations.h',['../string-operations_8h.html',1,'']]],
+  ['string_2dsort_2ecpp_187',['string-sort.cpp',['../string-sort_8cpp.html',1,'']]],
+  ['string_2dsort_2eh_188',['string-sort.h',['../string-sort_8h.html',1,'']]],
+  ['sun_189',['sun',['../_hamlet_8txt.html#a4963a4841c8103141226da18a371a063',1,'Hamlet.txt']]]
 ];

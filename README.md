@@ -1,8 +1,8 @@
 # Onegin
-This industrial-style program allows to **sort texts** using **lexicographic principles**.
+This industrial-style program allows to **sort texts** from the beginning and from the end using **lexicographic principles**.
 
 ## Usage
-At first, you need to create *input_text.txt* file and copy the text into it. Then run the program and it'll generate sorted text (you should definitely use "Eugene Onegin" text!).
+Run program with `./path/to/file/onegin <FILENAME>` or wilh `./path/to/file/onegin` to use default name for input file (*input_text.txt*). The file is the file with text you want to work with. The program will generate sorted from the beginning and from the end text in three different blocks (the third block consists of original text).
 
 ## Building from source
 This section isn't done yet.

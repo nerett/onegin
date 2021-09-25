@@ -1,21 +1,14 @@
 var searchData=
 [
-  ['Да_3072',['Да',['../input__text_8txt.html#a533c0d8ea0d3ca59f8595f7258ee837d',1,'Да():&#160;input_text.txt'],['../output__text_8txt.html#a533c0d8ea0d3ca59f8595f7258ee837d',1,'Да():&#160;output_text.txt']]],
-  ['Дай_3073',['Дай',['../input__text_8txt.html#ae411bf73e8ab057f5a3e0fd290668ecd',1,'Дай():&#160;input_text.txt'],['../output__text_8txt.html#ae411bf73e8ab057f5a3e0fd290668ecd',1,'Дай():&#160;output_text.txt']]],
-  ['Движенья_3074',['Движенья',['../input__text_8txt.html#a80817796527645beb99c55a6177d403e',1,'Движенья():&#160;input_text.txt'],['../output__text_8txt.html#a80817796527645beb99c55a6177d403e',1,'Движенья():&#160;output_text.txt']]],
-  ['Дворцы_3075',['Дворцы',['../input__text_8txt.html#a82fe7471387f75d82e7209b3a5c3d5cc',1,'Дворцы():&#160;input_text.txt'],['../output__text_8txt.html#a82fe7471387f75d82e7209b3a5c3d5cc',1,'Дворцы():&#160;output_text.txt']]],
-  ['Девицы_3076',['Девицы',['../output__text_8txt.html#a18f0260623976e3164ad54fda4f72046',1,'output_text.txt']]],
-  ['Дельфиной_3077',['Дельфиной',['../input__text_8txt.html#ae4ff889b357ef9ffebff4ad96515b298',1,'Дельфиной():&#160;input_text.txt'],['../output__text_8txt.html#ae4ff889b357ef9ffebff4ad96515b298',1,'Дельфиной():&#160;output_text.txt']]],
-  ['Деревня_3078',['Деревня',['../input__text_8txt.html#a1d10fdf4da097d59e64b8ab382c27c5f',1,'Деревня():&#160;input_text.txt'],['../output__text_8txt.html#a1d10fdf4da097d59e64b8ab382c27c5f',1,'Деревня():&#160;output_text.txt']]],
-  ['Дианы_3079',['Дианы',['../input__text_8txt.html#a6d791684dede48ccc278dcaf51235ad6',1,'Дианы():&#160;input_text.txt'],['../output__text_8txt.html#a6d791684dede48ccc278dcaf51235ad6',1,'Дианы():&#160;output_text.txt']]],
-  ['Дика_3080',['Дика',['../input__text_8txt.html#a6a84c523e0691e32060977173eb2c007',1,'Дика():&#160;input_text.txt'],['../output__text_8txt.html#a6a84c523e0691e32060977173eb2c007',1,'Дика():&#160;output_text.txt']]],
-  ['Довольно_3081',['Довольно',['../output__text_8txt.html#a63e1c130ee0fd757c8ab74c9f45413a3',1,'output_text.txt']]],
-  ['Дохнул_3082',['Дохнул',['../input__text_8txt.html#a729b27049894f54cf917ed141300fb2a',1,'Дохнул():&#160;input_text.txt'],['../output__text_8txt.html#a729b27049894f54cf917ed141300fb2a',1,'Дохнул():&#160;output_text.txt']]],
-  ['Дошло_3083',['Дошло',['../output__text_8txt.html#a58ce8dc9550e0b2ce49319832f5fe258',1,'output_text.txt']]],
-  ['Дрожащий_3084',['Дрожащий',['../input__text_8txt.html#ae56a500b0274accddbacc92b6841612f',1,'Дрожащий():&#160;input_text.txt'],['../output__text_8txt.html#ae56a500b0274accddbacc92b6841612f',1,'Дрожащий():&#160;output_text.txt']]],
-  ['Друг_3085',['Друг',['../input__text_8txt.html#a7e61ffd456c74e88824ff20b8d771630',1,'Друг():&#160;input_text.txt'],['../output__text_8txt.html#a7e61ffd456c74e88824ff20b8d771630',1,'Друг():&#160;output_text.txt']]],
-  ['Другие_3086',['Другие',['../input__text_8txt.html#a4a2c60a8951f0176edef7aa4a2acb51e',1,'Другие():&#160;input_text.txt'],['../output__text_8txt.html#a4a2c60a8951f0176edef7aa4a2acb51e',1,'Другие():&#160;output_text.txt']]],
-  ['Дурачится_3087',['Дурачится',['../output__text_8txt.html#a18a0407e80d32eb0d29697909506e2ae',1,'output_text.txt']]],
-  ['Душеньки_3088',['Душеньки',['../input__text_8txt.html#ae242a6a37bca3471c83f747fd937eaf3',1,'Душеньки():&#160;input_text.txt'],['../output__text_8txt.html#ae242a6a37bca3471c83f747fd937eaf3',1,'Душеньки():&#160;output_text.txt']]],
-  ['Дымясь_3089',['Дымясь',['../input__text_8txt.html#a6a4318c4e3781125ee3721a8ad0ef476',1,'Дымясь():&#160;input_text.txt'],['../output__text_8txt.html#a8562cd802120ada93e1b2704e33df6a9',1,'Дымясь():&#160;output_text.txt']]]
+  ['t_3098',['t',['../_hamlet_8txt.html#abc6dbbc960c9fa9670d3673dc1d96866',1,'Hamlet.txt']]],
+  ['tablettes_3099',['tablettes',['../_onegin_8txt.html#a11336857b48ef54636a463525f3e3fdb',1,'Onegin.txt']]],
+  ['takes_3100',['takes',['../_hamlet_8txt.html#a958db4f14902c34183062860a7745d59',1,'Hamlet.txt']]],
+  ['tenantless_3101',['tenantless',['../_hamlet_8txt.html#af3aa614c58844faadaa9b5fa894ff4db',1,'Hamlet.txt']]],
+  ['text_5fline_3102',['text_line',['../structtext.html#a8d893e61901affadb0fad88c534d5611',1,'text']]],
+  ['that_3103',['That',['../_hamlet_8txt.html#ad02e5f8937044bc37d11cefef6d046c8',1,'Hamlet.txt']]],
+  ['then_3104',['then',['../_hamlet_8txt.html#ab2179722cc5ccd300b74cabb51f59176',1,'Hamlet.txt']]],
+  ['there_3105',['there',['../_hamlet_8txt.html#a37a7ff7f651ddf38b7ef314e029914ea',1,'Hamlet.txt']]],
+  ['this_3106',['this',['../_hamlet_8txt.html#ad8f995988e20406d8b19e7f869d31053',1,'Hamlet.txt']]],
+  ['toward_3107',['toward',['../_hamlet_8txt.html#a9a2cbd2986f8d61d3447434b9d9c7bb6',1,'Hamlet.txt']]],
+  ['tush_3108',['Tush',['../_hamlet_8txt.html#aceadb329ad8401d4d45716af31b5f7f2',1,'Tush():&#160;Hamlet.txt'],['../_hamlet_8txt.html#a2bb1cc35c866bc27d22ebc02b1073748',1,'tush():&#160;Hamlet.txt']]]
 ];

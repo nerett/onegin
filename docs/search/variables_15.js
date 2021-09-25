@@ -1,7 +1,8 @@
 var searchData=
 [
-  ['Жаль_3095',['Жаль',['../input__text_8txt.html#ac2d7740a0bb829383b25d9c911fc7186',1,'Жаль():&#160;input_text.txt'],['../output__text_8txt.html#ac2d7740a0bb829383b25d9c911fc7186',1,'Жаль():&#160;output_text.txt']]],
-  ['Жеманство_3096',['Жеманство',['../input__text_8txt.html#a593cfa2ff3123f4ceed70d4e950e3440',1,'Жеманство():&#160;input_text.txt'],['../output__text_8txt.html#a593cfa2ff3123f4ceed70d4e950e3440',1,'Жеманство():&#160;output_text.txt']]],
-  ['Живет_3097',['Живет',['../input__text_8txt.html#af2b249999286e605df75c4836ff9f5ca',1,'Живет():&#160;input_text.txt'],['../output__text_8txt.html#af2b249999286e605df75c4836ff9f5ca',1,'Живет():&#160;output_text.txt']]],
-  ['Живу_3098',['Живу',['../output__text_8txt.html#ac4e2d129f1accc025f107ca1b4159d20',1,'output_text.txt']]]
+  ['vale_3111',['vale',['../_onegin_8txt.html#aa0b7f4898409e9932e68ccf9bcf3760e',1,'Onegin.txt']]],
+  ['vanquisher_3112',['vanquisher',['../_hamlet_8txt.html#af7fb856f0272c2fe493ad47dd223f299',1,'Hamlet.txt']]],
+  ['violence_3113',['violence',['../_hamlet_8txt.html#a1d28d425f10d33c1b1f877e4aa6b737a',1,'Hamlet.txt']]],
+  ['voice_3114',['voice',['../_hamlet_8txt.html#ab31cf670556fdc6087aab1f9a147ce86',1,'Hamlet.txt']]],
+  ['voltemand_3115',['Voltemand',['../_hamlet_8txt.html#ad55e60924653091189e8d758656cb4dc',1,'Hamlet.txt']]]
 ];

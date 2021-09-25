@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['Ювенале_523',['Ювенале',['../input__text_8txt.html#aee79dd193d95c81e321560fc175913cb',1,'Ювенале():&#160;input_text.txt'],['../output__text_8txt.html#aee79dd193d95c81e321560fc175913cb',1,'Ювенале():&#160;output_text.txt']]],
-  ['Юлией_524',['Юлией',['../input__text_8txt.html#aba276d2d7cdfd06b74e5125ea665be0d',1,'Юлией():&#160;input_text.txt'],['../output__text_8txt.html#aba276d2d7cdfd06b74e5125ea665be0d',1,'Юлией():&#160;output_text.txt']]]
+  ['Цареграда_613',['Цареграда',['../_onegin_8txt.html#af208c842023c9a7ba509ddc1fa10aade',1,'Onegin.txt']]],
+  ['Цветы_614',['Цветы',['../_onegin_8txt.html#a22eebc483422bf7206ef10f39d20a65e',1,'Onegin.txt']]],
+  ['Целуют_615',['Целуют',['../_onegin_8txt.html#a8ca279ab883fe78d93cbf2194becc153',1,'Onegin.txt']]]
 ];

@@ -10,11 +10,12 @@ var string_operations_8h =
       [ "CALLOC_ERR", "string-operations_8h.html#a08b18ac8af0f3462354240d9732f3852ace73326b6af88b97b092575d7bb1c3dc", null ]
     ] ],
     [ "free_memory", "string-operations_8h.html#a17222f63f6f4c53e06c15fdb75f10c34", null ],
-    [ "input_text", "string-operations_8h.html#a75d87696c86f7bb6b3ead982a23ea576", null ],
+    [ "input_text", "string-operations_8h.html#a8d4f05f18949093e9848ddfee7c198be", null ],
     [ "text_console_output", "string-operations_8h.html#ad7d04534405521de6e565763029696c0", null ],
     [ "text_file_add_delimiter", "string-operations_8h.html#a3b9b0a0440b427646d40864e32555aa3", null ],
     [ "text_file_file_plain_output", "string-operations_8h.html#a2dd20513cf8d48b63b06fddeb7f110a1", null ],
     [ "text_file_output", "string-operations_8h.html#a1a86d1e0872dcb2f86ce42f3b8e8382d", null ],
     [ "TryToExecute", "string-operations_8h.html#a94e11f43ba2d6b39feb571f479b15cb2", null ],
+    [ "MIN_ARGUMENTS_NUMBER", "string-operations_8h.html#a595e8390331729f86e7e127f6221c3a2", null ],
     [ "NOT_A_LETTER", "string-operations_8h.html#aae1a19cd706aafe833a8ddae43e0e845", null ]
 ];

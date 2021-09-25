@@ -1,9 +1,9 @@
 var searchData=
 [
-  ['sort_5fstrings_75',['sort_strings',['../string-sort_8cpp.html#a9094dbf48480c9276f28b2610a878be9',1,'sort_strings(struct text *some_text, bool enable_reverse):&#160;string-sort.cpp'],['../string-sort_8h.html#a9094dbf48480c9276f28b2610a878be9',1,'sort_strings(struct text *some_text, bool enable_reverse):&#160;string-sort.cpp']]],
-  ['staёl_76',['Staёl',['../input__text_8txt.html#a649ab641f3defe1816671976c1e6be15',1,'Staёl():&#160;input_text.txt'],['../output__text_8txt.html#a649ab641f3defe1816671976c1e6be15',1,'Staёl():&#160;output_text.txt']]],
-  ['string_2doperations_2ecpp_77',['string-operations.cpp',['../string-operations_8cpp.html',1,'']]],
-  ['string_2doperations_2eh_78',['string-operations.h',['../string-operations_8h.html',1,'']]],
-  ['string_2dsort_2ecpp_79',['string-sort.cpp',['../string-sort_8cpp.html',1,'']]],
-  ['string_2dsort_2eh_80',['string-sort.h',['../string-sort_8h.html',1,'']]]
+  ['parle_154',['parle',['../_hamlet_8txt.html#ab645a368f28cd63df3f902b1baa7c75f',1,'Hamlet.txt']]],
+  ['polonius_155',['Polonius',['../_hamlet_8txt.html#a8407bf9345169e1f1e86f711249f581e',1,'Hamlet.txt']]],
+  ['pray_156',['pray',['../_hamlet_8txt.html#aae29ccd39a3ca9ef5a8c5930544ec1f0',1,'Hamlet.txt']]],
+  ['preparations_157',['preparations',['../_hamlet_8txt.html#a66fab8e78674e474e8ca5fad498325ed',1,'Hamlet.txt']]],
+  ['pride_158',['pride',['../_hamlet_8txt.html#a76c575e6438094cdda3993226ccd5cae',1,'Hamlet.txt']]],
+  ['priest_159',['Priest',['../_onegin_8txt.html#a7dbbb313b06eecaf529cf2c2e2c67d92',1,'Onegin.txt']]]
 ];

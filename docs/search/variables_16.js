@@ -1,20 +1,14 @@
 var searchData=
 [
-  ['Заводов_3099',['Заводов',['../input__text_8txt.html#a6dcc2577954f99142539019ceaab1899',1,'Заводов():&#160;input_text.txt'],['../output__text_8txt.html#a6dcc2577954f99142539019ceaab1899',1,'Заводов():&#160;output_text.txt']]],
-  ['Задека_3100',['Задека',['../input__text_8txt.html#add2447f6f16ea4bb018c47eaab45875a',1,'Задека():&#160;input_text.txt'],['../output__text_8txt.html#add2447f6f16ea4bb018c47eaab45875a',1,'Задека():&#160;output_text.txt']]],
-  ['Задумавшись_3101',['Задумавшись',['../input__text_8txt.html#a9f6a4207c1d2ca35835da12d2bb4a854',1,'Задумавшись():&#160;input_text.txt'],['../output__text_8txt.html#a9f6a4207c1d2ca35835da12d2bb4a854',1,'Задумавшись():&#160;output_text.txt']]],
-  ['Задумчивость_3102',['Задумчивость',['../input__text_8txt.html#a6b304383885cc5c5df138a9061858f53',1,'Задумчивость():&#160;input_text.txt'],['../output__text_8txt.html#a6b304383885cc5c5df138a9061858f53',1,'Задумчивость():&#160;output_text.txt']]],
-  ['Заметив_3103',['Заметив',['../input__text_8txt.html#a442ca9cdcfec842bc51d40b7c39207f4',1,'Заметив():&#160;input_text.txt'],['../output__text_8txt.html#a442ca9cdcfec842bc51d40b7c39207f4',1,'Заметив():&#160;output_text.txt']]],
-  ['Запел_3104',['Запел',['../input__text_8txt.html#a6a199925424ebd19c55793dfdde1c482',1,'Запел():&#160;input_text.txt'],['../output__text_8txt.html#a6a199925424ebd19c55793dfdde1c482',1,'Запел():&#160;output_text.txt']]],
-  ['Зарецкий_3105',['Зарецкий',['../input__text_8txt.html#aefe5e6554019f4dcc09698ebabcb6de9',1,'Зарецкий():&#160;input_text.txt'],['../output__text_8txt.html#aefe5e6554019f4dcc09698ebabcb6de9',1,'Зарецкий():&#160;output_text.txt']]],
-  ['Засеребрился_3106',['Засеребрился',['../input__text_8txt.html#abd7d13394798184e3f87684bd28e5577',1,'Засеребрился():&#160;input_text.txt'],['../output__text_8txt.html#abd7d13394798184e3f87684bd28e5577',1,'Засеребрился():&#160;output_text.txt']]],
-  ['Затем_3107',['Затем',['../input__text_8txt.html#a9d31d3b4308700c235554fd2905db0ce',1,'Затем():&#160;input_text.txt'],['../output__text_8txt.html#a9d31d3b4308700c235554fd2905db0ce',1,'Затем():&#160;output_text.txt']]],
-  ['Затянут_3108',['Затянут',['../input__text_8txt.html#a952616def6a0cdf63895dcca3e042de7',1,'Затянут():&#160;input_text.txt'],['../output__text_8txt.html#a952616def6a0cdf63895dcca3e042de7',1,'Затянут():&#160;output_text.txt']]],
-  ['Здорова_3109',['Здорова',['../output__text_8txt.html#add22fea8a63392486233dd7feca532aa',1,'output_text.txt']]],
-  ['Здоровье_3110',['Здоровье',['../input__text_8txt.html#a56fd1f4c412200d7be529cec66195080',1,'Здоровье():&#160;input_text.txt'],['../output__text_8txt.html#a3a7633bc4646b9d0d782853b484b80ef',1,'Здоровье():&#160;output_text.txt']]],
-  ['Зевая_3111',['Зевая',['../input__text_8txt.html#a99dabd37ce9acaa664da9cd6b423a31c',1,'Зевая():&#160;input_text.txt'],['../output__text_8txt.html#a99dabd37ce9acaa664da9cd6b423a31c',1,'Зевая():&#160;output_text.txt']]],
-  ['Зизи_3112',['Зизи',['../input__text_8txt.html#a330de050ce9f567a8d6080202c3f5379',1,'Зизи():&#160;input_text.txt'],['../output__text_8txt.html#a330de050ce9f567a8d6080202c3f5379',1,'Зизи():&#160;output_text.txt']]],
-  ['Зимой_3113',['Зимой',['../input__text_8txt.html#aaf27bada4077f0b1037c6eb60c8b47c8',1,'Зимой():&#160;input_text.txt'],['../output__text_8txt.html#aaf27bada4077f0b1037c6eb60c8b47c8',1,'Зимой():&#160;output_text.txt']]],
-  ['Зовут_3114',['Зовут',['../input__text_8txt.html#a364aa47004914085277a712a8467541d',1,'Зовут():&#160;input_text.txt'],['../output__text_8txt.html#a364aa47004914085277a712a8467541d',1,'Зовут():&#160;output_text.txt']]],
-  ['Зубчатый_3115',['Зубчатый',['../input__text_8txt.html#a1509055828ad6aa2fa2788716b73fc39',1,'Зубчатый():&#160;input_text.txt'],['../output__text_8txt.html#a1509055828ad6aa2fa2788716b73fc39',1,'Зубчатый():&#160;output_text.txt']]]
+  ['war_3116',['war',['../_hamlet_8txt.html#ae01b7bfb7e77c614e3a9e631d91d6d7e',1,'Hamlet.txt']]],
+  ['warning_3117',['warning',['../_hamlet_8txt.html#a2594d30679a54b0d2b4fed9b2d766aff',1,'Hamlet.txt']]],
+  ['was_3118',['Was',['../_hamlet_8txt.html#ae4531a0dddab85fb1625891bec13ad53',1,'Hamlet.txt']]],
+  ['watch_3119',['watch',['../_hamlet_8txt.html#a59926d8230cfac4505039d5755811457',1,'Hamlet.txt']]],
+  ['welcome_3120',['Welcome',['../_hamlet_8txt.html#a5ca42a913ebd5d6b38e007130b751b5c',1,'Hamlet.txt']]],
+  ['well_3121',['Well',['../_hamlet_8txt.html#a00d622540c4ff7d6f9993ae756facf6f',1,'Well():&#160;Hamlet.txt'],['../_onegin_8txt.html#a748d90924d609d1374996163c832f5d3',1,'well():&#160;Onegin.txt']]],
+  ['what_3122',['What',['../_hamlet_8txt.html#aa4c343cb0430af7219af494e95401fdf',1,'Hamlet.txt']]],
+  ['when_3123',['when',['../_hamlet_8txt.html#a826131ef1507408b6a9cbd2d367db332',1,'Hamlet.txt']]],
+  ['who_3124',['who',['../_hamlet_8txt.html#a9f35e65d9dcafc0b0fa012e7af170e38',1,'Hamlet.txt']]],
+  ['wholesome_3125',['wholesome',['../_hamlet_8txt.html#ab4102be6998df1d3aa1d5bb2e021809c',1,'Hamlet.txt']]],
+  ['wrong_3126',['wrong',['../_hamlet_8txt.html#af1dd4de3e0d9085585c3347dd1f7c8be',1,'Hamlet.txt']]]
 ];

@@ -1,9 +1,27 @@
 var searchData=
 [
-  ['Харликову_3390',['Харликову',['../input__text_8txt.html#a2e887d2e0e543008e646917babf592f3',1,'Харликову():&#160;input_text.txt'],['../output__text_8txt.html#a2e887d2e0e543008e646917babf592f3',1,'Харликову():&#160;output_text.txt']]],
-  ['Хладнокровно_3391',['Хладнокровно',['../input__text_8txt.html#a167f00396e6106c8aafdae35a8072889',1,'Хладнокровно():&#160;input_text.txt'],['../output__text_8txt.html#a167f00396e6106c8aafdae35a8072889',1,'Хладнокровно():&#160;output_text.txt']]],
-  ['Хлопочем_3392',['Хлопочем',['../input__text_8txt.html#a7c310b0a0c247d6f7ef50afda9aab0fb',1,'Хлопочем():&#160;input_text.txt'],['../output__text_8txt.html#a7c310b0a0c247d6f7ef50afda9aab0fb',1,'Хлопочем():&#160;output_text.txt']]],
-  ['Холодный_3393',['Холодный',['../input__text_8txt.html#a258fc231f8efb1205b5fd4bc2950a350',1,'Холодный():&#160;input_text.txt'],['../output__text_8txt.html#a258fc231f8efb1205b5fd4bc2950a350',1,'Холодный():&#160;output_text.txt']]],
-  ['Холодных_3394',['Холодных',['../input__text_8txt.html#a598effbe444c7ab8e96e9861f63dd564',1,'Холодных():&#160;input_text.txt'],['../output__text_8txt.html#a598effbe444c7ab8e96e9861f63dd564',1,'Холодных():&#160;output_text.txt']]],
-  ['Хоть_3395',['Хоть',['../input__text_8txt.html#a9dfcd801d20c2faf479f0446038c0326',1,'Хоть():&#160;input_text.txt'],['../output__text_8txt.html#a9dfcd801d20c2faf479f0446038c0326',1,'Хоть():&#160;output_text.txt']]]
+  ['Н_3314',['Н',['../_onegin_8txt.html#a14cbb8b56ce7c1d4fe8ccad499360a43',1,'Onegin.txt']]],
+  ['Надеждой_3315',['Надеждой',['../_onegin_8txt.html#abd386d743e449e552f802e6a48619aff',1,'Onegin.txt']]],
+  ['Надежды_3316',['Надежды',['../_onegin_8txt.html#a2891e6f49575fcfe8a323bc544103620',1,'Onegin.txt']]],
+  ['Назвать_3317',['Назвать',['../_onegin_8txt.html#ad3e72cf0e2049397a272c62d175ca838',1,'Onegin.txt']]],
+  ['Назон_3318',['Назон',['../_onegin_8txt.html#a576fbd01a4f4d33b263b390293768499',1,'Onegin.txt']]],
+  ['Наполеон_3319',['Наполеон',['../_onegin_8txt.html#a9f2aef26acb9152525630c9a5f41b297',1,'Onegin.txt']]],
+  ['Наполеоны_3320',['Наполеоны',['../_onegin_8txt.html#a4eaf669511b5d7e6c146d595600cd31b',1,'Onegin.txt']]],
+  ['Начнем_3321',['Начнем',['../_onegin_8txt.html#aa83be443cfb614b9a1501f22577694dc',1,'Onegin.txt']]],
+  ['Невольно_3322',['Невольно',['../_onegin_8txt.html#adbd3f11a11fddb6571d1c9e6da75cdfd',1,'Onegin.txt']]],
+  ['Невы_3323',['Невы',['../_onegin_8txt.html#aba570a88931f43a1beda88c73c5f9e54',1,'Onegin.txt']]],
+  ['Негодованье_3324',['Негодованье',['../_onegin_8txt.html#ab4dc930da31489280863ea495d9b3012',1,'Onegin.txt']]],
+  ['Недуг_3325',['Недуг',['../_onegin_8txt.html#af9d7d126473d4dec54d3984298b5f562',1,'Onegin.txt']]],
+  ['Незримый_3326',['Незримый',['../_onegin_8txt.html#aca24c55c88c48d2d3c9d12faa3e8dae0',1,'Onegin.txt']]],
+  ['Неловкий_3327',['Неловкий',['../_onegin_8txt.html#a6d84906733113810fdd69d9327679929',1,'Onegin.txt']]],
+  ['Неосторожно_3328',['Неосторожно',['../_onegin_8txt.html#a8b3558abc6174e847b2ca0dd0dd14cc6',1,'Onegin.txt']]],
+  ['Неполный_3329',['Неполный',['../_onegin_8txt.html#ac16a4dab8d49576ba2fadbb7774cd237',1,'Onegin.txt']]],
+  ['Неправильный_3330',['Неправильный',['../_onegin_8txt.html#aedbfb55d0aeb8d8babc6c7f8def73a13',1,'Onegin.txt']]],
+  ['Нереиды_3331',['Нереиды',['../_onegin_8txt.html#aa97ceec5ce1d0424b77e9470282a84f7',1,'Onegin.txt']]],
+  ['Несносный_3332',['Несносный',['../_onegin_8txt.html#a27eb45bcce4136659ea21a36fe34b751',1,'Onegin.txt']]],
+  ['Нет_3333',['Нет',['../_onegin_8txt.html#a5abe327d39a5b1c6e7f16d50a07d5a8a',1,'Onegin.txt']]],
+  ['Неумолимых_3334',['Неумолимых',['../_onegin_8txt.html#a10f371b4bd692b3f8bbc06dd7f7abd8a',1,'Onegin.txt']]],
+  ['Нигде_3335',['Нигде',['../_onegin_8txt.html#a8266a59ddc3cd9a845707206a815973d',1,'Onegin.txt']]],
+  ['Но_3336',['Но',['../_onegin_8txt.html#a7a5021253d76fc5e63bff05b8f328037',1,'Onegin.txt']]],
+  ['Ну_3337',['Ну',['../_onegin_8txt.html#afd7a5161b3975a17bb30428302b8adab',1,'Onegin.txt']]]
 ];

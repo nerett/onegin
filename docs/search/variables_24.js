@@ -1,6 +1,30 @@
 var searchData=
 [
-  ['Цареграда_3396',['Цареграда',['../input__text_8txt.html#af208c842023c9a7ba509ddc1fa10aade',1,'Цареграда():&#160;input_text.txt'],['../output__text_8txt.html#af208c842023c9a7ba509ddc1fa10aade',1,'Цареграда():&#160;output_text.txt']]],
-  ['Цветы_3397',['Цветы',['../input__text_8txt.html#a22eebc483422bf7206ef10f39d20a65e',1,'Цветы():&#160;input_text.txt'],['../output__text_8txt.html#a22eebc483422bf7206ef10f39d20a65e',1,'Цветы():&#160;output_text.txt']]],
-  ['Целуют_3398',['Целуют',['../input__text_8txt.html#a8ca279ab883fe78d93cbf2194becc153',1,'Целуют():&#160;input_text.txt'],['../output__text_8txt.html#a8ca279ab883fe78d93cbf2194becc153',1,'Целуют():&#160;output_text.txt']]]
+  ['О_3338',['О',['../_onegin_8txt.html#a14cd6beb806691f385be67f19ebcc216',1,'Onegin.txt']]],
+  ['Обжора_3339',['Обжора',['../_onegin_8txt.html#a022cb93f8453bdee4b223694acaf82ad',1,'Onegin.txt']]],
+  ['Облокотясь_3340',['Облокотясь',['../_onegin_8txt.html#ae77b99cc78b7e9bc0b8d1f51544b7b16',1,'Onegin.txt']]],
+  ['Обманы_3341',['Обманы',['../_onegin_8txt.html#af07332cff45411a57058c9666e6077f8',1,'Onegin.txt']]],
+  ['Обнявшись_3342',['Обнявшись',['../_onegin_8txt.html#aa8a3cf6ba1191351401a4ae0ecbae60c',1,'Onegin.txt']]],
+  ['Оборотясь_3343',['Оборотясь',['../_onegin_8txt.html#a1afc96f8b0b19a1ad435250c76995d4b',1,'Onegin.txt']]],
+  ['Огромный_3344',['Огромный',['../_onegin_8txt.html#a40d264191fd3eb79c115ce0fb548a644',1,'Onegin.txt']]],
+  ['Одет_3345',['Одет',['../_onegin_8txt.html#a890d33c8179ba934764ab2864ff70245',1,'Onegin.txt']]],
+  ['Один_3346',['Один',['../_onegin_8txt.html#a79813d95fdbf75bd6a59760064cac9b1',1,'Onegin.txt']]],
+  ['Одна_3347',['Одна',['../_onegin_8txt.html#a20dd778c4da8636fd1d4ce1a967065bf',1,'Onegin.txt']]],
+  ['Ожесточиться_3348',['Ожесточиться',['../_onegin_8txt.html#af7d3a460c0726361eb3208bb5206283c',1,'Onegin.txt']]],
+  ['Ольге_3349',['Ольге',['../_onegin_8txt.html#a79216389ba6215afeb6bfa6fd3116763',1,'Onegin.txt']]],
+  ['Ольгою_3350',['Ольгою',['../_onegin_8txt.html#a265b7ff1f043dbff970a5f477a9918e4',1,'Onegin.txt']]],
+  ['Ольгу_3351',['Ольгу',['../_onegin_8txt.html#a8cec6329390834b1107df1b503a93c07',1,'Onegin.txt']]],
+  ['Омир_3352',['Омир',['../_onegin_8txt.html#a54afc48eab406909f131d3c328f1369a',1,'Onegin.txt']]],
+  ['Он_3353',['Он',['../_onegin_8txt.html#a05d3c9dfc2d01aebbe17f0056c5fda28',1,'Onegin.txt']]],
+  ['Она_3354',['Она',['../_onegin_8txt.html#a12209e28b47f8dfc82ba1fb10397e0cf',1,'Onegin.txt']]],
+  ['Онегин_3355',['Онегин',['../_onegin_8txt.html#a1aa6feb901599408642c8f5243167277',1,'Onegin.txt']]],
+  ['Онегину_3356',['Онегину',['../_onegin_8txt.html#a7d343fb545d9827db7280928f6c48a12',1,'Onegin.txt']]],
+  ['Они_3357',['Они',['../_onegin_8txt.html#a6b44e89db49fbe33d5ca12caa0cf65e0',1,'Onegin.txt']]],
+  ['Опомнилась_3358',['Опомнилась',['../_onegin_8txt.html#a4f257019e06ccfba8308cb5682129199',1,'Onegin.txt']]],
+  ['Осин_3359',['Осин',['../_onegin_8txt.html#a27d1a3754ab5c095798f8387266790e2',1,'Onegin.txt']]],
+  ['Осмотрен_3360',['Осмотрен',['../_onegin_8txt.html#a24313fa0faa96fa42bd66dd691099430',1,'Onegin.txt']]],
+  ['Оставил_3361',['Оставил',['../_onegin_8txt.html#a01b28a40993ce16e6df51a1c89fb9cdb',1,'Onegin.txt']]],
+  ['Остряк_3362',['Остряк',['../_onegin_8txt.html#a8f204dca4a516b56c44522c8e89bc732',1,'Onegin.txt']]],
+  ['Отселе_3363',['Отселе',['../_onegin_8txt.html#a04c62ba3ce105c5c712b6d5b91803673',1,'Onegin.txt']]],
+  ['Ох_3364',['Ох',['../_onegin_8txt.html#a49d527b522af184ff7100d1c82e2787f',1,'Onegin.txt']]]
 ];

@@ -1,7 +1,7 @@
 /*! \mainpage Onegin
  *
  * This project was created during MIPT Ded's course.
- * It reads some text from the input_text.txt, sorts it on lexicographic principles and
+ * It reads some text from the file given (command line <FILENAME> as an argument or input_text.txt by default), sorts it on lexicographic principles and
  * puts the result into output_text.txt.
  * In theory, this program can work with arbitrary-sized text and strings. Cyrillic symbols
  * are also supported.

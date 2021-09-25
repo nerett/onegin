@@ -1,0 +1,5 @@
+<map id="input_text" name="input_text">
+<area shape="rect" id="node1" title="Reads text from input_text.txt, determines it&#39;s size, allocates memory, puts text into text_line and ..." alt="" coords="5,31,93,57"/>
+<area shape="rect" id="node2" href="$string-operations_8cpp.html#a896ccef637931300bd22350ab3497ad9" title="Counts number of strings in the text and result into N_strings." alt="" coords="167,5,277,32"/>
+<area shape="rect" id="node3" href="$string-operations_8cpp.html#a826909aa35462782e6a9f2767c976559" title="Puts pointers from index_stringto the beginnings of lines." alt="" coords="141,56,303,83"/>
+</map>

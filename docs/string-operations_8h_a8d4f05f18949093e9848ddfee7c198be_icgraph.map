@@ -1,0 +1,4 @@
+<map id="input_text" name="input_text">
+<area shape="rect" id="node1" title="Reads text from input_text.txt, determines it&#39;s size, allocates memory, puts text into text_line and ..." alt="" coords="108,5,196,32"/>
+<area shape="rect" id="node2" href="$main_8cpp.html#a9494bafce7f29db2c19cb94a7961cece" title=" " alt="" coords="5,5,60,32"/>
+</map>

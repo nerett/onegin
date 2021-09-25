@@ -1,15 +1,18 @@
 var searchData=
 [
-  ['Увы_3372',['Увы',['../input__text_8txt.html#ac8de2ea9925b1b30ea3fc7e9050e309f',1,'Увы():&#160;input_text.txt'],['../output__text_8txt.html#ac8de2ea9925b1b30ea3fc7e9050e309f',1,'Увы():&#160;output_text.txt']]],
-  ['Увял_3373',['Увял',['../input__text_8txt.html#a1f0150aaed4264085d686dc72538a80e',1,'Увял():&#160;input_text.txt'],['../output__text_8txt.html#a1f0150aaed4264085d686dc72538a80e',1,'Увял():&#160;output_text.txt']]],
-  ['Угрозы_3374',['Угрозы',['../input__text_8txt.html#a5e0e7d7fe48da45fbf67b80ccb1d50fb',1,'Угрозы():&#160;input_text.txt'],['../output__text_8txt.html#a5e0e7d7fe48da45fbf67b80ccb1d50fb',1,'Угрозы():&#160;output_text.txt']]],
-  ['Угрюмый_3375',['Угрюмый',['../input__text_8txt.html#a2e9438f71224b17b03de99073d499b81',1,'Угрюмый():&#160;input_text.txt'],['../output__text_8txt.html#a2e9438f71224b17b03de99073d499b81',1,'Угрюмый():&#160;output_text.txt']]],
-  ['Удивлена_3376',['Удивлена',['../input__text_8txt.html#ad2ab8066f1602c7d06338d0c4d5f1457',1,'Удивлена():&#160;input_text.txt'],['../output__text_8txt.html#ad2ab8066f1602c7d06338d0c4d5f1457',1,'Удивлена():&#160;output_text.txt']]],
-  ['Уединенье_3377',['Уединенье',['../input__text_8txt.html#a06186687868b808b9d95279f55f6fa98',1,'Уединенье():&#160;input_text.txt'],['../output__text_8txt.html#a06186687868b808b9d95279f55f6fa98',1,'Уединенье():&#160;output_text.txt']]],
-  ['Ужели_3378',['Ужели',['../input__text_8txt.html#a3cb8b5cb54c01e3ead303be131496759',1,'Ужели():&#160;input_text.txt'],['../output__text_8txt.html#a3cb8b5cb54c01e3ead303be131496759',1,'Ужели():&#160;output_text.txt']]],
-  ['Улан_3379',['Улан',['../input__text_8txt.html#a231059fe18c36e0ec288f8f50dc55d63',1,'Улан():&#160;input_text.txt'],['../output__text_8txt.html#a231059fe18c36e0ec288f8f50dc55d63',1,'Улан():&#160;output_text.txt']]],
-  ['Улыбка_3380',['Улыбка',['../input__text_8txt.html#a83c9e705f8c3fab5c8ba9cfa3da3461a',1,'Улыбка():&#160;input_text.txt'],['../output__text_8txt.html#a83c9e705f8c3fab5c8ba9cfa3da3461a',1,'Улыбка():&#160;output_text.txt']]],
-  ['Уменьшены_3381',['Уменьшены',['../input__text_8txt.html#a610e1a918fee2b4ca278198bc5a2e761',1,'Уменьшены():&#160;input_text.txt'],['../output__text_8txt.html#a610e1a918fee2b4ca278198bc5a2e761',1,'Уменьшены():&#160;output_text.txt']]],
-  ['Уселись_3382',['Уселись',['../input__text_8txt.html#aea57ef7c2cf3035bd73cb54e8bf744ad',1,'Уселись():&#160;input_text.txt'],['../output__text_8txt.html#aea57ef7c2cf3035bd73cb54e8bf744ad',1,'Уселись():&#160;output_text.txt']]],
-  ['Усы_3383',['Усы',['../input__text_8txt.html#a4190dcd0ca4daba0dcdc5778acd016fa',1,'Усы():&#160;input_text.txt'],['../output__text_8txt.html#a4190dcd0ca4daba0dcdc5778acd016fa',1,'Усы():&#160;output_text.txt']]]
+  ['Лай_3284',['Лай',['../_onegin_8txt.html#aa3626b8c162fb5e89f0ca715d4e1d20a',1,'Onegin.txt']]],
+  ['Ларин_3285',['Ларин',['../_onegin_8txt.html#afc48ae9f03b25d739c3477bb65b2a75e',1,'Onegin.txt']]],
+  ['Лель_3286',['Лель',['../_onegin_8txt.html#a02b7886c04bbd803cafc2cd5fe07f224',1,'Onegin.txt']]],
+  ['Ленорой_3287',['Ленорой',['../_onegin_8txt.html#a2c4f56b1904183e53e6cac2a873863f3',1,'Onegin.txt']]],
+  ['Ленский_3288',['Ленский',['../_onegin_8txt.html#a1ee7776922931ed978a2d75752d77d7f',1,'Onegin.txt']]],
+  ['Ленского_3289',['Ленского',['../_onegin_8txt.html#a47613bda7250e8473b8be99b630b2437',1,'Onegin.txt']]],
+  ['Ленской_3290',['Ленской',['../_onegin_8txt.html#a09830732349edab30edd1516fc3c5d49',1,'Onegin.txt']]],
+  ['Лета_3291',['Лета',['../_onegin_8txt.html#a2954864bce7734cd146cc2198971364a',1,'Onegin.txt']]],
+  ['Летит_3292',['Летит',['../_onegin_8txt.html#aaaa62a7ec9e19c0f0fc288399d985f0f',1,'Onegin.txt']]],
+  ['Линар_3293',['Линар',['../_onegin_8txt.html#a733dd3ec41d176417ad5bccc9a05b3ed',1,'Onegin.txt']]],
+  ['Луну_3294',['Луну',['../_onegin_8txt.html#af4a26352c9ec6b7584b2d4de2bf5ea3d',1,'Onegin.txt']]],
+  ['Львовна_3295',['Львовна',['../_onegin_8txt.html#aa088c487ebbe5e8b771bdad303195fae',1,'Onegin.txt']]],
+  ['Любви_3296',['Любви',['../_onegin_8txt.html#a6f1df6e92f223828fc326dd586e2b10a',1,'Onegin.txt']]],
+  ['Любить_3297',['Любить',['../_onegin_8txt.html#a5b06214affba5643d3249c1f1f6a8328',1,'Onegin.txt']]],
+  ['Людей_3298',['Людей',['../_onegin_8txt.html#a63793913e7716abf73958db4d72a57ae',1,'Onegin.txt']]]
 ];

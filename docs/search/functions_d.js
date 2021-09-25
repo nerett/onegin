@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['Печально_2910',['Печально',['../input__text_8txt.html#a629e4084d9b2be8b666cdba8d94d7bb0',1,'Печально(Как говорится, машинально) Татьяна молча оперлась:&#160;input_text.txt'],['../output__text_8txt.html#a629e4084d9b2be8b666cdba8d94d7bb0',1,'Печально(Как говорится, машинально) Татьяна молча оперлась:&#160;output_text.txt']]],
-  ['Поверьте_2911',['Поверьте',['../output__text_8txt.html#aa5cf6c3b44113aa16cea008f82cb7068',1,'output_text.txt']]]
+  ['Несносно_2915',['Несносно',['../_onegin_8txt.html#af663419413ab2135f4f6c0593c284669',1,'Onegin.txt']]],
+  ['Но_2916',['Но',['../_onegin_8txt.html#a6d6fc9fa4a6ce0691a0c94613b9f19a2',1,'Onegin.txt']]]
 ];

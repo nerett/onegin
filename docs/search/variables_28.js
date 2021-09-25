@@ -1,5 +1,25 @@
 var searchData=
 [
-  ['Ювенале_3418',['Ювенале',['../input__text_8txt.html#aee79dd193d95c81e321560fc175913cb',1,'Ювенале():&#160;input_text.txt'],['../output__text_8txt.html#aee79dd193d95c81e321560fc175913cb',1,'Ювенале():&#160;output_text.txt']]],
-  ['Юлией_3419',['Юлией',['../input__text_8txt.html#aba276d2d7cdfd06b74e5125ea665be0d',1,'Юлией():&#160;input_text.txt'],['../output__text_8txt.html#aba276d2d7cdfd06b74e5125ea665be0d',1,'Юлией():&#160;output_text.txt']]]
+  ['Та_3466',['Та',['../_onegin_8txt.html#a6601c4c92d6812e17472bcfcb739d8a6',1,'Onegin.txt']]],
+  ['Так_3467',['Так',['../_onegin_8txt.html#a6d4c67c1f868d31c5011d08bb364bdb5',1,'Onegin.txt']]],
+  ['Там_3468',['Там',['../_onegin_8txt.html#a9e6ea18f60d7f29dbe361d72efbe85d5',1,'Onegin.txt']]],
+  ['Тамбова_3469',['Тамбова',['../_onegin_8txt.html#a25821039f0d815c689179dbcb022c233',1,'Onegin.txt']]],
+  ['Тани_3470',['Тани',['../_onegin_8txt.html#aeed275ee0cb2d1758662124d1a5055fe',1,'Onegin.txt']]],
+  ['Таня_3471',['Таня',['../_onegin_8txt.html#a19675419b9a9a4a7309cce99be381edc',1,'Onegin.txt']]],
+  ['Татьяна_3472',['Татьяна',['../_onegin_8txt.html#a49f83f3593d08f1b049c904c67f4e474',1,'Onegin.txt']]],
+  ['Татьяне_3473',['Татьяне',['../_onegin_8txt.html#a9356683fcb7d4109adf64ec090116091',1,'Onegin.txt']]],
+  ['Теперь_3474',['Теперь',['../_onegin_8txt.html#a8b547b3e4e9b8fdbb395c26f93c6d430',1,'Onegin.txt']]],
+  ['Тиссо_3475',['Тиссо',['../_onegin_8txt.html#ad2746b3cdd2a8b06a9f3fbac8a0f42d9',1,'Onegin.txt']]],
+  ['То_3476',['То',['../_onegin_8txt.html#ad48af57de63d01a2c03a3d251b2ce19d',1,'Onegin.txt']]],
+  ['Тобою_3477',['Тобою',['../_onegin_8txt.html#a0b403e12f4914ed52bf9c23bd82c3d28',1,'Onegin.txt']]],
+  ['Того_3478',['Того',['../_onegin_8txt.html#a41604ed949ba096cea8e08a38a86151b',1,'Onegin.txt']]],
+  ['Трапезу_3479',['Трапезу',['../_onegin_8txt.html#a5ecae3d2cdafd49ff632b49d0dc97aeb',1,'Onegin.txt']]],
+  ['Трепещет_3480',['Трепещет',['../_onegin_8txt.html#a5f6fc04f75ddeeabe943e846d502732c',1,'Onegin.txt']]],
+  ['Трике_3481',['Трике',['../_onegin_8txt.html#aa9a986777d1d9cd0c9fb471dfd534fbf',1,'Onegin.txt']]],
+  ['Троицын_3482',['Троицын',['../_onegin_8txt.html#acc1b654b17997b84868bc69d47269917',1,'Onegin.txt']]],
+  ['Трубу_3483',['Трубу',['../_onegin_8txt.html#a51ea33d7c358062e0db51240ac84900f',1,'Onegin.txt']]],
+  ['Тряслися_3484',['Тряслися',['../_onegin_8txt.html#aa65892f8c0e87de32937654937bb357b',1,'Onegin.txt']]],
+  ['Туда_3485',['Туда',['../_onegin_8txt.html#ac203e18d06f3ad889e12b501c7c1cf6d',1,'Onegin.txt']]],
+  ['Тут_3486',['Тут',['../_onegin_8txt.html#adca8e276acc8009d788954876235a0c2',1,'Onegin.txt']]],
+  ['Ты_3487',['Ты',['../_onegin_8txt.html#a5460f311b5a0c35a776716a69f017186',1,'Onegin.txt']]]
 ];

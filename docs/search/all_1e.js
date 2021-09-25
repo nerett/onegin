@@ -1,19 +1,6 @@
 var searchData=
 [
-  ['Лай_262',['Лай',['../input__text_8txt.html#aa3626b8c162fb5e89f0ca715d4e1d20a',1,'Лай():&#160;input_text.txt'],['../output__text_8txt.html#aa3626b8c162fb5e89f0ca715d4e1d20a',1,'Лай():&#160;output_text.txt']]],
-  ['Ларин_263',['Ларин',['../input__text_8txt.html#afc48ae9f03b25d739c3477bb65b2a75e',1,'Ларин():&#160;input_text.txt'],['../output__text_8txt.html#afc48ae9f03b25d739c3477bb65b2a75e',1,'Ларин():&#160;output_text.txt']]],
-  ['Лель_264',['Лель',['../input__text_8txt.html#a02b7886c04bbd803cafc2cd5fe07f224',1,'Лель():&#160;input_text.txt'],['../output__text_8txt.html#a02b7886c04bbd803cafc2cd5fe07f224',1,'Лель():&#160;output_text.txt']]],
-  ['Ленорой_265',['Ленорой',['../input__text_8txt.html#a2c4f56b1904183e53e6cac2a873863f3',1,'Ленорой():&#160;input_text.txt'],['../output__text_8txt.html#a2c4f56b1904183e53e6cac2a873863f3',1,'Ленорой():&#160;output_text.txt']]],
-  ['Ленский_266',['Ленский',['../input__text_8txt.html#a1ee7776922931ed978a2d75752d77d7f',1,'Ленский():&#160;input_text.txt'],['../output__text_8txt.html#a1ee7776922931ed978a2d75752d77d7f',1,'Ленский():&#160;output_text.txt']]],
-  ['Ленского_267',['Ленского',['../input__text_8txt.html#a47613bda7250e8473b8be99b630b2437',1,'Ленского():&#160;input_text.txt'],['../output__text_8txt.html#a47613bda7250e8473b8be99b630b2437',1,'Ленского():&#160;output_text.txt']]],
-  ['Ленской_268',['Ленской',['../input__text_8txt.html#a09830732349edab30edd1516fc3c5d49',1,'Ленской():&#160;input_text.txt'],['../output__text_8txt.html#a09830732349edab30edd1516fc3c5d49',1,'Ленской():&#160;output_text.txt']]],
-  ['Лета_269',['Лета',['../input__text_8txt.html#a2954864bce7734cd146cc2198971364a',1,'Лета():&#160;input_text.txt'],['../output__text_8txt.html#a2954864bce7734cd146cc2198971364a',1,'Лета():&#160;output_text.txt']]],
-  ['Летит_270',['Летит',['../input__text_8txt.html#aaaa62a7ec9e19c0f0fc288399d985f0f',1,'Летит():&#160;input_text.txt'],['../output__text_8txt.html#aaaa62a7ec9e19c0f0fc288399d985f0f',1,'Летит():&#160;output_text.txt']]],
-  ['Линар_271',['Линар',['../input__text_8txt.html#a733dd3ec41d176417ad5bccc9a05b3ed',1,'Линар():&#160;input_text.txt'],['../output__text_8txt.html#a733dd3ec41d176417ad5bccc9a05b3ed',1,'Линар():&#160;output_text.txt']]],
-  ['Луну_272',['Луну',['../input__text_8txt.html#af4a26352c9ec6b7584b2d4de2bf5ea3d',1,'Луну():&#160;input_text.txt'],['../output__text_8txt.html#af4a26352c9ec6b7584b2d4de2bf5ea3d',1,'Луну():&#160;output_text.txt']]],
-  ['Львовна_273',['Львовна',['../input__text_8txt.html#aa088c487ebbe5e8b771bdad303195fae',1,'Львовна():&#160;input_text.txt'],['../output__text_8txt.html#aa088c487ebbe5e8b771bdad303195fae',1,'Львовна():&#160;output_text.txt']]],
-  ['Любви_274',['Любви',['../input__text_8txt.html#a6f1df6e92f223828fc326dd586e2b10a',1,'Любви():&#160;input_text.txt'],['../output__text_8txt.html#a6f1df6e92f223828fc326dd586e2b10a',1,'Любви():&#160;output_text.txt']]],
-  ['Любезней_275',['Любезней',['../output__text_8txt.html#a193a8d36cd4bb2927c11db5725d2d547',1,'output_text.txt']]],
-  ['Любить_276',['Любить',['../input__text_8txt.html#a5b06214affba5643d3249c1f1f6a8328',1,'Любить():&#160;input_text.txt'],['../output__text_8txt.html#a5b06214affba5643d3249c1f1f6a8328',1,'Любить():&#160;output_text.txt']]],
-  ['Людей_277',['Людей',['../input__text_8txt.html#a63793913e7716abf73958db4d72a57ae',1,'Людей():&#160;input_text.txt'],['../output__text_8txt.html#a63793913e7716abf73958db4d72a57ae',1,'Людей():&#160;output_text.txt']]]
+  ['Жаль_322',['Жаль',['../_onegin_8txt.html#ac2d7740a0bb829383b25d9c911fc7186',1,'Onegin.txt']]],
+  ['Жеманство_323',['Жеманство',['../_onegin_8txt.html#a593cfa2ff3123f4ceed70d4e950e3440',1,'Onegin.txt']]],
+  ['Живет_324',['Живет',['../_onegin_8txt.html#af2b249999286e605df75c4836ff9f5ca',1,'Onegin.txt']]]
 ];

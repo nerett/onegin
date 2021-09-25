@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['зная_2919',['зная',['../input__text_8txt.html#aae376304fe1da7e78edd316507758cc4',1,'зная(Судьбу, однако ж, проклиная):&#160;input_text.txt'],['../output__text_8txt.html#aae376304fe1da7e78edd316507758cc4',1,'зная(Судьбу, однако ж, проклиная):&#160;output_text.txt']]]
+  ['дней_2924',['дней',['../_onegin_8txt.html#a6050acb890ea1bf1412837d6377c4000',1,'Onegin.txt']]]
 ];

@@ -17,7 +17,7 @@ enum err_code { OK, FOPEN_ERR, FSEEK_ERR, FTELL_ERR, FREAD_ERR, CALLOC_ERR }; //
 
 //const int MAX_STRING_LENGTH = 100;
 const char NOT_A_LETTER[] = ".,-!?\"( )':;"; ///< String of non-letter symbols
-const int MIN_ARGUMENTS_NUMBER = 2;
+const int MIN_ARGUMENTS_NUMBER = 2; ///< Minimal number of command line arguments to start arguments parsing
 
 struct text ///< Structture which is text you can easilly work with
 {
@@ -27,7 +27,7 @@ struct text ///< Structture which is text you can easilly work with
     int N_strings = 0; ///< Number of strings in the text
 };
 
-err_code input_text( struct text* some_text, char* filename = "input_text.txt" ); ///< Reads text from input_text.txt, determines it's size, allocates memory, puts text into text_line and puts pointers from index_stringto the beginnings of lines (with a help of find_strings_beginnings). Returns error code
+err_code input_text( struct text* some_text, char* filename = "input_text.txt" ); ///< Reads text from input_text.txt (by default; if you want you can choose a different filename using command line argument <FILENAME>), determines it's size, allocates memory, puts text into text_line and puts pointers from index_stringto the beginnings of lines (with a help of find_strings_beginnings). Returns error code
 err_code text_file_output( struct text* some_text, bool enable_loseless_adding ); ///< Puts strings given into the output_text.txt
 err_code text_file_add_delimiter(); ///< Ads awesome text label into the output_text.txt. Returns error code
 err_code text_file_file_plain_output( struct text* some_text, bool enable_loseless_adding ); ///< Puts the contents of the text_line into the output_text.txt (usually text_line contains non-modified text red from file). Returns error code

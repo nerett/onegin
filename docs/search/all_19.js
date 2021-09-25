@@ -1,8 +1,28 @@
 var searchData=
 [
-  ['Евгений_193',['Евгений',['../input__text_8txt.html#ae2addffecb0207a6ba16389afbfd85a8',1,'Евгений():&#160;input_text.txt'],['../output__text_8txt.html#ae2addffecb0207a6ba16389afbfd85a8',1,'Евгений():&#160;output_text.txt']]],
-  ['Европы_194',['Европы',['../input__text_8txt.html#ae8e36d301f7ce83eba9c859c59f82201',1,'Европы():&#160;input_text.txt'],['../output__text_8txt.html#ae8e36d301f7ce83eba9c859c59f82201',1,'Европы():&#160;output_text.txt']]],
-  ['Едва_195',['Едва',['../output__text_8txt.html#ad79c3631c410e03ae4f607319ff57d84',1,'output_text.txt']]],
-  ['Еж_196',['Еж',['../input__text_8txt.html#a297e63eb65481bca248ba05cf23b5912',1,'Еж():&#160;input_text.txt'],['../output__text_8txt.html#a297e63eb65481bca248ba05cf23b5912',1,'Еж():&#160;output_text.txt']]],
-  ['Еще_197',['Еще',['../input__text_8txt.html#ab0a7da14a812614e0f47203e5917638b',1,'Еще():&#160;input_text.txt'],['../output__text_8txt.html#ab0a7da14a812614e0f47203e5917638b',1,'Еще():&#160;output_text.txt']]]
+  ['Байрон_233',['Байрон',['../_onegin_8txt.html#a4667da90d4efe8552509485815beea15',1,'Onegin.txt']]],
+  ['Балконы_234',['Балконы',['../_onegin_8txt.html#a1cfe943774917802cc93f1a47f73a92a',1,'Onegin.txt']]],
+  ['Безумец_235',['Безумец',['../_onegin_8txt.html#a8c9f9ffdabd7e1e6ad934848ca11ae92',1,'Onegin.txt']]],
+  ['Белеют_236',['Белеют',['../_onegin_8txt.html#aac6b401429afba367452bf5e073989c4',1,'Onegin.txt']]],
+  ['Беля_237',['Беля',['../_onegin_8txt.html#a7f4e2d9e3f104c56b89fcd379c8eb878',1,'Onegin.txt']]],
+  ['Бентама_238',['Бентама',['../_onegin_8txt.html#ae215c757b4304847667c38ec9f42fa6b',1,'Onegin.txt']]],
+  ['Бессонниц_239',['Бессонниц',['../_onegin_8txt.html#a8a99e16a988579d47950d0ea1747054d',1,'Onegin.txt']]],
+  ['Биша_240',['Биша',['../_onegin_8txt.html#a282fde97d65a908a750a845a2bf7b31d',1,'Onegin.txt']]],
+  ['Блажен_241',['Блажен',['../_onegin_8txt.html#a29229bc714451dede3af61929a0ce89b',1,'Onegin.txt']]],
+  ['Бледнеет_242',['Бледнеет',['../_onegin_8txt.html#a10107f0c329c1699c2d5b2d1b6018693',1,'Onegin.txt']]],
+  ['Блеснуть_243',['Блеснуть',['../_onegin_8txt.html#a48ae178e37c549b11b46bacd51d45182',1,'Onegin.txt']]],
+  ['Блестящей_244',['Блестящей',['../_onegin_8txt.html#a7a1206ae60cc600486733605d8beed3c',1,'Onegin.txt']]],
+  ['Блистательна_245',['Блистательна',['../_onegin_8txt.html#a0a07d901913a4efc94ba3aa81ea4b53b',1,'Onegin.txt']]],
+  ['Бог_246',['Бог',['../_onegin_8txt.html#ae5f88073ee834ada3c3d723aa013c45d',1,'Onegin.txt']]],
+  ['Богат_247',['Богат',['../_onegin_8txt.html#aadfb3dbb52b2833f7505f9a64ef95436',1,'Onegin.txt']]],
+  ['Богом_248',['Богом',['../_onegin_8txt.html#a5244a78171a67971b9ea7b8b61939e9c',1,'Onegin.txt']]],
+  ['Богу_249',['Богу',['../_onegin_8txt.html#a497ac634611a722ed3020acd08f02578',1,'Onegin.txt']]],
+  ['Боже_250',['Боже',['../_onegin_8txt.html#a9bf048d0e4a3161a05e6ec89abcc06dc',1,'Onegin.txt']]],
+  ['Большой_251',['Большой',['../_onegin_8txt.html#aa3682b7dc27b38f3ed2742ea11a65a16',1,'Onegin.txt']]],
+  ['Бордо_252',['Бордо',['../_onegin_8txt.html#a76a40aefe86145f9275dbd2cd40f028f',1,'Onegin.txt']]],
+  ['Боюсь_253',['Боюсь',['../_onegin_8txt.html#a1d85adfdfcd0e8764b5036e8d878c8f4',1,'Onegin.txt']]],
+  ['Бульвары_254',['Бульвары',['../_onegin_8txt.html#ad227c7ea1788063644fd136c185c168a',1,'Onegin.txt']]],
+  ['Бухарцы_255',['Бухарцы',['../_onegin_8txt.html#a5b23b8bafa8421dfae2a00ad1aa25d98',1,'Onegin.txt']]],
+  ['Буянов_256',['Буянов',['../_onegin_8txt.html#a4bfe108521ebe8bf1a4efac39f7f98a5',1,'Onegin.txt']]],
+  ['Бывало_257',['Бывало',['../_onegin_8txt.html#ad0988f5d947509ae70e00b4d68b2209b',1,'Onegin.txt']]]
 ];

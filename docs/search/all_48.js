@@ -1,7 +1,10 @@
 var searchData=
 [
-  ['эконом_2854',['эконом',['../input__text_8txt.html#a478d1e7354f427d4c8919db13c6bde2e',1,'эконом():&#160;input_text.txt'],['../output__text_8txt.html#a478d1e7354f427d4c8919db13c6bde2e',1,'эконом():&#160;output_text.txt']]],
-  ['эта_2855',['эта',['../input__text_8txt.html#a4aec837db4593bf43ba547329af091bc',1,'эта():&#160;input_text.txt'],['../output__text_8txt.html#a4aec837db4593bf43ba547329af091bc',1,'эта():&#160;output_text.txt']]],
-  ['этом_2856',['этом',['../input__text_8txt.html#a55bb7764ee71fe2b77f11a97dc23c3bd',1,'этом():&#160;input_text.txt'],['../output__text_8txt.html#a55bb7764ee71fe2b77f11a97dc23c3bd',1,'этом():&#160;output_text.txt']]],
-  ['эту_2857',['эту',['../input__text_8txt.html#af8a33da06cc65445a31150a2a8a23aa0',1,'эту():&#160;input_text.txt'],['../output__text_8txt.html#af8a33da06cc65445a31150a2a8a23aa0',1,'эту():&#160;output_text.txt']]]
+  ['цвет_2793',['цвет',['../_onegin_8txt.html#a40eeed474bbf6c7e89d8de9fa25cd139',1,'Onegin.txt']]],
+  ['цветам_2794',['цветам',['../_onegin_8txt.html#acc1a5e37c3adee2f3b972102133fe6d9',1,'Onegin.txt']]],
+  ['цветки_2795',['цветки',['../_onegin_8txt.html#a9837854ec9d7fe91dbeee5de8e4f5b00',1,'Onegin.txt']]],
+  ['цветов_2796',['цветов',['../_onegin_8txt.html#a2bb1ff4bd7ba6734977c37f39e6d1ad5',1,'Onegin.txt']]],
+  ['цветок_2797',['цветок',['../_onegin_8txt.html#a1f67d06b863262901c14d8e0b7192c2d',1,'Onegin.txt']]],
+  ['цели_2798',['цели',['../_onegin_8txt.html#ad3ba9c10c34c4600e46381dcd8d45eaa',1,'Onegin.txt']]],
+  ['целя_2799',['целя',['../_onegin_8txt.html#ac7a30a8bba6670633f397fcb17371fc7',1,'Onegin.txt']]]
 ];

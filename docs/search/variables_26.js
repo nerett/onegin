@@ -1,11 +1,19 @@
 var searchData=
 [
-  ['Шамфора_3407',['Шамфора',['../input__text_8txt.html#ab0f3adaaf29b730084e9891609db8d52',1,'Шамфора():&#160;input_text.txt'],['../output__text_8txt.html#ab0f3adaaf29b730084e9891609db8d52',1,'Шамфора():&#160;output_text.txt']]],
-  ['Шатобриан_3408',['Шатобриан',['../input__text_8txt.html#a61626655302aa1322a83b7f2b6d64417',1,'Шатобриан():&#160;input_text.txt'],['../output__text_8txt.html#a61626655302aa1322a83b7f2b6d64417',1,'Шатобриан():&#160;output_text.txt']]],
-  ['Шептал_3409',['Шептал',['../input__text_8txt.html#a1e32a160006c1283356a137f73418d56',1,'Шептал():&#160;input_text.txt'],['../output__text_8txt.html#a1e32a160006c1283356a137f73418d56',1,'Шептал():&#160;output_text.txt']]],
-  ['Шипит_3410',['Шипит',['../input__text_8txt.html#a1cb51014baa3446c36c29c82c0e2bbef',1,'Шипит():&#160;input_text.txt'],['../output__text_8txt.html#a1cb51014baa3446c36c29c82c0e2bbef',1,'Шипит():&#160;output_text.txt']]],
-  ['Шла_3411',['Шла',['../input__text_8txt.html#a3d67f236243f7b4d9265f26af7327130',1,'Шла():&#160;input_text.txt'],['../output__text_8txt.html#a3d67f236243f7b4d9265f26af7327130',1,'Шла():&#160;output_text.txt']]],
-  ['Шум_3412',['Шум',['../input__text_8txt.html#a4e3ff1a724dedb9244136ae5eacbc23f',1,'Шум():&#160;input_text.txt'],['../output__text_8txt.html#a4e3ff1a724dedb9244136ae5eacbc23f',1,'Шум():&#160;output_text.txt']]],
-  ['Шумит_3413',['Шумит',['../input__text_8txt.html#a76f52a34e542e39e84c1cbe9dcc0f0b4',1,'Шумит():&#160;input_text.txt'],['../output__text_8txt.html#a76f52a34e542e39e84c1cbe9dcc0f0b4',1,'Шумит():&#160;output_text.txt']]],
-  ['Шутить_3414',['Шутить',['../input__text_8txt.html#a6fb1100191ddf66a16fbe609665264f2',1,'Шутить():&#160;input_text.txt'],['../output__text_8txt.html#a6fb1100191ddf66a16fbe609665264f2',1,'Шутить():&#160;output_text.txt']]]
+  ['Разбежимтесь_3416',['Разбежимтесь',['../_onegin_8txt.html#ae1963748f43ef4319fef5afdaa12907b',1,'Onegin.txt']]],
+  ['Разврат_3417',['Разврат',['../_onegin_8txt.html#aadc51194c502687cb038813f185fc9c4',1,'Onegin.txt']]],
+  ['Разгуляйтесь_3418',['Разгуляйтесь',['../_onegin_8txt.html#ae8364dc8c947eddfa3cdc959f969c6b4',1,'Onegin.txt']]],
+  ['Разлуку_3419',['Разлуку',['../_onegin_8txt.html#a31a86d2b8a1bb300dc8844a5eec48610',1,'Onegin.txt']]],
+  ['Разуверять_3420',['Разуверять',['../_onegin_8txt.html#ae901e021d34459a3a280d5b63d3324da',1,'Onegin.txt']]],
+  ['Разыграйтесь_3421',['Разыграйтесь',['../_onegin_8txt.html#ae5d110cb3f28851637f464e84b562a7e',1,'Onegin.txt']]],
+  ['Расин_3422',['Расин',['../_onegin_8txt.html#a90d9c585d0d094c8b7bd442ef265c71b',1,'Onegin.txt']]],
+  ['Раскланялся_3423',['Раскланялся',['../_onegin_8txt.html#a2a7846317c205e22d4908f1d435c9791',1,'Onegin.txt']]],
+  ['Расспросов_3424',['Расспросов',['../_onegin_8txt.html#afd7726c8b486011b47e413320a1e5b13',1,'Onegin.txt']]],
+  ['Растет_3425',['Растет',['../_onegin_8txt.html#ac82fa290daab53159cc1cd73ebec65b0',1,'Onegin.txt']]],
+  ['Резва_3426',['Резва',['../_onegin_8txt.html#afddfcc0a441786304429fb5964a6de81',1,'Onegin.txt']]],
+  ['Родне_3427',['Родне',['../_onegin_8txt.html#a2fc99227fa34578e0852ecbbd2eee724',1,'Onegin.txt']]],
+  ['Роскошной_3428',['Роскошной',['../_onegin_8txt.html#a8999b49d2e258a6ea8b089d79b84e82e',1,'Onegin.txt']]],
+  ['России_3429',['России',['../_onegin_8txt.html#a46171954ca188038decf8b6cf6c85855',1,'Onegin.txt']]],
+  ['Румян_3430',['Румян',['../_onegin_8txt.html#a5759246b2d17d3aa5c04891fb098ada6',1,'Onegin.txt']]],
+  ['Руссо_3431',['Руссо',['../_onegin_8txt.html#a3a6945e155ab657156c8ca2b51186447',1,'Onegin.txt']]]
 ];

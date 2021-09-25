@@ -1,10 +1,11 @@
 var searchData=
 [
-  ['Алина_2991',['Алина',['../input__text_8txt.html#a61743e53c5ca213513750c41600a92e1',1,'Алина():&#160;input_text.txt'],['../output__text_8txt.html#a61743e53c5ca213513750c41600a92e1',1,'Алина():&#160;output_text.txt']]],
-  ['Алину_2992',['Алину',['../input__text_8txt.html#ac8d4411463b79264bf0e02d35bc53530',1,'Алину():&#160;input_text.txt'],['../output__text_8txt.html#ac8d4411463b79264bf0e02d35bc53530',1,'Алину():&#160;output_text.txt']]],
-  ['Аполлона_2993',['Аполлона',['../input__text_8txt.html#adc5de0b936262608e1e2a36362aab1bf',1,'Аполлона():&#160;input_text.txt'],['../output__text_8txt.html#adc5de0b936262608e1e2a36362aab1bf',1,'Аполлона():&#160;output_text.txt']]],
-  ['Аптеки_2994',['Аптеки',['../input__text_8txt.html#a8d260d92d772473dac52b7d2a3ee4270',1,'Аптеки():&#160;input_text.txt'],['../output__text_8txt.html#a8d260d92d772473dac52b7d2a3ee4270',1,'Аптеки():&#160;output_text.txt']]],
-  ['Апулея_2995',['Апулея',['../input__text_8txt.html#ab68ee3146fd83bab278e6fd6e25f7de0',1,'Апулея():&#160;input_text.txt'],['../output__text_8txt.html#ab68ee3146fd83bab278e6fd6e25f7de0',1,'Апулея():&#160;output_text.txt']]],
-  ['Армид_2996',['Армид',['../input__text_8txt.html#a0c4dec1dff07fca260fa4dd33e3dbe76',1,'Армид():&#160;input_text.txt'],['../output__text_8txt.html#a0c4dec1dff07fca260fa4dd33e3dbe76',1,'Армид():&#160;output_text.txt']]],
-  ['Ах_2997',['Ах',['../input__text_8txt.html#a4e9502a831ac52c26b754cc6174912dd',1,'Ах():&#160;input_text.txt'],['../output__text_8txt.html#a4e9502a831ac52c26b754cc6174912dd',1,'Ах():&#160;output_text.txt']]]
+  ['o_3061',['O',['../_hamlet_8txt.html#ae60bdc42bf8e204610cfee9890fa39b6',1,'Hamlet.txt']]],
+  ['of_3062',['of',['../_hamlet_8txt.html#a3fcad243acd0943b6d9f0e3ebf859a5d',1,'Hamlet.txt']]],
+  ['officers_3063',['Officers',['../_hamlet_8txt.html#a215cb7d8f4408b5580b508770cf7456e',1,'Hamlet.txt']]],
+  ['on_3064',['on',['../_hamlet_8txt.html#a9ee21360e5e3e666c648f4c19ee05eac',1,'Hamlet.txt']]],
+  ['ophelia_3065',['Ophelia',['../_hamlet_8txt.html#ac4364ce490a7977988ba95cf36f1bad4',1,'Hamlet.txt']]],
+  ['opinion_3066',['opinion',['../_hamlet_8txt.html#a480dd6cc477ab40293e1c5b6617427fa',1,'Hamlet.txt']]],
+  ['osric_3067',['Osric',['../_hamlet_8txt.html#ae29d099b8d2543267aee97c552d70237',1,'Hamlet.txt']]],
+  ['other_3068',['other',['../_hamlet_8txt.html#a83442df19d61ec285971aae67e24b54b',1,'Hamlet.txt']]]
 ];

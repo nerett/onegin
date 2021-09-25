@@ -1,12 +1,15 @@
 #include "string-operations.h"
 
 
-err_code input_text( struct text* some_text ) // text *some_text
+err_code input_text( struct text* some_text, char* filename ) // text *some_text
 {
     int error_int = 0;  // ret  / retval / res
+    if( filename == NULL )
+    {
+        filename = "input_text.txt";
+    }
 
-
-    FILE* input_file = fopen( "input_text.txt", "r" ); // argc argv
+    FILE* input_file = fopen( filename, "r" ); // argc argv
     if( input_file == NULL ) // I LIKE IT BETTER (пробел перед if, но нет пробелов в скобках)
     {
         return FOPEN_ERR;

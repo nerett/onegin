@@ -15,11 +15,18 @@
 #include "string-operations.h"
 #include "string-sort.h"
 
-int main()
+int main( int N_arguments, char** arguments )
 {
+    char* filename = NULL;
+    if( N_arguments >= MIN_ARGUMENTS_NUMBER )
+    {
+        filename = arguments[1];
+    }
+
+
     struct text onegin;
     TryToExecute(
-        input_text( &onegin ),
+        input_text( &onegin, filename ),
             &onegin );
 
     sort_strings( &onegin, false );
